@@ -1,10 +1,9 @@
 import Layout from "@/components/layout"
-import ListadoProyectos from "@/components/listado-proyectos"
-import styles from "../styles/grid.module.css"
 
 
-export default function Proyectos({proyectos}){
-  console.log(proyectos)
+
+export default function Proyectos(){
+  
   return (
     <Layout
     title="Proyectos"
@@ -15,26 +14,10 @@ export default function Proyectos({proyectos}){
         >
           Mis Proyectos
           </h1>
-          <div className={styles.grid}>
-         {proyectos.map(proyecto =>(
-          <ListadoProyectos
-          key={proyecto.id}
-          proyecto={proyecto.attributes}
-          />
-         ))}
-          </div>
+         
       </main>
 
     </Layout>
   )
 }
 
-export async function getServerSideProps() {
-  const respuesta = await fetch(`${process.env.API_URL}/proyectos/?populate=imagen`)
-  const {data: proyectos} = await respuesta.json()
-  return {
-    props:{
-      proyectos
-    }
-  }
-}
