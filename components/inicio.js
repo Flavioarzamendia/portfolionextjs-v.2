@@ -1,81 +1,264 @@
-
-import Image from "next/image";
-import {TypeAnimation} from "react-type-animation";
-import {motion} from "framer-motion";
+import Link from "next/link"
 
 const Inicio = () => {
   return (
+  
     <>
-    <section className=" lg:mx-14 lg:py-16  py-32">
-      <div className="grid grid-cols-1 sm:grid-cols-12 md:py-2 ">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
-        >
-          <h1 className="text-[#E8AD08]  mb-4 lg:mt-24 text-6xl  py-14 md:text-7xl lg:text-9xl  font-extrabold">
-            <span className="text-[#141414] bg-clip-text py-14">
-              Hola!, Soy Flavio{" "}
-            </span>
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                "Web Developer",
-                1000,
-                "Dev. Frontend",
-                1000,
-                "Dev. Wordpress",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
-          </h1>
-          <p className="text-[#3e3f40]  text-xl sm:text-lg mb-6 lg:text-3xl pt-5 font-sans font-semibold py-10">
-          Desarrollador web Frontend especializado en Wordpress, HTML5, CSS3, JavaScript y React.
-          </p>
-          <div className="px-2 py-20">
-            <button className=" px-1 py-2 w-full sm:w-fit rounded-lg mr-4  text-black font-sans font-semibold text-3xl">
-              <span className="block bg-[#E8AD08] hover:bg-[#67be67] hover:text-white rounded-lg px-7 py-5">
-              <a
-                href="https://www.linkedin.com/in/flavio-arzamendia-salinas"
-                target="_blank"
+    <div className="bg-white font-sans leading-normal tracking-normal mx-auto">
+      <header className="bg-white text-gray-700 py-12 md:py-20">
+        <div className="container mx-auto px-4 md:px-20">
+          <div className="flex flex-col  md:flex-row items-center justify-between gap-8">
+            <div className="flex-1 mb-8 md:mb-0 px-auto">
+              <h1 className="text-6xl text-[#6EB5FF] text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
+              <p className="text-2xl md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
+               atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
+                y atraiga a tus clientes
+              </p>
+              <div className="flex  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
+                <Link
+                  className=" font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="/contacto"
+                  
+                >
+                  Contacto
+                </Link>
+                <Link
+                  className=" font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-gray-600 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  href="/proyectos"
+                >
+                  ver Proyectos
+                </Link>
+              </div>
+            </div>
+            <div className="flex-1 sm:float-none">
+              <img
+                alt="Hero Image"
+                className="w-full  rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
+                height="400"
+                src="../img/hero.jpg"
+                style={{
+                  aspectRatio: "600/400",
+                  objectFit: "cover",
+                }}
+                width="600"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <section className="bg-gray-900 text-white py-12 md:py-20" id="about">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="flex-1 mb-8 md:mb-0 md:mr-8">
+              <img
+                alt="About Me"
+                className="w-full md:w-3/4 mx-auto rounded-md"
+                height="400"
+                src="../img/fadesarrolloweb.jpg"
+                style={{
+                  aspectRatio: "400/400",
+                  objectFit: "cover",
+                }}
+                width="400"
+              />
+            </div>
+            <div className="flex-1 p-4 mx-10 text-center md:text-left">
+              <h2 className="text-4xl text-center lg:text-left md:text-4xl lg:text-5xl font-bold mb-14">Sobre mí</h2>
+              <p className="text-2xl md:text-2xl text-gray-400 mb-6">
+              ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
+               profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
+                puedo ayudarte a materializar tu visión digital
+              </p>
+              <p className="text-2xl md:text-2xl text-gray-400 mb-20">
+              En mi trabajo, me enfoco en brindar soluciones personalizadas y efectivas 
+              para tus necesidades web. Estoy aprendiendo y aplicando tecnologías como React 
+              para ofrecerte aplicaciones web modernas e interactivas. Mi objetivo es crear experiencias
+               digitales que cautiven a tus usuarios y impulsen el éxito de tu negocio en línea.
+              </p>
+              <Link
+                className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                href="/sobremi"
               >
-                Visita Mi Linkedin
-              </a>
-              </span>
-            </button>
-            <button className="px-0.5 py-2 w-full sm:w-fit rounded-lg   mt-3 text-black font-sans font-semibold text-3xl">
-              <span className="block bg-[#E8AD08] hover:bg-[#67be67] hover:text-white rounded-lg px-7 py-5">
-                <a href="https://github.com/Flavioarzamendia" target="_blank">
-                  Visita Mi GitHub
-                </a>
-              </span>
-            </button>
+                Mas Sobre Mí
+              </Link>
+            </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-          <div className="rounded-full bg-[#1e1e1f] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative  mt-24 mb-10 lg:mt-0 lg:mb-0">
-            <Image
-              src="/img/fadesarrolloweb.png"
-              alt="hero image"
-              title="Working web developer"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
+        </div>
+      </section>
+
+
+      <section className="bg-gray-900  py-12 md:py-20" id="services">
+        <div className="container mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white">Servicios</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Web Design"
+                className="w-full  object-cover"
+                height="192"
+                src="../img/webdesing.jpg"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-3xl font-bold mb-4">Web Design</h3>
+                <p className="text-gray-600 mb-6 text-2xl">
+                  Crafting visually stunning and user-friendly websites that captivate your audience.
+                </p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  VER MÁS
+                </Link>
+              </div>
+            </div>
+            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Web Development"
+                className="w-full object-cover"
+                height="192"
+                src="../img/webdesing.jpg"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-3xl font-bold mb-4">Web Development</h3>
+                <p className="text-gray-600 mb-6 text-2xl">
+                  Bringing your vision to life with cutting-edge technologies and robust backend solutions.
+                </p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  VER MÁS
+                </Link>
+              </div>
+            </div>
+            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Digital Marketing"
+                className="w-full object-cover"
+                height="192"
+                src="../img/webdesing.jpg"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-3xl font-bold mb-4">Digital Marketing</h3>
+                <p className="text-gray-600 mb-6 text-2xl">
+                  Amplifying your online presence and driving targeted traffic to your website.
+                </p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  VER MÁS
+                </Link>
+              </div>
+            </div>
           </div>
-        </motion.div>
-      </div>
-    </section>
+        </div>
+      </section>
+
+
+      <section className="bg-white text-black py-40 md:py-20 " id="portfolio">
+        <div className="container mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Our Work</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Project 1"
+                className="w-full  object-cover"
+                height="192"
+                src="../img/proyect1.png"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-4">Project 1</h3>
+                <p className="text-gray-600 mb-6">A modern and responsive website for a leading technology company.</p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  View Project
+                </Link>
+              </div>
+            </div>
+            <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Project 2"
+                className="w-full  object-cover"
+                height="192"
+                src="../img/proyect2.png"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-4">Project 2</h3>
+                <p className="text-gray-600 mb-6">A sleek and user-friendly e-commerce platform for a fashion brand.</p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  View Project
+                </Link>
+              </div>
+            </div>
+            <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
+              <img
+                alt="Project 3"
+                className="w-full object-cover"
+                height="192"
+                src="../img/proyect3.png"
+                style={{
+                  aspectRatio: "384/192",
+                  objectFit: "cover",
+                }}
+                width="384"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-4">Project 3</h3>
+                <p className="text-gray-600 mb-6">
+                  A visually stunning and highly interactive website for a creative agency.
+                </p>
+                <Link
+                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  href="#"
+                >
+                  View Project
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  
+
+
+
     </>
+  
   )
 }
 

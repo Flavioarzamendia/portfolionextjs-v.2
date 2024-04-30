@@ -40,26 +40,25 @@ main {
   margin: 5rem 0;
 }
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 0px;
-  border-radius: 10px;
+  width:7px;
+  
   }
 
   /* Track */
   ::-webkit-scrollbar-track { 
-  background-color:#fff;
+  background-color:#535050;
   
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-  background: #E8AD08; 
+  background: #141414; 
   border-radius: 10px;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-  background: #E8AD08; 
+  background: #141414; 
   }
   .rainbow{
   animation: rainbow 2.5s linear;

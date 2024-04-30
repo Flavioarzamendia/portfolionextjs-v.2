@@ -11,8 +11,12 @@ const navLinks = [
     path: "/",
   },
   {
-    title: "Habilidades",
-    path: "/habilidades",
+    title: "Sobre Mí",
+    path: "/sobremi",
+  },
+  {
+    title: "servicios",
+    path: "/servicios",
   },
   {
     title: "Proyectos",
@@ -30,10 +34,10 @@ const Header = () => {
 
   return (
     <nav className="mx-auto  top-0 left-0 right-0 z-20 bg-[#141414]">
-      <div className="flex container lg:py-8 flex-wrap items-center justify-between mx-auto px-4 py-10">
+      <div className="flex container lg:py-8 flex-wrap items-center justify-between mx-auto px-4 py-4">
         <Link
           href={"/"}
-          className="text-6xl  md:text-7xl text-white font-extrabold "
+          className="text-5xl  md:text-7xl text-white font-extrabold "
           alt="Desarrollo web"
         >
           FA
@@ -44,14 +48,14 @@ const Header = () => {
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2  text-slate-200 hover:text-white "
             >
-              <Bars3Icon className="h-14 w-14 " title="Open menu" />
+              <Bars3Icon className="h-12 w-12 " title="Open menu" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2  text-slate-200 hover:text-white hover:border-white text-3xl font-semibold"
+              className="flex items-center px-3 py-2  text-slate-200 hover:text-white hover:border-white text-xl font-semibold"
             >
-              <XMarkIcon className="h-14 w-14" title="close menu"/>
+              <XMarkIcon className="h-12 w-12" title="close menu"/>
             </button>
           )}
         </div>
