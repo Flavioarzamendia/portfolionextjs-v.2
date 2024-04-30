@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 const Inicio = () => {
   return (
@@ -31,16 +32,18 @@ const Inicio = () => {
               </div>
             </div>
             <div className="flex-1 sm:float-none">
-              <img
+              <Image
+              loading="lazy"
+              src="/img/hero.jpg"
                 alt="Hero Image"
                 className="w-full  rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
-                height="400"
-                src="../img/hero.jpg"
+                height={400}
+                width={600}
                 style={{
                   aspectRatio: "600/400",
                   objectFit: "cover",
                 }}
-                width="600"
+                
               />
             </div>
           </div>
@@ -48,15 +51,16 @@ const Inicio = () => {
       </header>
 
 
-      <section className="bg-gray-900 text-white py-12 md:py-20" id="about">
+      <section className="bg-gray-900 text-white py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex-1 mb-8 md:mb-0 md:mr-8">
-              <img
+              <Image
+                loading="lazy"
                 alt="About Me"
                 className="w-full md:w-3/4 mx-auto rounded-md"
                 height="400"
-                src="../img/fadesarrolloweb.jpg"
+                src="/img/fadesarrolloweb.jpg"
                 style={{
                   aspectRatio: "400/400",
                   objectFit: "cover",
@@ -89,16 +93,17 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-gray-900  py-12 md:py-20" id="services">
+      <section className="bg-gray-900  py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white">Servicios</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="192"
-                src="../img/webdesing.jpg"
+                src="/img/webdesing.jpg"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
@@ -119,11 +124,12 @@ const Inicio = () => {
               </div>
             </div>
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Web Development"
                 className="w-full object-cover"
                 height="192"
-                src="../img/webdesing.jpg"
+                src="/img/webdesing.jpg"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
@@ -144,11 +150,12 @@ const Inicio = () => {
               </div>
             </div>
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Digital Marketing"
                 className="w-full object-cover"
                 height="192"
-                src="../img/webdesing.jpg"
+                src="/img/webdesing.jpg"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
@@ -173,16 +180,17 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-white text-black py-40 md:py-20 " id="portfolio">
+      <section className="bg-white text-black py-40 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Our Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Project 1"
                 className="w-full  object-cover"
                 height="192"
-                src="../img/proyect1.png"
+                src="/img/proyect1.png"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
@@ -196,16 +204,17 @@ const Inicio = () => {
                   className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
-                  View Project
+                  Ver Más Proyectos
                 </Link>
               </div>
             </div>
             <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Project 2"
                 className="w-full  object-cover"
                 height="192"
-                src="../img/proyect2.png"
+                src="/img/proyect2.png"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
@@ -224,11 +233,12 @@ const Inicio = () => {
               </div>
             </div>
             <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
-              <img
+              <Image
+                loading="lazy"
                 alt="Project 3"
                 className="w-full object-cover"
                 height="192"
-                src="../img/proyect3.png"
+                src="/img/proyect3.png"
                 style={{
                   aspectRatio: "384/192",
                   objectFit: "cover",
