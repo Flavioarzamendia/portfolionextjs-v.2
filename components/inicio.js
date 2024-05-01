@@ -210,7 +210,7 @@ const Inicio = () => {
                 <h3 className="text-xl font-bold mb-4">Project 1</h3>
                 <p className="text-gray-600 mb-6">A modern and responsive website for a leading technology company.</p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos
@@ -234,7 +234,7 @@ const Inicio = () => {
                 <h3 className="text-xl font-bold mb-4">Project 2</h3>
                 <p className="text-gray-600 mb-6">A sleek and user-friendly e-commerce platform for a fashion brand.</p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos
@@ -260,7 +260,7 @@ const Inicio = () => {
                   A visually stunning and highly interactive website for a creative agency.
                 </p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos

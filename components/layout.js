@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Header from "./header";
 import Footer from "./footer";
-import {motion , AnimatePresence} from "framer-motion"
+import {motion , AnimatePresence} from "framer-motion";
+import {Analytics} from "@vercel/analytics/next"
 
 const Layout = ({children, title='', description=''}) => {
   return (
@@ -19,6 +20,7 @@ const Layout = ({children, title='', description=''}) => {
         exit={{ opacity: 0, y:15}}
         transition={{delay: 0.25}}
       >
+        <Analytics/>
     {children}
     </motion.div>
 
