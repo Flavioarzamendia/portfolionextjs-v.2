@@ -11,7 +11,7 @@ const Inicio = () => {
         <motion.div 
           
           className="container mx-auto px-4 md:px-20">
-          <div className="flex flex-col  md:flex-row items-center justify-between gap-8 py-20">
+          <div className="flex flex-col  lg:flex-row items-center justify-between gap-8 py-20">
             <motion.div
               initial={{ opacity: 0, x: -15}}
               animate ={{opacity: 1, x: 0}}
@@ -40,12 +40,12 @@ const Inicio = () => {
               </div>
             </motion.div>
             <div
-             className="flex-1 sm:float-none">
+             className="flex-1 sm:float-none md:mt-14 mb-0">
               <Image
               loading='lazy'
               src="/img/hero.jpg"
                 alt="Hero Image"
-                className="w-full   rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
+                className="w-full rounded-xl lg:rounded-2xl   lg:ml-0 mx-auto"
                 height={720}
                 width={1280}
                 style={{
@@ -62,12 +62,12 @@ const Inicio = () => {
 
       <section className="bg-gray-900 text-white py-12 md:py-40" >
         <div className="container mx-auto px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex-1 mb-8 md:mb-0 md:mr-8">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
+            <div className="flex-1 mb-8 md:mb-0 lg:mr-8">
               <Image
                 loading='lazy'
                 alt="About Me"
-                className="w-full md:w-3/4 mx-auto rounded-md"
+                className="w-full  mx-auto rounded-md md:mb-14 lg:mb-0 lg:w-full"
                 height="720"
                 src="/img/fadesarrolloweb.jpg"
                 style={{
@@ -78,7 +78,7 @@ const Inicio = () => {
               />
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
-              <h2 className="text-3xl md:text-5xl  text-center lg:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
+              <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-2xl text-gray-400 mb-6">
               ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
                profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
