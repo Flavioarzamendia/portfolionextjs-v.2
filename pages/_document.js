@@ -18,10 +18,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Playfair+Display:wght@400;600;900&display=swap"
           rel="stylesheet"
         />
-        <link
-          href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-          rel="stylesheet"
-        />
+
 
       </Head>
       <body >
