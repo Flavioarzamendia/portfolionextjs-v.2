@@ -33,7 +33,7 @@ const Inicio = () => {
             </div>
             <div className="flex-1 sm:float-none">
               <Image
-              loading="lazy"
+              loading='lazy'
               src="/img/hero.jpg"
                 alt="Hero Image"
                 className="w-full  rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
@@ -56,7 +56,7 @@ const Inicio = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex-1 mb-8 md:mb-0 md:mr-8">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="About Me"
                 className="w-full md:w-3/4 mx-auto rounded-md"
                 height="720"
@@ -99,7 +99,7 @@ const Inicio = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="720"
@@ -125,7 +125,7 @@ const Inicio = () => {
             </div>
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Web Development"
                 className="w-full object-cover"
                 height="720"
@@ -151,7 +151,7 @@ const Inicio = () => {
             </div>
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Digital Marketing"
                 className="w-full object-cover"
                 height="720"
@@ -186,7 +186,7 @@ const Inicio = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Project 1"
                 className="w-full  object-cover"
                 height="720"
@@ -210,7 +210,7 @@ const Inicio = () => {
             </div>
             <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Project 2"
                 className="w-full  object-cover"
                 height="720"
@@ -234,7 +234,7 @@ const Inicio = () => {
             </div>
             <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
               <Image
-                loading="lazy"
+                loading='lazy'
                 alt="Project 3"
                 className="w-full object-cover"
                 height="720"
