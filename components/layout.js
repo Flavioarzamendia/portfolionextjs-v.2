@@ -3,7 +3,6 @@ import Header from "./header";
 import Footer from "./footer";
 import {motion , AnimatePresence} from "framer-motion";
 import {Analytics} from "@vercel/analytics/react";
-import {SpeedInsights} from "@vercel/speed-insights"
 
 const Layout = ({children, title='', description=''}) => {
   return (
@@ -23,7 +22,6 @@ const Layout = ({children, title='', description=''}) => {
       >
         <Analytics/>
         {children}
-        <SpeedInsights/>
     </motion.div>
 
     </AnimatePresence>
