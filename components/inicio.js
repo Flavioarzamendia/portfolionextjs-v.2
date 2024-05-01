@@ -1,16 +1,24 @@
 import Link from "next/link"
 import Image from "next/image";
+import {motion} from "framer-motion"
 
 const Inicio = () => {
   return (
   
     <>
     <div className="bg-white font-sans leading-normal tracking-normal mx-auto">
-      <header className="bg-white text-gray-700 py-12 md:py-20">
-        <div className="container mx-auto px-4 md:px-20">
-          <div className="flex flex-col  md:flex-row items-center justify-between gap-8">
-            <div className="flex-1 mb-8 md:mb-0 px-auto">
-              <h1 className="text-6xl text-[#6EB5FF] text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
+      <header className="bg-white text-gray-700 py-12 lg:py-20">
+        <motion.div 
+          
+          className="container mx-auto px-4 md:px-20">
+          <div className="flex flex-col  md:flex-row items-center justify-between gap-8 py-20">
+            <motion.div
+              initial={{ opacity: 0, x: -15}}
+              animate ={{opacity: 1, x: 0}}
+              exit={{ opacity: 0, x:-15}}
+              transition={{delay: 0.5}}
+             className="flex-1 mb-8 md:mb-0 px-auto">
+              <h1 className="text-6xl text-blue-500 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
               <p className="text-2xl md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
                atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
                 y atraiga a tus clientes
@@ -30,13 +38,14 @@ const Inicio = () => {
                   ver Proyectos
                 </Link>
               </div>
-            </div>
-            <div className="flex-1 sm:float-none">
+            </motion.div>
+            <div
+             className="flex-1 sm:float-none">
               <Image
               loading='lazy'
               src="/img/hero.jpg"
                 alt="Hero Image"
-                className="w-full  rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
+                className="w-full   rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
                 height={720}
                 width={1280}
                 style={{
@@ -47,11 +56,11 @@ const Inicio = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </header>
 
 
-      <section className="bg-gray-900 text-white py-12 md:py-20" >
+      <section className="bg-gray-900 text-white py-12 md:py-40" >
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex-1 mb-8 md:mb-0 md:mr-8">
@@ -69,7 +78,7 @@ const Inicio = () => {
               />
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
-              <h2 className="text-4xl text-center lg:text-left md:text-4xl lg:text-5xl font-bold mb-14">Sobre mí</h2>
+              <h2 className="text-3xl md:text-5xl  text-center lg:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-2xl text-gray-400 mb-6">
               ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
                profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
@@ -93,11 +102,11 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-gray-900  py-12 md:py-20" >
+      <section className="bg-white  py-12 md:py-40" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-white">Servicios</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-gray-900 uppercase">Servicios</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 alt="Web Design"
@@ -112,18 +121,18 @@ const Inicio = () => {
               />
               <div className="p-6">
                 <h3 className="text-3xl font-bold mb-4">Web Design</h3>
-                <p className="text-gray-600 mb-6 text-2xl">
+                <p className="text-gray-200 mb-6 text-2xl">
                   Crafting visually stunning and user-friendly websites that captivate your audience.
                 </p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   VER MÁS
                 </Link>
               </div>
             </div>
-            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 alt="Web Development"
@@ -137,19 +146,19 @@ const Inicio = () => {
                 width="1280"
               />
               <div className="p-6">
-                <h3 className="text-3xl font-bold mb-4">Web Development</h3>
-                <p className="text-gray-600 mb-6 text-2xl">
+                <h3 className="text-3xl font-bold mb-4 ">Web Development</h3>
+                <p className="text-gray-200 mb-6 text-2xl">
                   Bringing your vision to life with cutting-edge technologies and robust backend solutions.
                 </p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   VER MÁS
                 </Link>
               </div>
             </div>
-            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 alt="Digital Marketing"
@@ -164,11 +173,11 @@ const Inicio = () => {
               />
               <div className="p-6">
                 <h3 className="text-3xl font-bold mb-4">Digital Marketing</h3>
-                <p className="text-gray-600 mb-6 text-2xl">
+                <p className="text-gray-200 mb-6 text-2xl">
                   Amplifying your online presence and driving targeted traffic to your website.
                 </p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   VER MÁS
@@ -180,11 +189,11 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-white text-black py-40 md:py-20 " >
+      <section className="bg-gray-900 text-white py-20 md:py-40 " >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Our Work</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden">
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase">Proyectos</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
+            <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
                 alt="Project 1"
@@ -201,14 +210,14 @@ const Inicio = () => {
                 <h3 className="text-xl font-bold mb-4">Project 1</h3>
                 <p className="text-gray-600 mb-6">A modern and responsive website for a leading technology company.</p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos
                 </Link>
               </div>
             </div>
-            <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
+            <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
                 alt="Project 2"
@@ -225,14 +234,14 @@ const Inicio = () => {
                 <h3 className="text-xl font-bold mb-4">Project 2</h3>
                 <p className="text-gray-600 mb-6">A sleek and user-friendly e-commerce platform for a fashion brand.</p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos
                 </Link>
               </div>
             </div>
-            <div className="bg-gray-900  rounded-md shadow-lg overflow-hidden">
+            <div className="bg-white  rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
                 alt="Project 3"
@@ -251,7 +260,7 @@ const Inicio = () => {
                   A visually stunning and highly interactive website for a creative agency.
                 </p>
                 <Link
-                  className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
                   Ver Más Proyectos

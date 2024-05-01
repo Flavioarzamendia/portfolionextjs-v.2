@@ -11,7 +11,7 @@ const Footer = () => {
         >
           FA
         </Link>
-        <div className="text-[#726F6F] font-sans md:text-3xl  md:text-start lg:flex lg:gap-4">
+        <div className="text-[#726F6F] font-sans md:text-3xl  md:text-start md:flex md:gap-8 ">
           <Link href='/' className="block p-4 md:p-1 hover:text-white">Inicio</Link>
           <Link href='/habilidades' className="block py-4 md:p-1 hover:text-white">Habilidades</Link>
           <Link href='/proyectos' className="block py-4 md:p-1 hover:text-white">Proyectos</Link>
