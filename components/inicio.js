@@ -37,10 +37,10 @@ const Inicio = () => {
               src="/img/hero.jpg"
                 alt="Hero Image"
                 className="w-full  rounded-xl lg:rounded-2xl md:ml-16  lg:ml-0 mx-auto"
-                height={400}
-                width={600}
+                height={720}
+                width={1280}
                 style={{
-                  aspectRatio: "600/400",
+                  aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
                 
@@ -59,13 +59,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="About Me"
                 className="w-full md:w-3/4 mx-auto rounded-md"
-                height="400"
+                height="720"
                 src="/img/fadesarrolloweb.jpg"
                 style={{
-                  aspectRatio: "400/400",
+                  aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="400"
+                width="1280"
               />
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
@@ -102,13 +102,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Web Design"
                 className="w-full  object-cover"
-                height="192"
+                height="720"
                 src="/img/webdesing.jpg"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-3xl font-bold mb-4">Web Design</h3>
@@ -128,13 +128,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Web Development"
                 className="w-full object-cover"
-                height="192"
+                height="720"
                 src="/img/webdesing.jpg"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-3xl font-bold mb-4">Web Development</h3>
@@ -154,13 +154,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Digital Marketing"
                 className="w-full object-cover"
-                height="192"
+                height="720"
                 src="/img/webdesing.jpg"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-3xl font-bold mb-4">Digital Marketing</h3>
@@ -189,13 +189,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Project 1"
                 className="w-full  object-cover"
-                height="192"
+                height="720"
                 src="/img/proyect1.png"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4">Project 1</h3>
@@ -213,13 +213,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Project 2"
                 className="w-full  object-cover"
-                height="192"
+                height="720"
                 src="/img/proyect2.png"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4">Project 2</h3>
@@ -228,7 +228,7 @@ const Inicio = () => {
                   className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
-                  View Project
+                  Ver Más Proyectos
                 </Link>
               </div>
             </div>
@@ -237,13 +237,13 @@ const Inicio = () => {
                 loading="lazy"
                 alt="Project 3"
                 className="w-full object-cover"
-                height="192"
+                height="720"
                 src="/img/proyect3.png"
                 style={{
-                  aspectRatio: "384/192",
+                  aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="384"
+                width="1280"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4">Project 3</h3>
@@ -254,7 +254,7 @@ const Inicio = () => {
                   className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#8B5CF6] text-white font-medium rounded-md hover:bg-[#7C3AED] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="#"
                 >
-                  View Project
+                  Ver Más Proyectos
                 </Link>
               </div>
             </div>
