@@ -145,7 +145,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
-                alt="Web Development"
+                alt="SEO Optimizacion"
                 className="w-full object-cover"
                 height="720"
                 src="/img/seo.jpg"
@@ -175,7 +175,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
-                alt="Digital Marketing"
+                alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
                 height="720"
                 src="/img/mantenimiento.jpg"
@@ -214,7 +214,7 @@ const Inicio = () => {
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
-                alt="Project 1"
+                alt="Podcas fm proyecto"
                 className="w-full  object-cover"
                 height="720"
                 src="/img/proyect1.png"
@@ -243,7 +243,7 @@ const Inicio = () => {
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
-                alt="Project 2"
+                alt="App delivey proyecto"
                 className="w-full  object-cover"
                 height="720"
                 src="/img/proyect2.png"
@@ -272,7 +272,7 @@ const Inicio = () => {
             <div className="bg-white  rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
-                alt="Project 3"
+                alt="Airbnb web estilo proyecto"
                 className="w-full object-cover"
                 height="720"
                 src="/img/proyect3.png"
