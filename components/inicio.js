@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import {CheckIcon} from "@heroicons/react/24/outline"
 
 const Inicio = () => {
   return (
@@ -25,14 +26,16 @@ const Inicio = () => {
               </p>
               <div className="flex  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
-                  className=" font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   
                 >
                   Contacto
                 </Link>
                 <Link
-                  className=" font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-gray-600 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-gray-600 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   href="/proyectos"
                 >
                   ver Proyectos
@@ -63,13 +66,13 @@ const Inicio = () => {
       <section className="bg-gray-900 text-white py-12 md:py-40" >
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col lg:flex-row items-center justify-between">
-            <div className="flex-1 mb-8 md:mb-0 lg:mr-8">
+            <div className="flex-1 mb-8 md:mb-0 lg:mr-8 ">
               <Image
                 loading='lazy'
                 alt="About Me"
-                className="w-full  mx-auto rounded-md md:mb-14 lg:mb-0 lg:w-full"
+                className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
                 height="720"
-                src="/img/fadesarrolloweb.jpg"
+                src="/img/sobremi.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -79,19 +82,20 @@ const Inicio = () => {
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
-              <p className="text-2xl md:text-2xl text-gray-400 mb-6">
+              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14">
               ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
                profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
                 puedo ayudarte a materializar tu visión digital
               </p>
-              <p className="text-2xl md:text-2xl text-gray-400 mb-20">
+              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20">
               En mi trabajo, me enfoco en brindar soluciones personalizadas y efectivas 
               para tus necesidades web. Estoy aprendiendo y aplicando tecnologías como React 
               para ofrecerte aplicaciones web modernas e interactivas. Mi objetivo es crear experiencias
                digitales que cautiven a tus usuarios y impulsen el éxito de tu negocio en línea.
               </p>
               <Link
-                className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
+                transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600 duration-300"
                 href="/sobremi"
               >
                 Mas Sobre Mí
@@ -104,29 +108,35 @@ const Inicio = () => {
 
       <section className="bg-white  py-12 md:py-40" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-gray-900 uppercase">Servicios</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-20 text-gray-900 uppercase">Servicios</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="720"
-                src="/img/webdesing.jpg"
+                src="/img/diseñoweb.jpg"
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-3xl font-bold mb-4">Web Design</h3>
+              <div className="p-6 px-14">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl">
-                  Crafting visually stunning and user-friendly websites that captivate your audience.
+                Creación de sitios web simples y efectivos utilizando diversas herramientas de desarrollo web.
+                 Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
+                  una solución práctica y económica.
                 </p>
                 <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3
+                   bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none
+                    focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
+                    transition ease-in-out    duration-300
+                    "
+                  href="/servicios"
                 >
                   VER MÁS
                 </Link>
@@ -138,21 +148,25 @@ const Inicio = () => {
                 alt="Web Development"
                 className="w-full object-cover"
                 height="720"
-                src="/img/webdesing.jpg"
+                src="/img/seo.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-3xl font-bold mb-4 ">Web Development</h3>
+              <div className="p-6 px-14 ">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl">
-                  Bringing your vision to life with cutting-edge technologies and robust backend solutions.
+                Mejora del posicionamiento en motores de búsqueda mediante la investigación de palabras clave,
+                 la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
+                  y tráfico orgánico para el sitio web del cliente.
                 </p>
                 <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white 
+                  font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
+                  transition ease-in-out    duration-300"
+                  href="/servicios"
                 >
                   VER MÁS
                 </Link>
@@ -164,21 +178,25 @@ const Inicio = () => {
                 alt="Digital Marketing"
                 className="w-full object-cover"
                 height="720"
-                src="/img/webdesing.jpg"
+                src="/img/mantenimiento.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-3xl font-bold mb-4">Digital Marketing</h3>
+              <div className="p-6 px-14">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl">
-                  Amplifying your online presence and driving targeted traffic to your website.
+                Realización de tareas de mantenimiento esenciales, como copias de seguridad, actualizaciones de software
+                 y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
+                  web del cliente.
                 </p>
                 <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white
+                   font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
+                   transition ease-in-out    duration-300"
+                  href="/servicios"
                 >
                   VER MÁS
                 </Link>
@@ -192,8 +210,8 @@ const Inicio = () => {
       <section className="bg-gray-900 text-white py-20 md:py-40 " >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase">Proyectos</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-            <div className="bg-white rounded-md shadow-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+            <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
                 alt="Project 1"
@@ -206,14 +224,19 @@ const Inicio = () => {
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-4">Project 1</h3>
-                <p className="text-gray-600 mb-6">A modern and responsive website for a leading technology company.</p>
+              <div className="p-6 px-10">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase ">Podcast fm</h3>
+                <p className="text-gray-600 mb-6">Presentación atractiva de la plataforma de podcasts, resaltando
+                 su variedad de programas, y potencial de negocio facilidad de uso y opciones de suscripción.
+                </p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
+                   text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  href="https://preeminent-peony-3cdb45.netlify.app/"
+                  target="_blank"
                 >
-                  Ver Más Proyectos
+                  Ver Más
                 </Link>
               </div>
             </div>
@@ -230,14 +253,19 @@ const Inicio = () => {
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-4">Project 2</h3>
-                <p className="text-gray-600 mb-6">A sleek and user-friendly e-commerce platform for a fashion brand.</p>
+              <div className="p-6 px-10">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase">APP Delivery</h3>
+                <p className="text-gray-600 mb-6">Mostrar de manera visual y atractiva la plataforma de entrega
+                 de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
+                </p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 
+                  text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                   focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  href="https://fluffy-chebakia-04223c.netlify.app/"
+                  target="_blank"
                 >
-                  Ver Más Proyectos
+                  Ver más
                 </Link>
               </div>
             </div>
@@ -254,19 +282,156 @@ const Inicio = () => {
                 }}
                 width="1280"
               />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-4">Project 3</h3>
+              <div className="p-6 px-10">
+                <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-10 uppercase">Web Estilo Airbnb</h3>
                 <p className="text-gray-600 mb-6">
-                  A visually stunning and highly interactive website for a creative agency.
+                Presentación visual de la plataforma de alquiler de propiedades, destacando sus características únicas,
+                 como búsqueda intuitiva, opciones de filtrado y sistema de reservas integrado.
                 </p>
                 <Link
-                  className="inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                  href="#"
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
+                   text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  href="https://whimsical-starship-02dd94.netlify.app/"
+                  target="_blank"
                 >
-                  Ver Más Proyectos
+                  Ver Más 
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="bg-white  py-20 md:pt-40 m">
+        <div className="container mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase text-gray-900">Precios</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-2
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
+            ">
+              <div className="p-6 bg-blue-500 text-white text-center">
+                <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
+                <p className="text-6xl font-bold mb-4">$99</p>
+                <p className="mb-6">Desde USD</p>
+              </div>
+              <div className="p-6 px-10">
+                <ul className="space-y-8 mb-10 text-white ">
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Diseño básico y funcional.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
+                    <span>Hasta 5 páginas.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
+                    <span>Formulario de contacto básico(nombre, correo,mensaje)</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
+                    <span>Integración básica con redes sociales.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
+                    <span>Soporte técnico limitado.</span>
+                  </li>
+                </ul>
+                <Link
+                  className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-500 text-white
+                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  href="/contacto"
+                >
+                  Solicitar Información
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
+              transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
+              <div className="p-6 bg-[#FF7900] text-white text-center">
+                <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
+                <p className="text-6xl font-bold mb-4">$399</p>
+                <p className="mb-6">Desde USD</p>
+              </div>
+              <div className="p-6 px-10">
+                <ul className="space-y-8 mb-10 text-white">
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Diseño premium y altamente personalizado.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Funcionalidades avanzadas (e-commerce, membresías).</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>SEO avanzado</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Optimizacion de Velocidad.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Soporte técnico prioritario</span>
+                  </li>
+                </ul>
+                <Link
+                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#FF7900] text-white
+                   font-medium rounded-xl hover:bg-[#cb8446] focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  href="/contacto"
+                >
+                  Solicitar Información
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-3 
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
+              <div className="p-6 bg-blue-500 text-white text-center">
+                <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
+                <p className="text-6xl font-bold mb-4">$199</p>
+                <p className="mb-6">Desde USD</p>
+              </div>
+              <div className="p-6 px-10">
+                <ul className="space-y-8 mb-10 text-white">
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Diseño profesional y adaptable.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Entre 5 y 10 páginas.</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Formularios avanzados(registro,suscripción, etc.)</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Optimización de SEO basico</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
+                    <span>Soporte técnico por correo y chat </span>
+                  </li>
+                </ul>
+                <Link
+                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-500 text-white
+                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
+                  href="/contacto"
+                >
+                  Solicitar Información
+                </Link>
+              </div>
+            </div>
+           
           </div>
         </div>
       </section>
