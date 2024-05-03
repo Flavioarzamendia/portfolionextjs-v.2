@@ -8,7 +8,7 @@ export default function Proyectos(){
   return (
     <Layout
     title="Proyectos"
-    description="Explora nuestros proyectos en diseño web, aplicaciones y más en FADesarrolloWeb. Descubre cómo ayudamos a nuestros clientes a alcanzar el éxito en línea."
+    description="Explora mis proyectos en diseño web, aplicaciones y más como desarrollador web freelance en Buenos Aires, Argentina. Descubre cómo he ayudado a mis clientes a alcanzar el éxito en línea."
     >
       <Misproyectos/>
 
