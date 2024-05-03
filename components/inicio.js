@@ -20,7 +20,7 @@ const Inicio = () => {
               transition={{delay: 0.5}}
              className="flex-1 mb-8 md:mb-0 px-auto">
               <h1 className="text-6xl text-blue-500 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
-              <p className="text-2xl md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
                atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
                 y atraiga a tus clientes
               </p>
@@ -82,12 +82,12 @@ const Inicio = () => {
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
-              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14">
+              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14 leading-10">
               ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
                profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
                 puedo ayudarte a materializar tu visión digital
               </p>
-              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20">
+              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
               En mi trabajo, me enfoco en brindar soluciones personalizadas y efectivas 
               para tus necesidades web. Estoy aprendiendo y aplicando tecnologías como React 
               para ofrecerte aplicaciones web modernas e interactivas. Mi objetivo es crear experiencias
@@ -125,7 +125,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
-                <p className="text-gray-200 mb-6 text-2xl">
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Creación de sitios web simples y efectivos utilizando diversas herramientas de desarrollo web.
                  Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
                   una solución práctica y económica.
@@ -157,7 +157,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
-                <p className="text-gray-200 mb-6 text-2xl">
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Mejora del posicionamiento en motores de búsqueda mediante la investigación de palabras clave,
                  la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
                   y tráfico orgánico para el sitio web del cliente.
@@ -187,7 +187,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
-                <p className="text-gray-200 mb-6 text-2xl">
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Realización de tareas de mantenimiento esenciales, como copias de seguridad, actualizaciones de software
                  y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
                   web del cliente.
@@ -226,7 +226,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase ">Podcast fm</h3>
-                <p className="text-gray-600 mb-6">Presentación atractiva de la plataforma de podcasts, resaltando
+                <p className="text-gray-600 mb-6 leading-10">Presentación atractiva de la plataforma de podcasts, resaltando
                  su variedad de programas, y potencial de negocio facilidad de uso y opciones de suscripción.
                 </p>
                 <Link
@@ -255,7 +255,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase">APP Delivery</h3>
-                <p className="text-gray-600 mb-6">Mostrar de manera visual y atractiva la plataforma de entrega
+                <p className="text-gray-600 mb-6 leading-10">Mostrar de manera visual y atractiva la plataforma de entrega
                  de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
                 </p>
                 <Link
@@ -284,7 +284,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-10 uppercase">Web Estilo Airbnb</h3>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-6 leading-10">
                 Presentación visual de la plataforma de alquiler de propiedades, destacando sus características únicas,
                  como búsqueda intuitiva, opciones de filtrado y sistema de reservas integrado.
                 </p>
