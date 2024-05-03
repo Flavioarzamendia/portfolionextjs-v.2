@@ -1,0 +1,147 @@
+import Link from "next/link";
+import Image from "next/image";
+
+const Misproyectos = () => {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 font-sans">
+    <div className=" px-4 md:px-6">
+      <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold  sm:text-4xl md:text-5xl lg:text-6xl uppercase mb-10">Mis Proyectos</h2>
+          
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:px-14 md:mt-14">
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://preeminent-peony-3cdb45.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <Image
+            alt="Project 1"
+            className="object-cover w-full "
+            height="500"
+            src="/img/proyect1.png"
+            style={{
+              aspectRatio: "16/9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Sleek E-commerce Website</h3>
+            <p className="text-sm text-gray-500 ">A modern and responsive e-commerce platform.</p>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://fluffy-chebakia-04223c.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <Image
+            alt="Project 2"
+            className="object-cover w-full "
+            height="500"
+            src="/img/proyect2.png"
+            style={{
+              aspectRatio: "16 / 9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Responsive SaaS Landing Page</h3>
+            <p className="text-sm text-gray-500 ">
+              A high-converting landing page for a SaaS product.
+            </p>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://whimsical-starship-02dd94.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <Image
+            alt="Project 3"
+            className="object-cover w-full "
+            height="500"
+            src="/img/proyect3.png"
+            style={{
+              aspectRatio: "16/9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Intuitive Dashboard Design</h3>
+            <p className="text-sm text-gray-500 ">A clean and user-friendly dashboard interface.</p>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://extraordinary-manatee-207063.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <img
+            alt="Project 4"
+            className="object-cover w-full"
+            height="500"
+            src="/img/proyect4.png"
+            style={{
+              aspectRatio: "16/9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Engaging Event Landing Page</h3>
+            <p className="text-sm text-gray-500 ">
+              A visually appealing landing page for an event.
+            </p>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://elaborate-narwhal-2e3437.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <Image
+            alt="Project 5"
+            className="object-cover w-full"
+            height="500"
+            src="/img/proyect5.png"
+            style={{
+              aspectRatio: "16/9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Minimalist Portfolio Website</h3>
+            <p className="text-sm text-gray-500 ">
+              A clean and modern portfolio showcasing creative work.
+            </p>
+          </div>
+        </div>
+        <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <Link className="absolute inset-0 z-10" href="https://merry-bombolone-2d34a7.netlify.app/" target="_blank">
+            <span className="sr-only">View Project</span>
+          </Link>
+          <Image
+            alt="Project 6"
+            className="object-cover w-full"
+            height="500"
+            src="/img/proyecto6.png"
+            style={{
+              aspectRatio: "16/9",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
+          <div className="bg-white p-4 ">
+            <h3 className="font-bold text-lg md:text-xl">Interactive Data Visualization</h3>
+            <p className="text-sm text-gray-500 ">A visually engaging data visualization tool.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  )
+}
+
+export default Misproyectos
