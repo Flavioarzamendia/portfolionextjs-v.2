@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Layout
         title="Inicio"
-        description="Descubre mi mundo digital. Soy un apasionado desarrollador web especializado en crear experiencias en línea únicas y funcionales. Explora mi portafolio y sumérgete en la innovación tecnológica"
+        description="¡Bienvenido a FADesarrolloWeb! Descubre el portafolio web de Flavio Arzamendia, un experto en desarrollo web. Explora nuestros proyectos y servicios para potenciar tu presencia en línea."
       >
         <Inicio />
         

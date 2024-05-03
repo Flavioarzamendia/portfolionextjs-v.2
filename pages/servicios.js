@@ -5,7 +5,7 @@ const Servicios = () => {
   return (
     <Layout
     title="Servicios"
-    description="Conéctate conmigo para discutir tus ideas y proyectos. Como desarrollador web, estoy listo para colaborar y llevar tus visiones en línea a la realidad. ¡Hablemos sobre cómo hacer que tu presencia en la web destaque!"
+    description="FADesarrolloWeb ofrece diseño web adaptable, desarrollo de aplicaciones web y optimización SEO. Obtén soluciones digitales a medida para tu presencia en línea."
     >
       
     <Ofrece/>

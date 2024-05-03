@@ -8,7 +8,7 @@ export default function Proyectos(){
   return (
     <Layout
     title="Proyectos"
-    description="Explora mi galería de proyectos web. Desde sitios elegantes hasta aplicaciones interactivas, cada proyecto es una muestra de mi habilidad para transformar ideas en experiencias digitales impactantes."
+    description="Explora nuestros proyectos en diseño web, aplicaciones y más en FADesarrolloWeb. Descubre cómo ayudamos a nuestros clientes a alcanzar el éxito en línea."
     >
       <Misproyectos/>
 

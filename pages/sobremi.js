@@ -5,7 +5,7 @@ const Sobremi = () => {
   return (
     <Layout
     title="Sobre Mí"
-    description="Conéctate conmigo para discutir tus ideas y proyectos. Como desarrollador web, estoy listo para colaborar y llevar tus visiones en línea a la realidad. ¡Hablemos sobre cómo hacer que tu presencia en la web destaque!"
+    description="Conoce a Flavio Arzamendia, el cerebro detrás de FADesarrolloWeb. Con 1 año de experiencia, ofrece diseño web responsivo, aplicaciones web y estrategias SEO para tu éxito digital."
     >
     <Mi/>
   </Layout>
