@@ -5,7 +5,7 @@ const Servicios = () => {
   return (
     <Layout
     title="Servicios"
-    description="Como desarrollador web freelance en Buenos Aires, Argentina, ofrezco diseño web adaptable, desarrollo de aplicaciones web y optimización SEO. Obtén soluciones digitales a medida para tu presencia en línea."
+    description="Diseño web adaptable, apps y SEO por Flavio Arzamendia, desarrollador web freelance en Buenos Aires."
     >
       
     <Ofrece/>
