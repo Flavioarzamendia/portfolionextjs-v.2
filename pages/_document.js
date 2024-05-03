@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Descubre mi mundo digital. Soy un apasionado desarrollador web especializado en crear experiencias en línea únicas y funcionales. Explora mi portafolio y sumérgete en la innovación tecnológica."
+          content="Conoce a Flavio Arzamendia, desarrollador web freelance en Buenos Aires. Descubre servicios de diseño web, apps y SEO."
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
