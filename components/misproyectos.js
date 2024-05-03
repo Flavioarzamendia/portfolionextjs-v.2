@@ -7,7 +7,7 @@ const Misproyectos = () => {
     <div className=" px-4 md:px-6">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold  sm:text-4xl md:text-5xl lg:text-6xl uppercase mb-10">Mis Proyectos</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-20 uppercase">Mis Proyectos</h2>
           
         </div>
       </div>

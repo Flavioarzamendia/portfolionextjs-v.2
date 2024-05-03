@@ -15,7 +15,7 @@ return(
     <>
     <section className="w-full py-12 md:py-24 lg:py-14 mt-0 bg-gray-900 font-sans">
            <div className="px-4 md:px-6 text-center">
-            <h1 className=" text-4xl md:text-6xl text-white uppercase font-bold mb-10" >Contacto</h1>
+            <h1 className=" text-3xl md:text-5xl font-bold text-center mb-20 text-white uppercase" >Contacto</h1>
              <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-center text-left">
                <div className="flex flex-col justify-center space-y-4 md:px-10 sm:mb-10 sm:mt-10 lg:mb-0 lg:mt-0 ">
                  <div className="space-y-14 mb-10 lg:mb-0 bg-gray-700 rounded-xl ">
