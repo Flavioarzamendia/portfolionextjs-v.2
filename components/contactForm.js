@@ -97,7 +97,7 @@ const ContactForm = () => {
       </div>
 
       <div className=' mb-10'>
-      <label htmlFor="number" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>numero</label>
+      <label htmlFor="number" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Teléfono</label>
       <input
         id="number"
         type="tel"
@@ -111,7 +111,7 @@ const ContactForm = () => {
       </div>
 
       <div className=' mb-10'>
-      <label htmlFor="select" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Selecciona un motivo</label>
+      <label htmlFor="select" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Servicio</label>
       <select  id="select"
         name="select"
         onChange={handleOnChange}
