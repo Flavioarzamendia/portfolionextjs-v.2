@@ -10,6 +10,7 @@ const Layout = ({children, title='', description=''}) => {
     
     <Head>
         <title>{`Flavio Arzamendia - ${title}`}</title>
+        <description>{description}</description>
     </Head>
     <Header />
 
