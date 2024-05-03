@@ -14,7 +14,7 @@ const Misproyectos = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:px-14 md:mt-14">
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
           <Link className="absolute inset-0 z-10" href="https://preeminent-peony-3cdb45.netlify.app/" target="_blank">
-            <span className="sr-only">View Project</span>
+            <span className="sr-only ">Ver Proyecto</span>
           </Link>
           <Image
             alt="Project 1"
@@ -28,8 +28,8 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Sleek E-commerce Website</h3>
-            <p className="text-sm text-gray-500 ">A modern and responsive e-commerce platform.</p>
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Landing page Podcastfm</h3>
+            <p className="text-lg md:text-xl text-gray-500 ">Landing responsiva en HTML/CSS</p>
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
@@ -48,9 +48,10 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Responsive SaaS Landing Page</h3>
-            <p className="text-sm text-gray-500 ">
-              A high-converting landing page for a SaaS product.
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Landing App Delivery</h3>
+            <p className="text-lg md:text-xl text-gray-500 ">
+              
+              Landing page moderna eficiente.
             </p>
           </div>
         </div>
@@ -70,8 +71,8 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Intuitive Dashboard Design</h3>
-            <p className="text-sm text-gray-500 ">A clean and user-friendly dashboard interface.</p>
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Pagina estilo AirBNB</h3>
+            <p className="text-lg md:text-xl text-gray-500 ">Página estilo Airbnb, responsiva y desarrollada con HTML, CSS y JavaScript</p>
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
@@ -90,9 +91,10 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Engaging Event Landing Page</h3>
-            <p className="text-sm text-gray-500 ">
-              A visually appealing landing page for an event.
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Nucleus Ewallet</h3>
+            <p className="text-lg md:text-xl text-gray-500 ">
+              
+                Landing page moderna eficiente.
             </p>
           </div>
         </div>
@@ -112,9 +114,9 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Minimalist Portfolio Website</h3>
-            <p className="text-sm text-gray-500 ">
-              A clean and modern portfolio showcasing creative work.
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Demo web para cafetería.</h3>
+            <p className="text-lg md:text-xl text-gray-500 ">
+            Página web responsive con HTML, CSS y JavaScript.
             </p>
           </div>
         </div>
@@ -134,8 +136,8 @@ const Misproyectos = () => {
             width="900"
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl">Interactive Data Visualization</h3>
-            <p className="text-sm text-gray-500 ">A visually engaging data visualization tool.</p>
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Página web arquitectura bosque</h3>
+            <p className="text-lg text-gray-500 ">HTML, CSS y JavaScript.</p>
           </div>
         </div>
       </div>
