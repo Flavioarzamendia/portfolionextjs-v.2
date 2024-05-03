@@ -79,7 +79,7 @@ const ContactForm = () => {
         required
         value={inputs.name}
         className="bg-white border border-[#33353F] placeholder-[#9CA2A9] text-black text-2xl rounded-lg block w-full p-2.5"
-        placeholder='Juan Perez'
+        placeholder='Nombre'
       />
       </div>
       <div className=' mb-10'>
@@ -92,7 +92,7 @@ const ContactForm = () => {
         required
         value={inputs.email}
         className="bg-white border border-[#33353F] placeholder-[#9CA2A9] text-black text-2xl rounded-lg block w-full p-2.5"
-        placeholder='juanPerez123@gmail.com'
+        placeholder='Email'
       />
       </div>
 
@@ -106,7 +106,7 @@ const ContactForm = () => {
         required
         value={inputs.number}
         className="bg-white border border-[#33353F] placeholder-[#9CA2A9] text-black text-2xl rounded-lg block w-full p-2.5"
-        placeholder='1122334455'
+        placeholder='Número de Teléfono'
       />
       </div>
 
