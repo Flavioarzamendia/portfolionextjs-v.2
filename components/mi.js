@@ -31,12 +31,12 @@ const Mi = () => {
             </div>
             <div className="flex justify-center items-center">
               <img
-                alt="John Doe"
-                className="rounded-full"
+                alt="flavio arzamendia"
+                className="rounded-full bg-slate-400"
                 height={300}
-                src="../img/seo.jpg"
+                src="../img/foto1.jpg"
                 style={{
-                  aspectRatio: "300/300",
+                  aspectRatio: "1/1",
                   objectFit: "cover",
                 }}
                 width={300}
