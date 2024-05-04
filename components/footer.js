@@ -13,7 +13,7 @@ const Footer = () => {
         </Link>
         <div className="text-[#726F6F] font-sans  text-4xl md:text-3xl  md:text-center md:flex md:gap-8  mt-10 md:mt-0 lg:ml-36 ">
           <Link href='/' className="block p-4 md:p-1 hover:text-white">Inicio</Link>
-          <Link href='/habilidades' className="block py-4 md:p-1 hover:text-white">Sobre Mí</Link>
+          <Link href='/sobremi' className="block py-4 md:p-1 hover:text-white">Sobre Mí</Link>
           <Link href='/servicios' className="block py-4 md:p-1 hover:text-white">Servicios</Link>
           <Link href='/proyectos' className="block py-4 md:p-1 hover:text-white">Proyectos</Link>
           <Link href='/contacto' className="block py-4 md:p-1 hover:text-white">Contacto</Link>
