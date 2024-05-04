@@ -15,8 +15,8 @@ const Layout = ({children, title='', description='' }) => {
           content={description}
         />
 
-          <meta property="og:image" content="/public/opengraph" />
-          <meta property="og:image:type" content="jpg/png" />
+          <meta property="og:image" content="/public/opengraph.png" />
+          <meta property="og:image:type" content="image/png"/>
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
         
