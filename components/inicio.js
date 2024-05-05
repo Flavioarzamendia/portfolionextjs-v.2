@@ -344,7 +344,7 @@ const Inicio = () => {
 
             <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-[#32CD32] text-black text-center">
+              <div className="p-6 bg-[#32CD32] text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
                 <p className="text-6xl font-bold mb-4">$399</p>
                 <p className="mb-6">Desde USD</p>
@@ -373,7 +373,7 @@ const Inicio = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center text-black  px-4 py-2  bg-[#32CD32] 
+                  className="block text-center mb-8  items-center justify-center text-white  px-4 py-2  bg-[#32CD32] 
                    font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
