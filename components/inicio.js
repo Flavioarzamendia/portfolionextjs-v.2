@@ -116,6 +116,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
+                rel="preload"
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="720"
