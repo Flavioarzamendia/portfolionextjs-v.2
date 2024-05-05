@@ -29,7 +29,7 @@ const Layout = ({children, title='', description='' }) => {
       >
         <Analytics/>
         {children}
-        <GoogleAnalytics gaId="G-QNM1ZEZSX5" />
+        {/*<GoogleAnalytics gaId="G-QNM1ZEZSX5" />*/}
     </motion.div>
 
     </AnimatePresence>

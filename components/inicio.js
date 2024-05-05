@@ -117,7 +117,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="720"
@@ -151,7 +151,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="SEO Optimizacion"
                 className="w-full object-cover"
                 height="720"
@@ -183,7 +183,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
                 height="720"
@@ -224,7 +224,7 @@ const Inicio = () => {
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="Podcas fm proyecto"
                 className="w-full  object-cover"
                 height="720"
@@ -255,7 +255,7 @@ const Inicio = () => {
             <div className="bg-white rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="App delivey proyecto"
                 className="w-full  object-cover"
                 height="720"
@@ -286,7 +286,7 @@ const Inicio = () => {
             <div className="bg-white  rounded-md shadow-lg overflow-hidden">
               <Image
                 loading='lazy'
-                rel="preload"
+                
                 alt="Airbnb web estilo proyecto"
                 className="w-full object-cover"
                 height="720"
