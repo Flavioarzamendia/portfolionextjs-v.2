@@ -217,7 +217,7 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                   text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                   text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://preeminent-peony-3cdb45.netlify.app/"
                   target="_blank"
@@ -248,7 +248,7 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600 
-                  text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://fluffy-chebakia-04223c.netlify.app/"
                   target="_blank"
@@ -280,8 +280,8 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                   text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                   text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out duration-300 "
                   href="https://whimsical-starship-02dd94.netlify.app/"
                   target="_blank"
                   alt="ver más"
