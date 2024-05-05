@@ -17,7 +17,7 @@ const Misproyectos = () => {
             <span className="sr-only ">Ver Proyecto</span>
           </Link>
           <Image
-            alt="Project 1"
+            alt="Proyectos de desarrollo web "
             className="object-cover w-full "
             height="500"
             src="/img/proyect1.png"
@@ -33,7 +33,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://fluffy-chebakia-04223c.netlify.app/" target="_blank">
+          <Link className="absolute inset-0 z-10" href="https://fluffy-chebakia-04223c.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <Image
@@ -56,7 +56,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://whimsical-starship-02dd94.netlify.app/" target="_blank">
+          <Link className="absolute inset-0 z-10" href="https://whimsical-starship-02dd94.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <Image
@@ -76,7 +76,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://extraordinary-manatee-207063.netlify.app/" target="_blank">
+          <Link className="absolute inset-0 z-10" href="https://extraordinary-manatee-207063.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <img
@@ -99,7 +99,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://elaborate-narwhal-2e3437.netlify.app/" target="_blank">
+          <Link className="absolute inset-0 z-10" href="https://elaborate-narwhal-2e3437.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <Image
@@ -121,7 +121,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://merry-bombolone-2d34a7.netlify.app/" target="_blank">
+          <Link className="absolute inset-0 z-10" href="https://merry-bombolone-2d34a7.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <Image

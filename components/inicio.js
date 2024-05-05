@@ -29,6 +29,7 @@ const Inicio = () => {
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                   font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
+                  alt="contacto"
                   
                 >
                   Contacto
@@ -37,6 +38,7 @@ const Inicio = () => {
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                   font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-gray-600 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   href="/proyectos"
+                  alt="proyectos"
                 >
                   ver Proyectos
                 </Link>
@@ -47,7 +49,7 @@ const Inicio = () => {
               <Image
               loading='lazy'
               src="/img/hero.jpg"
-                alt="Hero Image"
+                alt="Hero Image web developer"
                 className="w-full rounded-xl lg:rounded-2xl   lg:ml-0 mx-auto"
                 height={720}
                 width={1280}
@@ -69,7 +71,7 @@ const Inicio = () => {
             <div className="flex-1 mb-8 md:mb-0 lg:mr-8 ">
               <Image
                 loading='lazy'
-                alt="About Me"
+                alt="About Me fadesarrolloweb"
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
                 height="720"
                 src="/img/sobremi.jpg"
@@ -97,6 +99,7 @@ const Inicio = () => {
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
                 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600 duration-300"
                 href="/sobremi"
+                alt="sobremi"
               >
                 Mas Sobre Mí
               </Link>
@@ -137,6 +140,7 @@ const Inicio = () => {
                     transition ease-in-out    duration-300
                     "
                   href="/servicios"
+                  alt="ver más"
                 >
                   VER MÁS
                 </Link>
@@ -167,6 +171,7 @@ const Inicio = () => {
                   font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
                   transition ease-in-out    duration-300"
                   href="/servicios"
+                  alt="ver más"
                 >
                   VER MÁS
                 </Link>
@@ -197,6 +202,7 @@ const Inicio = () => {
                    font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
                    transition ease-in-out    duration-300"
                   href="/servicios"
+                  alt="ver más"
                 >
                   VER MÁS
                 </Link>
@@ -235,6 +241,7 @@ const Inicio = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://preeminent-peony-3cdb45.netlify.app/"
                   target="_blank"
+                  att="ver más"
                 >
                   Ver Más
                 </Link>
@@ -264,6 +271,7 @@ const Inicio = () => {
                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://fluffy-chebakia-04223c.netlify.app/"
                   target="_blank"
+                  alt="ver más"
                 >
                   Ver más
                 </Link>
@@ -294,6 +302,7 @@ const Inicio = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://whimsical-starship-02dd94.netlify.app/"
                   target="_blank"
+                  alt="ver más"
                 >
                   Ver Más 
                 </Link>
@@ -344,6 +353,7 @@ const Inicio = () => {
                    font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="/contacto"
+                  alt="solicitar informacion"
                 >
                   Solicitar Información
                 </Link>
@@ -385,6 +395,7 @@ const Inicio = () => {
                    font-medium rounded-xl hover:bg-[#cb8446] focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="/contacto"
+                  alt="Solicitar Información"
                 >
                   Solicitar Información
                 </Link>
@@ -426,6 +437,7 @@ const Inicio = () => {
                    font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
                   href="/contacto"
+                  alt="Solicitar Información"
                 >
                   Solicitar Información
                 </Link>

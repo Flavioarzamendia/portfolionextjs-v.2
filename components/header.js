@@ -38,7 +38,7 @@ const Header = () => {
         <Link
           href={"/"}
           className="text-5xl  md:text-7xl text-white font-extrabold "
-          alt="Desarrollo web"
+          alt=" fa Desarrollo web"
         >
           FA
         </Link>

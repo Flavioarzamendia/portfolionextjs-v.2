@@ -23,13 +23,13 @@ const   Ofrece = () => {
                 className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
                 text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-[#8B5CF6] transition ease-in-out duration-300"
-                href="#servicios"
+                href="#servicios" alt="Explorar Planes"
               >
                 Explorar Planes
               </Link>
             </div>
             <Image
-              alt="Hero"
+              alt="Hero fa desarrollo web argentina"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square mt-10 md:mt-0"
               height="720"
               src="/img/seo.jpg"
@@ -82,7 +82,7 @@ const   Ofrece = () => {
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-500 text-white
                    font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
-                  href="/contacto"
+                  href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Información
                 </Link>
@@ -123,7 +123,7 @@ const   Ofrece = () => {
                   className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#FF7900] text-white
                    font-medium rounded-xl hover:bg-[#cb8446] focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
-                  href="/contacto"
+                  href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Información
                 </Link>
@@ -164,7 +164,7 @@ const   Ofrece = () => {
                   className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-500 text-white
                    font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
-                  href="/contacto"
+                  href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Información
                 </Link>

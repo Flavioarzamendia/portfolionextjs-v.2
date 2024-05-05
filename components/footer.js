@@ -12,16 +12,17 @@ const Footer = () => {
           FA
         </Link>
         <div className="text-[#726F6F] font-sans  text-4xl md:text-3xl  md:text-center md:flex md:gap-8  mt-10 md:mt-0 lg:ml-36 ">
-          <Link href='/' className="block p-4 md:p-1 hover:text-white">Inicio</Link>
-          <Link href='/sobremi' className="block py-4 md:p-1 hover:text-white">Sobre Mí</Link>
-          <Link href='/servicios' className="block py-4 md:p-1 hover:text-white">Servicios</Link>
-          <Link href='/proyectos' className="block py-4 md:p-1 hover:text-white">Proyectos</Link>
-          <Link href='/contacto' className="block py-4 md:p-1 hover:text-white">Contacto</Link>
+          <Link href='/' alt="Inicio" className="block p-4 md:p-1 hover:text-white">Inicio</Link>
+          <Link href='/sobremi' alt="Sobre mí" className="block py-4 md:p-1 hover:text-white">Sobre Mí</Link>
+          <Link href='/servicios' alt="Servicios" className="block py-4 md:p-1 hover:text-white">Servicios</Link>
+          <Link href='/proyectos' alt="Proyectos" className="block py-4 md:p-1 hover:text-white">Proyectos</Link>
+          <Link href='/contacto ' alt="Contacto" className="block py-4 md:p-1 hover:text-white">Contacto</Link>
         </div>
         <div className="text-[#726F6F] font-sans md:text-3xl py-5 md:text-start lg:pr-20 text-4xl md:flex gap-8 md:justify-end  md:ml-2 lg:ml-0 ">
           <Link 
           href='https://www.linkedin.com/in/flavio-arzamendia-salinas'
           target="_blank"
+          alt="Linkedin"
            className="block py-1 hover:text-white"
            >
             Linkedin
@@ -29,6 +30,7 @@ const Footer = () => {
           <Link 
           href='https://github.com/Flavioarzamendia'
           target="_blank"
+          alt="Github"
            className="block py-1 hover:text-white"
            >
             GitHub
