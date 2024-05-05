@@ -23,7 +23,7 @@ const Footer = () => {
           href='https://www.linkedin.com/in/flavio-arzamendia-salinas'
           target="_blank"
           alt="Linkedin"
-           className="block py-1 hover:text-white mt-14 mb-8 md:mt-0 md:mb-0"
+           className="block py-1 text-[#726F6F] hover:text-white mt-14 mb-8 md:mt-0 md:mb-0"
            >
             Linkedin
             </Link>
@@ -31,7 +31,7 @@ const Footer = () => {
           href='https://github.com/Flavioarzamendia'
           target="_blank"
           alt="Github"
-           className="block py-1 hover:text-white"
+           className="block py-1 text-[#726F6F] hover:text-white"
            >
             GitHub
             </Link>
