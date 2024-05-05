@@ -20,6 +20,8 @@ export default function Document() {
           rel="stylesheet"
         />
 
+        <link rel="icon" type="image/png" sizes="512x512" href="/img/assets/android-chrome-512x512"/>
+        <link rel="icon" type="image/png" sizes="192x192" href="/img/assets/android-chrome-192x192"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/img/assets/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/img/assets/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/img/assets/favicon-16x16.png"/>
