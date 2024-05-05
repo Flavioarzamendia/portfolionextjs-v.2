@@ -19,9 +19,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Playfair+Display:wght@400;600;900&display=swap"
           rel="stylesheet"
         />
-
-        <link rel="icon" type="image/png" sizes="512x512" href="/img/assets/android-chrome-512x512"/>
-        <link rel="icon" type="image/png" sizes="192x192" href="/img/assets/android-chrome-192x192"/>
+        
         <link rel="apple-touch-icon" sizes="180x180" href="/img/assets/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/img/assets/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/img/assets/favicon-16x16.png"/>
