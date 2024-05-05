@@ -5,10 +5,7 @@ export default function Document() {
   return (
     <Html lang="es">
       <Head>
-        <meta
-          name="description"
-          content="Conoce a Flavio Arzamendia, desarrollador web freelance en Buenos Aires. Descubre servicios de diseño web, apps y SEO."
-        />
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
