@@ -2,7 +2,6 @@ import Head from "next/head";
 import Header from "./header";
 import Footer from "./footer";
 import {motion , AnimatePresence} from "framer-motion";
-import {Analytics} from "@vercel/analytics/react";
 import {GoogleAnalytics} from "@next/third-parties/google"
 
 const Layout = ({children, title='', description='' }) => {
