@@ -123,6 +123,7 @@ const ContactForm = () => {
             <option value="Desarrollo web">Desarrollo web</option>
             <option value="Mantenimiento web">Mantenimiento web</option>
             <option value="SEO">SEO</option>
+            <option value="Otros">Otros</option>
 
       </select>
        
