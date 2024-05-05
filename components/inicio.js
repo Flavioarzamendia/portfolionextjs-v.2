@@ -19,7 +19,7 @@ const Inicio = () => {
               exit={{ opacity: 0, x:-15}}
               transition={{delay: 0.2}}
              className="flex-1 mb-8 md:mb-0 px-auto">
-              <h1 className="text-6xl text-blue-500 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
+              <h1 className="text-6xl text-blue-600 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
               <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
                atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
                 y atraiga a tus clientes
@@ -27,7 +27,7 @@ const Inicio = () => {
               <div className="flex  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   alt="contacto"
                   
@@ -36,7 +36,7 @@ const Inicio = () => {
                 </Link>
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-gray-600 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-slate-800 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   href="/proyectos"
                   alt="proyectos"
                 >
@@ -98,7 +98,7 @@ const Inicio = () => {
               </p>
               <Link
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
-                transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600 duration-300"
+                transition ease-in-out delay-150 bg-blue-600 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300"
                 href="/sobremi"
                 alt="sobremi"
               >
@@ -135,17 +135,7 @@ const Inicio = () => {
                  Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
                   una solución práctica y económica.
                 </p>
-                <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3
-                   bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none
-                    focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
-                    transition ease-in-out    duration-300
-                    "
-                  href="/servicios"
-                  alt="ver más"
-                >
-                  VER MÁS
-                </Link>
+                
               </div>
             </div>
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
@@ -169,15 +159,7 @@ const Inicio = () => {
                  la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
                   y tráfico orgánico para el sitio web del cliente.
                 </p>
-                <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white 
-                  font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
-                  transition ease-in-out    duration-300"
-                  href="/servicios"
-                  alt="ver más"
-                >
-                  VER MÁS
-                </Link>
+                
               </div>
             </div>
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
@@ -201,15 +183,7 @@ const Inicio = () => {
                  y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
                   web del cliente.
                 </p>
-                <Link
-                  className="inline-flex my-10 text-3xl items-center justify-center w-full px-4 py-3 bg-blue-500 text-white
-                   font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
-                   transition ease-in-out    duration-300"
-                  href="/servicios"
-                  alt="ver más"
-                >
-                  VER MÁS
-                </Link>
+               
               </div>
             </div>
           </div>
@@ -241,14 +215,14 @@ const Inicio = () => {
                  su variedad de programas, y potencial de negocio facilidad de uso y opciones de suscripción.
                 </p>
                 <Link
-                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
-                   text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
+                   text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://preeminent-peony-3cdb45.netlify.app/"
                   target="_blank"
                   att="ver más"
                 >
-                  Ver Más
+                  Ver proyectos
                 </Link>
               </div>
             </div>
@@ -272,14 +246,14 @@ const Inicio = () => {
                  de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
                 </p>
                 <Link
-                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500 
-                  text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600 
+                  text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://fluffy-chebakia-04223c.netlify.app/"
                   target="_blank"
                   alt="ver más"
                 >
-                  Ver más
+                  Ver proyectos
                 </Link>
               </div>
             </div>
@@ -304,14 +278,14 @@ const Inicio = () => {
                  como búsqueda intuitiva, opciones de filtrado y sistema de reservas integrado.
                 </p>
                 <Link
-                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
-                   text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
+                   text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
                   href="https://whimsical-starship-02dd94.netlify.app/"
                   target="_blank"
                   alt="ver más"
                 >
-                  Ver Más 
+                  Ver proyectos
                 </Link>
               </div>
             </div>
@@ -327,7 +301,7 @@ const Inicio = () => {
             <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
-              <div className="p-6 bg-blue-500 text-white text-center">
+              <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
                 <p className="text-6xl font-bold mb-4">$99</p>
                 <p className="mb-6">Desde USD</p>
@@ -356,20 +330,20 @@ const Inicio = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-500 text-white
-                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
+                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="solicitar informacion"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
 
             <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-[#FF7900] text-white text-center">
+              <div className="p-6 bg-[#32CD32] text-black text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
                 <p className="text-6xl font-bold mb-4">$399</p>
                 <p className="mb-6">Desde USD</p>
@@ -398,20 +372,20 @@ const Inicio = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#FF7900] text-white
-                   font-medium rounded-xl hover:bg-[#cb8446] focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  className="block text-center mb-8  items-center justify-center text-black  px-4 py-2  bg-[#32CD32] 
+                   font-medium rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="Solicitar Información"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
 
             <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-blue-500 text-white text-center">
+              <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
                 <p className="text-6xl font-bold mb-4">$199</p>
                 <p className="mb-6">Desde USD</p>
@@ -440,8 +414,8 @@ const Inicio = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-500 text-white
-                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
+                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
                   href="/contacto"
                   alt="Solicitar Información"

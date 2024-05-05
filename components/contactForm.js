@@ -70,7 +70,7 @@ const ContactForm = () => {
     <main className="lg:p-14 rounded-xl">
     <form onSubmit={handleOnSubmit} className="flex flex-col  mt-0">
       <div className=' mb-10'>
-      <label type="textarea" htmlFor='name' className=" h-10 text-white block text-2xl mb-5 font-medium  border-l-4 border-green-600 pl-4">Nombre</label>
+      <label type="textarea" htmlFor='name' className=" h-10 text-white block text-2xl mb-5 font-medium  border-l-4 border-blue-600 pl-4">Nombre</label>
       <input
         type="text"
         id="name"
@@ -83,7 +83,7 @@ const ContactForm = () => {
       />
       </div>
       <div className=' mb-10'>
-      <label htmlFor="email" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Email</label>
+      <label htmlFor="email" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-blue-600 pl-4'>Email</label>
       <input
         id="email"
         type="email"
@@ -97,7 +97,7 @@ const ContactForm = () => {
       </div>
 
       <div className=' mb-10'>
-      <label htmlFor="number" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Teléfono</label>
+      <label htmlFor="number" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-blue-600 pl-4'>Teléfono</label>
       <input
         id="number"
         type="tel"
@@ -111,7 +111,7 @@ const ContactForm = () => {
       </div>
 
       <div className=' mb-10'>
-      <label htmlFor="select" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4'>Servicio</label>
+      <label htmlFor="select" className=' h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-blue-600 pl-4'>Servicio</label>
       <select  id="select"
         name="select"
         onChange={handleOnChange}
@@ -131,7 +131,7 @@ const ContactForm = () => {
       </div>
       
       <div className=' mb-5'>
-      <label htmlFor="message" className="h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-green-600 pl-4"
+      <label htmlFor="message" className="h-10 text-white block text-2xl mb-2 font-medium mt-4 border-l-4 border-blue-600 pl-4"
       >Mensaje</label>
       <textarea
         id="message"
@@ -143,7 +143,7 @@ const ContactForm = () => {
         placeholder='Escriba su mensaje'
       />
       </div>
-      <button type="submit" disabled={status.submitting} className="bg-blue-500 border hover:bg-blue-600 border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-2xl rounded-lg block w-full p-2.5 mt-6">
+      <button type="submit" disabled={status.submitting} className="bg-blue-600 border hover:bg-blue-700 border-[#33353F]  text-gray-100 text-3xl rounded-lg block w-full p-2.5 mt-6 uppercase">
         {!status.submitting
           ? !status.submitted
             ? 'Enviar'

@@ -52,36 +52,36 @@ const Mi = () => {
               <h2 className=" font-bold tracking-tight text-gray-900 text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Habilidades</h2>
               
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white font-sans ">
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-white font-sans lg:px-40 ">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className=" font-semibold text-3xl">HTML</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">CSS</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">JavaScript</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">React</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">Node.js</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">Tailwind CSS</h3>
               </div>
-              <div className="bg-blue-500  rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600  rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">Git</h3>
               </div>
-              <div className="bg-blue-500 rounded-lg p-6 flex flex-col items-center space-y-2">
+              <div className="bg-blue-600 rounded-lg p-6 flex flex-col items-center space-y-2">
                 
                 <h3 className="text-3xl font-semibold">Wordpress</h3>
               </div>

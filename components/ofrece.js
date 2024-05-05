@@ -20,8 +20,8 @@ const   Ofrece = () => {
                 </p>
               </div>
               <Link
-                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-blue-500
-                text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
+                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
+                text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-[#8B5CF6] transition ease-in-out duration-300"
                 href="#servicios" alt="Explorar Planes"
               >
@@ -43,20 +43,101 @@ const   Ofrece = () => {
         </div>
       </section>
 
-    <section className="bg-white  py-20 md:pt-40 font-sans" id="servicios">
+      <section className="bg-white  py-12 md:py-40 font-sans" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase text-gray-900">Desarrollo web</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-20 text-gray-900 uppercase">Servicios</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-2
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
+              <Image
+                loading='lazy'
+                
+                alt="Web Design"
+                className="w-full  object-cover"
+                height="720"
+                src="/img/diseñoweb.jpg"
+                style={{
+                  aspectRatio: "16 / 9",
+                  objectFit: "cover",
+                }}
+                width="1280"
+              />
+              <div className="p-6 px-14">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
+                Creación de sitios web simples y efectivos utilizando diversas herramientas de desarrollo web.
+                 Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
+                  una solución práctica y económica.
+                </p>
+                
+              </div>
+            </div>
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+              <Image
+                loading='lazy'
+                
+                alt="SEO Optimizacion"
+                className="w-full object-cover"
+                height="720"
+                src="/img/seo.jpg"
+                style={{
+                  aspectRatio: "16/9",
+                  objectFit: "cover",
+                }}
+                width="1280"
+              />
+              <div className="p-6 px-14 ">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
+                Mejora del posicionamiento en motores de búsqueda mediante la investigación de palabras clave,
+                 la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
+                  y tráfico orgánico para el sitio web del cliente.
+                </p>
+                
+              </div>
+            </div>
+            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+              <Image
+                loading='lazy'
+                
+                alt="Actualizacion y mantenimiento"
+                className="w-full object-cover"
+                height="720"
+                src="/img/mantenimiento.jpg"
+                style={{
+                  aspectRatio: "16/9",
+                  objectFit: "cover",
+                }}
+                width="1280"
+              />
+              <div className="p-6 px-14">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
+                <p className="text-gray-200 mb-6 text-2xl leading-10">
+                Realización de tareas de mantenimiento esenciales, como copias de seguridad, actualizaciones de software
+                 y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
+                  web del cliente.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <section className="bg-gray-900  py-20 md:pt-40 font-sans" id="servicios">
+        <div className="container mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase text-white">Desarrollo web</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
-              <div className="p-6 bg-blue-500 text-white text-center">
+              <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
                 <p className="text-6xl font-bold mb-4">$99</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white ">
+                <ul className="space-y-8 mb-10  ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño básico y funcional.</span>
@@ -79,25 +160,25 @@ const   Ofrece = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-500 text-white
-                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
+                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
 
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-[#FF7900] text-white text-center">
+              <div className="p-6 bg-[#32CD32] text-black text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
                 <p className="text-6xl font-bold mb-4">$399</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white">
+                <ul className="space-y-8 mb-10 ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño premium y altamente personalizado.</span>
@@ -120,25 +201,25 @@ const   Ofrece = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#FF7900] text-white
-                   font-medium rounded-xl hover:bg-[#cb8446] focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#32CD32] text-black
+                   font-medium rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
 
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-3 
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-blue-500 text-white text-center">
+              <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
                 <p className="text-6xl font-bold mb-4">$199</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white">
+                <ul className="space-y-8 mb-10">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño profesional y adaptable.</span>
@@ -161,12 +242,12 @@ const   Ofrece = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-500 text-white
-                   font-medium rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
+                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
+                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
