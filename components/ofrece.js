@@ -21,7 +21,7 @@ const   Ofrece = () => {
               </div>
               <Link
                 className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-[#8B5CF6] transition ease-in-out duration-300"
                 href="#servicios" alt="Explorar Planes"
               >
@@ -161,8 +161,8 @@ const   Ofrece = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
-                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
                   Contactar ahora
@@ -172,7 +172,7 @@ const   Ofrece = () => {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
-              <div className="p-6 bg-[#32CD32] text-black text-center">
+              <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
                 <p className="text-6xl font-bold mb-4">$399</p>
                 <p className="mb-6">Desde USD</p>
@@ -201,8 +201,8 @@ const   Ofrece = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#32CD32] text-black
-                   font-medium rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
+                  className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#32CD32] text-gray-900
+                   font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
@@ -243,7 +243,7 @@ const   Ofrece = () => {
                 </ul>
                 <Link
                   className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
-                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >

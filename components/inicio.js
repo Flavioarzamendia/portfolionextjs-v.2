@@ -20,14 +20,15 @@ const Inicio = () => {
               transition={{delay: 0.2}}
              className="flex-1 mb-8 md:mb-0 px-auto">
               <h1 className="text-6xl text-blue-600 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
-              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-bold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
                atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
                 y atraiga a tus clientes
               </p>
+              <div></div>
               <div className="flex  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   alt="contacto"
                   
@@ -36,7 +37,7 @@ const Inicio = () => {
                 </Link>
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-slate-800 border border-white text-white font-medium rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-slate-800 border border-white text-white font-bold rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   href="/proyectos"
                   alt="proyectos"
                 >
@@ -97,7 +98,7 @@ const Inicio = () => {
                digitales que cautiven a tus usuarios y impulsen el éxito de tu negocio en línea.
               </p>
               <Link
-                className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
+                className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
                 transition ease-in-out delay-150 bg-blue-600 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300"
                 href="/sobremi"
                 alt="sobremi"
@@ -331,7 +332,7 @@ const Inicio = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
-                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="solicitar informacion"
@@ -373,7 +374,7 @@ const Inicio = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center text-black  px-4 py-2  bg-[#32CD32] 
-                   font-medium rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
+                   font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="Solicitar Información"
@@ -414,13 +415,13 @@ const Inicio = () => {
                   </li>
                 </ul>
                 <Link
-                  className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
-                   font-medium rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
+                  className="block text-center font-bold items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
+                    rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
                   href="/contacto"
                   alt="Solicitar Información"
                 >
-                  Solicitar Información
+                  Contactar ahora
                 </Link>
               </div>
             </div>
