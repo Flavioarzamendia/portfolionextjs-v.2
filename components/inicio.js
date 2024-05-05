@@ -17,7 +17,7 @@ const Inicio = () => {
               initial={{ opacity: 0, x: -15}}
               animate ={{opacity: 1, x: 0}}
               exit={{ opacity: 0, x:-15}}
-              transition={{delay: 0.5}}
+              transition={{delay: 0.2}}
              className="flex-1 mb-8 md:mb-0 px-auto">
               <h1 className="text-6xl text-blue-500 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
               <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-semibold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
