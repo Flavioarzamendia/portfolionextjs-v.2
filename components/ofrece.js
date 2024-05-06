@@ -31,9 +31,10 @@ const   Ofrece = () => {
             <Image
               alt="Hero fa desarrollo web argentina"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square mt-10 md:mt-0"
-              height="720"
+              height={480}
+              width={854}
               src="/img/seo.jpg"
-              width="1280"
+              
               style={{
                 aspectRatio: "16/9",
                 objectFit: "cover",
@@ -53,13 +54,14 @@ const   Ofrece = () => {
                 
                 alt="Web Design"
                 className="w-full  object-cover"
-                height="720"
+                height={338}
+                width={600}
                 src="/img/diseñoweb.jpg"
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
@@ -77,13 +79,14 @@ const   Ofrece = () => {
                 
                 alt="SEO Optimizacion"
                 className="w-full object-cover"
-                height="720"
+                height={338}
+                width={600}
                 src="/img/seo.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
@@ -101,13 +104,14 @@ const   Ofrece = () => {
                 
                 alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
-                height="720"
+                height={338}
+                width={600}
                 src="/img/mantenimiento.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+               
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>

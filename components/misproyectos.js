@@ -19,13 +19,14 @@ const Misproyectos = () => {
           <Image
             alt="Proyectos de desarrollo web "
             className="object-cover w-full "
-            height="500"
+            height={480}
+            width={854}
             src="/img/proyect1.png"
             style={{
               aspectRatio: "16/9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Landing page Podcastfm</h3>
@@ -39,13 +40,14 @@ const Misproyectos = () => {
           <Image
             alt="Project 2"
             className="object-cover w-full "
-            height="500"
+            height={480}
+            width={854}
             src="/img/proyect2.png"
             style={{
               aspectRatio: "16 / 9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Landing App Delivery</h3>
@@ -62,13 +64,14 @@ const Misproyectos = () => {
           <Image
             alt="Project 3"
             className="object-cover w-full "
-            height="500"
+            height={480}
+            width={854}
             src="/img/proyect3.png"
             style={{
               aspectRatio: "16/9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Pagina estilo AirBNB</h3>
@@ -82,13 +85,14 @@ const Misproyectos = () => {
           <img
             alt="Project 4"
             className="object-cover w-full"
-            height="500"
+            height={480}
+            width={854}
             src="/img/proyect4.png"
             style={{
               aspectRatio: "16/9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Nucleus Ewallet</h3>
@@ -105,13 +109,15 @@ const Misproyectos = () => {
           <Image
             alt="Project 5"
             className="object-cover w-full"
-            height="500"
+            
+            height={480}
+            width={854}
             src="/img/proyect5.png"
             style={{
               aspectRatio: "16/9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Demo web para cafetería.</h3>
@@ -127,13 +133,14 @@ const Misproyectos = () => {
           <Image
             alt="Project 6"
             className="object-cover w-full"
-            height="500"
+            height={480}
+            width={854}
             src="/img/proyecto6.png"
             style={{
               aspectRatio: "16/9",
               objectFit: "cover",
             }}
-            width="900"
+            
           />
           <div className="bg-white p-4 ">
             <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Página web arquitectura bosque</h3>

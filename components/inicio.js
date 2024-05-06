@@ -86,8 +86,8 @@ const Inicio = () => {
                 loading='lazy'
                 alt="About Me fadesarrolloweb"
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
-                height={480}
-                width={854}
+                height={450}
+                width={800}
                 src="/img/sobremi.jpg"
                 style={{
                   aspectRatio: "16/9",
@@ -133,8 +133,8 @@ const Inicio = () => {
                 
                 alt="Web Design"
                 className="w-full  object-cover"
-                height={480}
-                width={854}
+                height={338}
+                width={600}
                 src={diseñoweb}
                 style={{
                   aspectRatio: "16 / 9",
@@ -158,8 +158,8 @@ const Inicio = () => {
                 
                 alt="SEO Optimizacion"
                 className="w-full object-cover"
-                height={480}
-                width={854}
+                height={338}
+                width={600}
                 src={seo}
                 style={{
                   aspectRatio: "16/9",
@@ -183,8 +183,8 @@ const Inicio = () => {
                 
                 alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
-                height={480}
-                width={854}
+                height={338}
+                width={600}
                 src={mantenimiento}
                 style={{
                   aspectRatio: "16/9",
