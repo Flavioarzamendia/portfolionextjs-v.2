@@ -3,6 +3,7 @@ import Header from "./header";
 import Footer from "./footer";
 import {motion , AnimatePresence} from "framer-motion";
 import {GoogleAnalytics} from "@next/third-parties/google"
+import { env } from "@/next.config";
 
 const Layout = ({children, title='', description='' }) => {
   return (
@@ -27,7 +28,7 @@ const Layout = ({children, title='', description='' }) => {
         transition={{delay: 0.2}}
       >
         {children}
-        <GoogleAnalytics gaId="G-QNM1ZEZSX5" />
+        <GoogleAnalytics gaId={env.GAID} />
     </motion.div>
 
     </AnimatePresence>
