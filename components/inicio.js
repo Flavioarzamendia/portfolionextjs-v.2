@@ -1,7 +1,10 @@
 import Link from "next/link"
 import Image from "next/image";
 import {motion} from "framer-motion";
-import {CheckIcon} from "@heroicons/react/24/outline"
+import {CheckIcon} from "@heroicons/react/24/outline";
+
+import hero from "../public/img/hero.jpg";
+import sobremi from "../public/img/sobremi.jpg";
 
 const Inicio = () => {
   return (
@@ -50,13 +53,13 @@ const Inicio = () => {
               <Image
               
               loading = 'lazy'
-              src="/img/hero.jpg"
+              src={hero}
                 alt="Hero Image web developer"
-                className="w-full rounded-xl lg:rounded-2xl   lg:ml-0 mx-auto"
+                className="w-full rounded-xl lg:rounded-2xl lg:ml-0 mx-auto"
                 height={720}
                 width={1280}
                 sizes="(max-width: 768px) 100vw, 33vw"
-                quality={75}
+                
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
@@ -78,7 +81,7 @@ const Inicio = () => {
                 alt="About Me fadesarrolloweb"
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
                 height="720"
-                src="/img/sobremi.jpg"
+                src={sobremi}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
