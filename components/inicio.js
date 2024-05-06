@@ -49,14 +49,14 @@ const Inicio = () => {
              className="flex-1 sm:float-none md:mt-14 mb-0">
               <Image
               
-              
+              priority={false} 
               src="/img/hero.jpg"
                 alt="Hero Image web developer"
                 className="w-full rounded-xl lg:rounded-2xl   lg:ml-0 mx-auto"
                 height={720}
                 width={1280}
                 sizes="(max-width: 768px) 100vw, 33vw"
-                quality={80}
+                quality={75}
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
