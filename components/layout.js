@@ -9,7 +9,7 @@ const Layout = ({children, title='', description='' }) => {
     <>
     
     <Head>
-        <title>{`Flavio Arzamendia Desarrollor Web - ${title}`}</title>
+        <title>{`Flavio Arzamendia Desarrollador Web - ${title}`}</title>
         <meta
           name="description"
           content={description}
