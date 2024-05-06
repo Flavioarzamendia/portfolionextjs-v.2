@@ -6,9 +6,9 @@ export default function Document() {
     <Html lang="es">
       <Head>
         
-        <link rel="preload" href="https://fonts.googleapis.com" />
+        <link  href="https://fonts.googleapis.com" />
         <link
-          rel="preload"
+          
           href="https://fonts.gstatic.com"
           crossOrigin={"true"}
         />
