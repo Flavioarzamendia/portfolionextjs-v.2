@@ -33,7 +33,7 @@ return(
                     <li className="">
                         <Link className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                   font-sans text-2xl md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                         href="https://www.linkedin.com/in/flavio-arzamendia" target="_blank" alt="ver Linkedin "
+                         href="www.linkedin.com/in/flavio-arzamendia-salinas-072085199" target="_blank" alt="ver Linkedin "
                         >
                             Linkedin
                         </Link>
