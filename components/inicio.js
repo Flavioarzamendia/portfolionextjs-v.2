@@ -5,6 +5,12 @@ import {CheckIcon} from "@heroicons/react/24/outline";
 
 import hero from "../public/img/hero.jpg";
 import sobremi from "../public/img/sobremi.jpg";
+import diseñoweb from "../public/img/diseñoweb.jpg";
+import seo from "../public/img/seo.jpg";
+import mantenimiento from "../public/img/mantenimiento.jpg";
+import proyect1 from "../public/img/proyect1.png";
+import proyect2 from "../public/img/proyect2.png";
+import proyect3 from "../public/img/proyect3.png";
 
 const Inicio = () => {
   return (
@@ -127,7 +133,7 @@ const Inicio = () => {
                 alt="Web Design"
                 className="w-full  object-cover"
                 height="720"
-                src="/img/diseñoweb.jpg"
+                src={diseñoweb}
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
@@ -151,7 +157,7 @@ const Inicio = () => {
                 alt="SEO Optimizacion"
                 className="w-full object-cover"
                 height="720"
-                src="/img/seo.jpg"
+                src={seo}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -175,7 +181,7 @@ const Inicio = () => {
                 alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
                 height="720"
-                src="/img/mantenimiento.jpg"
+                src={mantenimiento}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -208,7 +214,7 @@ const Inicio = () => {
                 alt="Podcas fm proyecto"
                 className="w-full  object-cover"
                 height="720"
-                src="/img/proyect1.png"
+                src={proyect1}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -239,7 +245,7 @@ const Inicio = () => {
                 alt="App delivey proyecto"
                 className="w-full  object-cover"
                 height="720"
-                src="/img/proyect2.png"
+                src={proyect2}
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
@@ -270,7 +276,7 @@ const Inicio = () => {
                 alt="Airbnb web estilo proyecto"
                 className="w-full object-cover"
                 height="720"
-                src="/img/proyect3.png"
+                src={proyect3}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
