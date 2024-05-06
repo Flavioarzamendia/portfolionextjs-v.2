@@ -87,13 +87,14 @@ const Inicio = () => {
                 loading='lazy'
                 alt="About Me fadesarrolloweb"
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
-                height="720"
+                height={480}
+                width={854}
                 src={sobremi}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
@@ -133,13 +134,14 @@ const Inicio = () => {
                 
                 alt="Web Design"
                 className="w-full  object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={diseñoweb}
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
-                width="1280"
+               
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
@@ -157,13 +159,14 @@ const Inicio = () => {
                 
                 alt="SEO Optimizacion"
                 className="w-full object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={seo}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
@@ -181,13 +184,14 @@ const Inicio = () => {
                 
                 alt="Actualizacion y mantenimiento"
                 className="w-full object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={mantenimiento}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
@@ -214,13 +218,14 @@ const Inicio = () => {
                 
                 alt="Podcas fm proyecto"
                 className="w-full  object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={proyect1}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase ">Podcast fm</h3>
@@ -245,13 +250,14 @@ const Inicio = () => {
                 
                 alt="App delivey proyecto"
                 className="w-full  object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={proyect2}
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase">APP Delivery</h3>
@@ -276,13 +282,14 @@ const Inicio = () => {
                 
                 alt="Airbnb web estilo proyecto"
                 className="w-full object-cover"
-                height="720"
+                height={480}
+                width={854}
                 src={proyect3}
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
                 }}
-                width="1280"
+                
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-10 uppercase">Web Estilo Airbnb</h3>
