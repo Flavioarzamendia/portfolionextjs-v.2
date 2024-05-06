@@ -11,21 +11,20 @@ const   Ofrece = () => {
             <div className="flex flex-col justify-center space-y-4 px-10 ">
               <div className="space-y-14 mb-10 ">
                 <h1 className="text-6xl text-white font-bold sm:text-5xl xl:text-6xl/none">
-                Servicios Personalizados para Tu Web o Negocio
+                Soluciones Personalizadas de Desarrollo Web para Tu Negocio
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-3xl -gray-400 leading-10">
-                Nuestros servicios están diseñados para que tu web o negocio se destaque en línea. 
-                Con soluciones personalizadas y estratégicas, te ayudamos a destacar entre la competencia,
-                 captar la atención de tu audiencia y alcanzar tus objetivos en el mundo digital
+                Nuestros servicios de desarrollo web están diseñados para destacar tu web o negocio en línea. Con soluciones personalizadas y estratégicas,
+                 te ayudamos a sobresalir entre la competencia, captar la atención de tu audiencia y alcanzar tus objetivos en el mundo digital.
                 </p>
               </div>
               <Link
-                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
+                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-[#ff7f00]
+                text-white font-bold rounded-md hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-[#8B5CF6] transition ease-in-out duration-300"
                 href="#servicios" alt="Explorar Planes"
               >
-                Explorar Planes
+                VER PLANES
               </Link>
             </div>
             <Image
@@ -66,9 +65,12 @@ const   Ofrece = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Creación de sitios web simples y efectivos utilizando diversas herramientas de desarrollo web.
-                 Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
-                  una solución práctica y económica.
+                Mi servicio de Diseño y Desarrollo de Sitios Web se enfoca en crear sitios web simples y efectivos 
+                utilizando diversas herramientas de desarrollo web. Realizo la Creación de Páginas Web Personalizadas,
+                 asegurando un Diseño y Desarrollo de Sitios Web Responsivos y Optimizados SEO. Desde el diseño inicial
+                  hasta la implementación, me aseguro de personalizar cada aspecto para satisfacer las necesidades específicas
+                   de mis clientes. Con un enfoque en el Diseño y Desarrollo de Sitios Web para Empresas, ofrezco soluciones
+                    profesionales y personalizadas que impulsen la presencia digital de mis clientes en Buenos Aires, Argentina.
                 </p>
                 
               </div>
@@ -91,9 +93,14 @@ const   Ofrece = () => {
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Mejora del posicionamiento en motores de búsqueda mediante la investigación de palabras clave,
-                 la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
-                  y tráfico orgánico para el sitio web del cliente.
+                  Mi servicio de Optimización de SEO está diseñado para mejorar el posicionamiento
+                  en motores de búsqueda mediante la investigación de palabras clave, la optimización
+                  de contenido y la configuración de enlaces internos. Realizo un análisis completo de
+                  las palabras clave relevantes para tu nicho, optimizo el contenido de tu sitio web
+                  y configuro enlaces internos estratégicos para aumentar la visibilidad y el tráfico
+                  orgánico de tu sitio web en Buenos Aires, Argentina. Con un enfoque en la Optimización
+                  de SEO para Sitios Web en WordPress y el Desarrollo de Sitios Web Optimizados SEO,
+                  garantizo resultados duraderos y significativos en línea.
                 </p>
                 
               </div>
@@ -116,9 +123,13 @@ const   Ofrece = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Realización de tareas de mantenimiento esenciales, como copias de seguridad, actualizaciones de software
-                 y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
-                  web del cliente.
+                Ofrezco servicios completos de Mantenimiento Web que incluyen tareas esenciales como 
+                copias de seguridad, actualizaciones de software y soporte técnico continuo.
+                Mi enfoque en el Desarrollo de Sitios Web para Empresas y la Creación de Sitios Web
+                Profesionales garantiza el correcto funcionamiento, seguridad y actualización de tu 
+                sitio web en Buenos Aires, Argentina. Con un enfoque proactivo, identifico y resuelvo
+                cualquier problema potencial para mantener tu sitio web siempre en óptimas condiciones
+                y funcionando de manera eficiente.
                 </p>
                
               </div>

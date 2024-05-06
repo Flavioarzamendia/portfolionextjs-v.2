@@ -20,20 +20,23 @@ const Inicio = () => {
         <motion.div 
           
           className="container mx-auto px-4 md:px-20">
-          <div className="flex flex-col  lg:flex-row items-center justify-between gap-8 py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2  items-center justify-between gap-8 py-20">
             <motion.div
               initial={{ opacity: 0, x: -15}}
               animate ={{opacity: 1, x: 0}}
               exit={{ opacity: 0, x:-15}}
               transition={{delay: 0.2}}
-             className="flex-1 mb-8 md:mb-0 px-auto">
-              <h1 className="text-6xl text-blue-600 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight mb-14 font-sans mt-20">TU SITIO WEB PROFESIONAL</h1>
-              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0  mb-40 lg:mb-64 font-sans font-bold text-center px-10" >Transforma tu presencia en línea con una página web profesional y
-               atractiva. Desde un diseño elegante hasta funcionalidades avanzadas, podemos crear una experiencia digital que destaque tu marca
-                y atraiga a tus clientes
+             className="flex-1 mb-0 md:mb-0 px-auto">
+              <h1 className="text-6xl text-blue-600 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight 
+              mb-14 font-sans mt-0"
+              >TU SITIO WEB PROFESIONAL</h1>
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold text-center px-10" >
+              Transforma tu presencia en línea con un sitio web profesional y atractivo. Como desarrollador web freelance en Buenos Aires,
+               Argentina, especializado en diseño web y funcionalidades avanzadas, estamos listos para llevar tu marca al siguiente nivel.
+               Contáctanos para empezar!.
               </p>
-              <div></div>
-              <div className="flex  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
+            
+              <div className="flex md  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                   font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
@@ -99,15 +102,14 @@ const Inicio = () => {
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14 leading-10">
-              ¡Hola! Soy Flavio, desarrollador web con experiencia en la creación de sitios
-               profesionales y atractivos. Con un año de experiencia en HTML, CSS, JavaScript y WordPress,
-                puedo ayudarte a materializar tu visión digital
+              ¡Hola! Soy Flavio, un Desarrollador Web Freelance en Buenos Aires especializado en el Diseño y Desarrollo de Sitios Web.
+               Con experiencia en la Creación de Páginas Web Personalizadas, me enfoco en desarrollar sitios responsivos y optimizados
+               SEO. Mi especialidad incluye el Desarrollo de Sitios Web en WordPress, así como el Diseño y Programación de Sitios Web
+               para empresas que buscan una presencia digital profesional y efectiva.
               </p>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
-              En mi trabajo, me enfoco en brindar soluciones personalizadas y efectivas 
-              para tus necesidades web. Estoy aprendiendo y aplicando tecnologías como React 
-              para ofrecerte aplicaciones web modernas e interactivas. Mi objetivo es crear experiencias
-               digitales que cautiven a tus usuarios y impulsen el éxito de tu negocio en línea.
+                Estoy comprometido en ofrecer soluciones web a medida que reflejen la calidad y el profesionalismo que tu empresa merece.
+               Conoce más sobre mí y cómo puedo ayudarte con tu proyecto digital.
               </p>
               <Link
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
@@ -145,9 +147,9 @@ const Inicio = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Creación de sitios web simples y efectivos utilizando diversas herramientas de desarrollo web.
-                 Personalización de diseños básicos para adaptarse a las necesidades iniciales del cliente y ofrecer
-                  una solución práctica y económica.
+                Ofrezco la creación de sitios web simples y efectivos mediante diversas herramientas de desarrollo web.
+                 Personalizo diseños básicos para adaptarlos a las necesidades iniciales del cliente, proporcionando soluciones
+                 prácticas y económicas.
                 </p>
                 
               </div>
@@ -195,9 +197,9 @@ const Inicio = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Realización de tareas de mantenimiento esenciales, como copias de seguridad, actualizaciones de software
-                 y soporte técnico continuo para garantizar el correcto funcionamiento, seguridad y actualización del sitio
-                  web del cliente.
+                Realizo tareas esenciales de mantenimiento, como copias de seguridad, actualizaciones de 
+                software y soporte técnico continuo. Garantizo el correcto funcionamiento, seguridad y actualización
+                 del sitio web del cliente.
                 </p>
                
               </div>
