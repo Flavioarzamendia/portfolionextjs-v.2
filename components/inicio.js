@@ -62,8 +62,8 @@ const Inicio = () => {
               src={hero}
                 alt="Hero Image web developer"
                 className="w-full rounded-xl lg:rounded-2xl lg:ml-0 mx-auto"
-                height={720}
-                width={1280}
+                height={480}
+                width={854}
                 quality={70}
                 sizes="(max-width: 768px) 100vw, 33vw"
                 
