@@ -125,9 +125,13 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-white  py-12 md:py-40" >
+      <section className="bg-white  py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-20 text-gray-900 uppercase">Servicios</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">Servicios</h2>
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+          Nuestros servicios están diseñados para ayudarte a destacar en línea con soluciones personalizadas y efectivas.
+           
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
@@ -209,9 +213,13 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-gray-900 text-white py-20 md:py-40 " >
+      <section className="bg-gray-900 text-white py-20 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase">Proyectos</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">Proyectos</h2>
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+            Explora algunos de nuestros proyectos destacados que muestran nuestra experiencia en el diseño 
+            y desarrollo de sitios web profesionales y efectivos.
+            </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
               <Image
@@ -230,7 +238,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase ">Podcast fm</h3>
-                <p className="text-gray-600 mb-6 leading-10">Presentación atractiva de la plataforma de podcasts, resaltando
+                <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">Presentación atractiva de la plataforma de podcasts, resaltando
                  su variedad de programas, y potencial de negocio facilidad de uso y opciones de suscripción.
                 </p>
                 <Link
@@ -262,7 +270,7 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase">APP Delivery</h3>
-                <p className="text-gray-600 mb-6 leading-10">Mostrar de manera visual y atractiva la plataforma de entrega
+                <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">Mostrar de manera visual y atractiva la plataforma de entrega
                  de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
                 </p>
                 <Link
@@ -294,9 +302,9 @@ const Inicio = () => {
               />
               <div className="p-6 px-10">
                 <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-10 uppercase">Web Estilo Airbnb</h3>
-                <p className="text-gray-600 mb-6 leading-10">
+                <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">
                 Presentación visual de la plataforma de alquiler de propiedades, destacando sus características únicas,
-                 como búsqueda intuitiva, opciones de filtrado y sistema de reservas integrado.
+                 como búsqueda intuitiva.
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
@@ -315,9 +323,12 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-white  py-20 md:pt-40 m">
+      <section className="bg-white  py-20 md:pt-20 m">
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase text-gray-900">Precios</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">Precios</h2>
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+          Explora nuestros planes y tarifas, y contáctanos para un presupuesto personalizado
+            </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
