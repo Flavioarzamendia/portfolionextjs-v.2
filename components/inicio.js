@@ -81,8 +81,8 @@ const Inicio = () => {
       </header>
 
 
-      <section className="bg-gray-900 text-white py-12 md:py-40" >
-        <div className="container mx-auto px-4 md:px-8">
+      <section className="bg-gray-900 text-white py-12 md:py-40 mb-0" >
+        <div className="container mx-auto px-4 md:px-8 ">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="flex-1 mb-8 md:mb-0 lg:mr-8 ">
               <Image
@@ -123,6 +123,8 @@ const Inicio = () => {
           </div>
         </div>
       </section>
+
+
 
 
       <section className="bg-white  py-12 md:py-20" >
