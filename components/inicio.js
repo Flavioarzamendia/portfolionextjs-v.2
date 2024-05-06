@@ -49,7 +49,7 @@ const Inicio = () => {
              className="flex-1 sm:float-none md:mt-14 mb-0">
               <Image
               
-              priority={false} 
+              loading = 'lazy'
               src="/img/hero.jpg"
                 alt="Hero Image web developer"
                 className="w-full rounded-xl lg:rounded-2xl   lg:ml-0 mx-auto"
