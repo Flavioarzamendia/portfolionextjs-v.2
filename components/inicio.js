@@ -48,7 +48,7 @@ const Inicio = () => {
             <div
              className="flex-1 sm:float-none md:mt-14 mb-0">
               <Image
-              loading='lazy'
+              
               
               src="/img/hero.jpg"
                 alt="Hero Image web developer"
