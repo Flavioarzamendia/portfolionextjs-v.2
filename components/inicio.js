@@ -3,14 +3,13 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import {CheckIcon} from "@heroicons/react/24/outline";
 
-import hero from "../public/img/hero.jpg";
-import sobremi from "../public/img/sobremi.jpg";
+
 import diseñoweb from "../public/img/diseñoweb.jpg";
 import seo from "../public/img/seo.jpg";
 import mantenimiento from "../public/img/mantenimiento.jpg";
 import proyect1 from "../public/img/proyect1.png";
 import proyect2 from "../public/img/proyect2.png";
-import proyect3 from "../public/img/proyect3.png";
+
 
 const Inicio = () => {
   return (
@@ -59,7 +58,7 @@ const Inicio = () => {
               <Image
               
               loading='eager'
-              src={hero}
+              src="/img/hero.jpg"
                 alt="Hero Image web developer"
                 className="w-full rounded-xl lg:rounded-2xl lg:ml-0 mx-auto"
                 height={480}
@@ -89,7 +88,7 @@ const Inicio = () => {
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
                 height={480}
                 width={854}
-                src={sobremi}
+                src="/img/sobremi.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -284,7 +283,7 @@ const Inicio = () => {
                 className="w-full object-cover"
                 height={480}
                 width={854}
-                src={proyect3}
+                src="/img/proyect3.png"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
