@@ -5,7 +5,7 @@ const Contacto = () => {
   return (
     <Layout
     title="Contacto"
-    description="Contáctanos para proyectos web con Flavio Arzamendia, desarrollador web freelance en Buenos Aires."
+    description="¡Contáctanos hoy para discutir tu proyecto! Estamos aquí para ayudarte a llevar tu presencia en línea al siguiente nivel."
     >
       
     <Formulario/>

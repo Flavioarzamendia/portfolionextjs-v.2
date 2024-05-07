@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Layout
         title="Inicio"
-        description="Conoce a Flavio Arzamendia, desarrollador web freelance en Buenos Aires. Descubre servicios de diseño web, apps y SEO."
+        description="Transforma tu presencia en línea con un sitio web profesional y atractivo. Desarrollador web freelance en Buenos Aires especializado en diseño web y SEO. Contáctanos para empezar."
 
       >
         <Inicio />
