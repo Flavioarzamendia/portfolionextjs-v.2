@@ -14,8 +14,8 @@ const Layout = ({children, title='', description='' }) => {
           name="description"
           content={description}
         />
-          <link rel="canonical" href={`https://www.fadesarrolloweb.com.ar/servicios`}></link>
-          <meta property="og:url" content={`https://www.fadesarrolloweb.com.ar/${title}`}/>
+          <link rel="canonical" href={`https://www.fadesarrolloweb.com.ar/${title.toLowerCase().replace(/\s/g, '').normalize("NFD").replace(/[\u0300-\u036f]/g, '')}`}></link>
+          <meta property="og:url" content={`https://www.fadesarrolloweb.com.ar/${title.toLowerCase().replace(/\s/g, '').normalize("NFD").replace(/[\u0300-\u036f]/g, '')}`}/>
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={title}/>
           <meta property="og:description" content={description}/>
