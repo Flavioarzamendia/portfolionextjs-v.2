@@ -4,11 +4,10 @@ import {motion} from "framer-motion";
 import {CheckIcon} from "@heroicons/react/24/outline";
 
 
-import diseñoweb from "../public/img/diseñoweb.jpg";
-import seo from "../public/img/seo.jpg";
-import mantenimiento from "../public/img/mantenimiento.jpg";
-import proyect1 from "../public/img/proyect1.png";
-import proyect2 from "../public/img/proyect2.png";
+
+
+
+
 
 
 const Inicio = () => {
@@ -143,7 +142,7 @@ const Inicio = () => {
                 className="w-full  object-cover"
                 height={338}
                 width={600}
-                src={diseñoweb}
+                src="/img/diseñoweb.jpg"
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
@@ -168,7 +167,7 @@ const Inicio = () => {
                 className="w-full object-cover"
                 height={338}
                 width={600}
-                src={seo}
+                src="/img/seo.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -193,7 +192,7 @@ const Inicio = () => {
                 className="w-full object-cover"
                 height={338}
                 width={600}
-                src={mantenimiento}
+                src="/img/mantenimiento.jpg"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -231,7 +230,7 @@ const Inicio = () => {
                 className="w-full  object-cover"
                 height={480}
                 width={854}
-                src={proyect1}
+                src="/img/proyect1.png"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",
@@ -263,7 +262,7 @@ const Inicio = () => {
                 className="w-full  object-cover"
                 height={480}
                 width={854}
-                src={proyect2}
+                src="/img/proyect2.png"
                 style={{
                   aspectRatio: "16 / 9",
                   objectFit: "cover",
