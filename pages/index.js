@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Layout
         title="Inicio"
-        description="Transforma tu presencia en línea con un sitio web profesional y atractivo. Desarrollador web freelance en Buenos Aires especializado en diseño web y SEO. Contáctanos para empezar."
+        description="Desarrollador web freelance en Buenos Aires. Transforma tu presencia en línea con un sitio web profesional y atractivo. ¡Contáctanos ahora!"
 
       >
         <Inicio />
