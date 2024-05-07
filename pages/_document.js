@@ -8,7 +8,7 @@ export default function Document() {
         
         <link rel="preload" href="https://fonts.googleapis.com" />
         <link
-          
+          rel="preload"
           href="https://fonts.gstatic.com"
           crossOrigin={"true"}
           
