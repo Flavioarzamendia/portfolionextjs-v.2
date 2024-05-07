@@ -1,5 +1,4 @@
 
-Allow: /api/og/*
 User-Agent: *
 Allow: /
 Disallow: 
