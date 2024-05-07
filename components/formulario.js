@@ -26,8 +26,8 @@ return(
                 
                </div>
 
-                <div className="flex flex-col text-center lg:bg-[url('/img/hero.jpg')] w-full h-full justify-center rounded-xl ">
-                    <h2 className="text-center text-white uppercase mb-10 md:mb-0">Mis redes</h2>
+                <div className="flex flex-col text-center lg:bg-[url('/img/contacto.jpg')] bg-no-repeat bg-right-bottom w-full h-full justify-center rounded-xl ">
+                    <h2 className="text-center text-white font-bold uppercase mb-10 md:mb-0">Mis redes</h2>
 
                     <ul className=" md:flex justify-evenly text-white text-4xl mt-10 uppercase space-y-10  md:space-y-0 mx-10">
                     <li className="">

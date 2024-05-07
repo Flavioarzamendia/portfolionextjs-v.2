@@ -32,7 +32,7 @@ const   Ofrece = () => {
               className="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square mt-10 md:mt-0"
               height={480}
               width={854}
-              src="/img/seo.jpg"
+              src="/img/servicios.jpg"
               
               style={{
                 aspectRatio: "16/9",
