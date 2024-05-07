@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="text-[#726F6F] font-sans  mb-10 md:mb-0 md:text-3xl py-5 md:text-start lg:pr-20 text-4xl md:flex gap-8 md:justify-end  md:ml-2 lg:ml-0 ">
           <Link 
-          href='www.linkedin.com/in/flavio-arzamendia-salinas-072085199'
+          href='https://www.linkedin.com/in/flavio-arzamendia/'
           target="_blank"
           alt="Linkedin"
            className="block py-1 text-[#726F6F] hover:text-white mt-14 mb-8 md:mt-0 md:mb-0"
