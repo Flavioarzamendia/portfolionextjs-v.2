@@ -14,7 +14,7 @@ const Layout = ({children, title='', description='' }) => {
           name="description"
           content={description}
         />
-          <link rel="canonical" href={`https://www.fadesarrolloweb.com.ar/servicios`}></link>
+          <link rel="canonical" href="https://www.fadesarrolloweb.com.ar/servicios"></link>
           <meta property="og:url" content="https://www.fadesarrolloweb.com.ar"/>
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={title}/>
@@ -25,7 +25,7 @@ const Layout = ({children, title='', description='' }) => {
          
           <meta name="twitter:card" content="summary_large_image"/>
           <meta property="twitter:domain" content="fadesarrolloweb.com.ar"/>
-          <meta property="twitter:url" content={`https://www.fadesarrolloweb.com.ar/${title}`}/>
+          <meta property="twitter:url" content="https://www.fadesarrolloweb.com.ar"/>
           <meta name="twitter:title" content={title}/>
           <meta name="twitter:description" content={description}/>
 
