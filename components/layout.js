@@ -28,7 +28,7 @@ const Layout = ({children, title='', description='' }) => {
         transition={{delay: 0.2}}
       >
         {children}
-        {/*<GoogleAnalytics gaId="G-QNM1ZEZSX5" />*/}
+        <GoogleAnalytics gaId="G-QNM1ZEZSX5" />
     </motion.div>
 
     </AnimatePresence>
