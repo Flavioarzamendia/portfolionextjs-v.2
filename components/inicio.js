@@ -101,14 +101,16 @@ const Inicio = () => {
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14 leading-10">
-              ¡Hola! Soy Flavio, un Desarrollador Web Freelance en Buenos Aires especializado en el Diseño y Desarrollo de Sitios Web.
-               Con experiencia en la Creación de Páginas Web Personalizadas, me enfoco en desarrollar sitios responsivos y optimizados
-               SEO. Mi especialidad incluye el Desarrollo de Sitios Web en WordPress, así como el Diseño y Programación de Sitios Web
-               para empresas que buscan una presencia digital profesional y efectiva.
+              ¡Hola! Soy Flavio Arzamendia, un apasionado Desarrollador Web Freelance con sede en Buenos Aires,
+               Argentina. Mi experiencia abarca el diseño y desarrollo de sitios web personalizados que se adaptan
+              a las necesidades específicas de mis clientes. Me especializo en tecnologías como HTML, CSS, JavaScript
+              y WordPress, lo que me permite ofrecer soluciones versátiles y efectivas para empresas y emprendedores
+               que buscan destacar en línea.
               </p>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
-                Estoy comprometido en ofrecer soluciones web a medida que reflejen la calidad y el profesionalismo que tu empresa merece.
-               Conoce más sobre mí y cómo puedo ayudarte con tu proyecto digital.
+              Mi compromiso va más allá de crear sitios web visualmente atractivos. Me enfoco en desarrollar sitios responsivos,
+               optimizados para SEO y centrados en la experiencia del usuario. Esto incluye la creación de páginas web personalizadas,
+                integración de funcionalidades avanzadas como formularios de contacto, registro, suscripción, e-commerce, entre otros.
               </p>
               <Link
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
@@ -128,7 +130,7 @@ const Inicio = () => {
 
       <section className="bg-white  py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">Servicios</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">SOLUCIONES WEB A MEDIDA</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
           Nuestros servicios están diseñados para ayudarte a destacar en línea con soluciones personalizadas y efectivas.
            
@@ -216,10 +218,10 @@ const Inicio = () => {
 
       <section className="bg-gray-900 text-white py-20 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">Proyectos</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">PROYECTOS DESTACADOS</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
-            Explora algunos de nuestros proyectos destacados que muestran nuestra experiencia en el diseño 
-            y desarrollo de sitios web profesionales y efectivos.
+          Explora algunos de nuestros proyectos destacados que demuestran nuestra experiencia en el diseño y desarrollo
+           de sitios web profesionales y efectivos.
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
@@ -326,7 +328,7 @@ const Inicio = () => {
 
       <section className="bg-white  py-20 md:pt-20 m">
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">Precios</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">PLANES Y TARIFAS</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
           Explora nuestros planes y tarifas, y contáctanos para un presupuesto personalizado
             </h3>
