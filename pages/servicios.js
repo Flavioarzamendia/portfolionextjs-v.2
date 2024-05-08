@@ -5,7 +5,7 @@ const Servicios = () => {
   return (
     <Layout
     title="Servicios"
-    description="Soluciones de desarrollo web en Buenos Aires con diseño web, SEO y mantenimiento. Destaca con nuestros servicios personalizados."
+    description="Soluciones de desarrollo web en Buenos Aires con diseño web, SEO y mantenimiento. Destaca con nuestros servicios personalizados y profesionales."
     >
       
     <Ofrece/>

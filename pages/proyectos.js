@@ -8,7 +8,7 @@ export default function Proyectos(){
   return (
     <Layout
     title="Proyectos"
-    description="Descubre nuestros proyectos con imágenes atractivas. Transformamos ideas en diseños web impactantes. ¡Contáctanos para empezar!"
+    description="Descubre nuestros proyectos con imágenes atractivas. Transformamos ideas en diseños web impactantes que destacan. ¡Contáctanos para empezar tu proyecto hoy mismo!"
     >
       <Misproyectos/>
 
