@@ -82,7 +82,7 @@ const Misproyectos = () => {
           <Link className="absolute inset-0 z-10" href="https://extraordinary-manatee-207063.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
-          <img
+          <Image
             alt="Project 4"
             className="object-cover w-full"
             height={480}

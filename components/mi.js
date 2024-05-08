@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Mi = () => {
   return (
@@ -30,7 +31,7 @@ const Mi = () => {
              
             </div>
             <div className="flex justify-center items-center">
-              <img
+              <Image
                 alt="flavio arzamendia"
                 className="rounded-full bg-slate-400"
                 height={300}
