@@ -26,6 +26,7 @@ const navLinks = [
     title: "Contacto",
     path: "/contacto",
   },
+  
 ];
 
 const Header = () => {
