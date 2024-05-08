@@ -367,10 +367,10 @@ const Inicio = () => {
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
                    font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
-                  href="/contacto"
-                  alt="solicitar informacion"
+                  href="https://fadesarroloweb.mitiendanube.com/productos/plan-basico/"
+                  alt="Contratar plan basico"
                 >
-                  Contactar ahora
+                  Contratar ahora
                 </Link>
               </div>
             </div>
