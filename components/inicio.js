@@ -369,6 +369,7 @@ const Inicio = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="https://fadesarroloweb.mitiendanube.com/productos/plan-basico/"
                   alt="Contratar plan basico"
+                  target="_blank"
                 >
                   Contratar ahora
                 </Link>
