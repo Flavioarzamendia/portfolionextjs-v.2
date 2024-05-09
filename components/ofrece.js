@@ -148,7 +148,7 @@ const   Ofrece = () => {
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
-                <p className="text-6xl font-bold mb-4">$125</p>
+                <p className="text-6xl font-bold mb-4">$499</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
@@ -189,7 +189,7 @@ const   Ofrece = () => {
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
-                <p className="text-6xl font-bold mb-4">$399</p>
+                <p className="text-6xl font-bold mb-4">$1199</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
@@ -230,7 +230,7 @@ const   Ofrece = () => {
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
-                <p className="text-6xl font-bold mb-4">$250</p>
+                <p className="text-6xl font-bold mb-4">699</p>
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
