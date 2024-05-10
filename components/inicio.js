@@ -332,7 +332,7 @@ const Inicio = () => {
           Explora nuestros planes y tarifas, y contáctanos para un presupuesto personalizado
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-2
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
@@ -341,7 +341,7 @@ const Inicio = () => {
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white ">
+                <ul className="space-y-8 mb-10 ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño básico y funcional.</span>
@@ -376,7 +376,7 @@ const Inicio = () => {
               </div>
             </div>
 
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
@@ -384,7 +384,7 @@ const Inicio = () => {
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white">
+                <ul className="space-y-8 mb-10">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño premium y altamente personalizado.</span>
@@ -418,7 +418,7 @@ const Inicio = () => {
               </div>
             </div>
 
-            <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden order-3 
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
@@ -426,7 +426,7 @@ const Inicio = () => {
                 <p className="mb-6">Desde USD</p>
               </div>
               <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 text-white">
+                <ul className="space-y-8 mb-10 ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño profesional y adaptable.</span>
