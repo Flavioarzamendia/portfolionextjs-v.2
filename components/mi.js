@@ -35,7 +35,7 @@ const Mi = () => {
                 alt="flavio arzamendia"
                 className="rounded-full bg-slate-400"
                 height={300}
-                src="../img/foto1.jpg"
+                src="/img/foto1.jpg"
                 style={{
                   aspectRatio: "1/1",
                   objectFit: "cover",
