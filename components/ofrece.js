@@ -147,30 +147,30 @@ const   Ofrece = () => {
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
-              <h3 className="text-4xl font-bold mb-4">Funcionalidad Básica</h3>
-                <p className="text-6xl font-bold mb-4">Plan Esencial</p>
+              <h3 className="text-4xl font-bold mb-4">Sitio Web de Entrada</h3>
+                <p className="text-6xl font-bold mb-4">Plan Básico</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10  ">
-                  <li className="flex items-center">
+                <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño básico y funcional.</span>
+                    <span>Diseño de sitio web simple y limpio.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Hasta 5 páginas.</span>
+                    <span>Hasta 5 páginas de contenido estático.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Formulario de contacto básico(nombre, correo,mensaje)</span>
+                    <span>Integración de formularios de contacto.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Integración básica con redes sociales.</span>
+                    <span>Optimización para dispositivos móviles.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Soporte técnico limitado.</span>
+                    <span>Soporte técnico inicial.</span>
                   </li>
                 </ul>
                 <Link
@@ -187,30 +187,30 @@ const   Ofrece = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
-              <h3 className="text-4xl font-bold mb-4">Personalización Exclusiva</h3>
-                <p className="text-6xl font-bold mb-4">Plan Premium</p>
+              <h3 className="text-4xl font-bold mb-4">E-commerce Completo</h3>
+                <p className="text-6xl font-bold mb-4">Plan Tienda Online</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
-                  <li className="flex items-center">
+                <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño premium y altamente personalizado.</span>
+                    <span>Navegación intuitiva</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Funcionalidades avanzadas (e-commerce, membresías).</span>
+                    <span>Personalización de la experiencia de usuario</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>SEO avanzado</span>
+                    <span>Envíos y seguimiento  detallado</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimizacion de Velocidad.</span>
+                    <span>Optimización SEO integrada</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Soporte técnico prioritario</span>
+                    <span>Integración redes sociales</span>
                   </li>
                 </ul>
                 <Link
@@ -227,30 +227,30 @@ const   Ofrece = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
-              <h3 className="text-4xl font-bold mb-4">Profesional y Adaptable</h3>
-                <p className="text-6xl font-bold mb-4">Plan Empresarial</p>
+              <h3 className="text-4xl font-bold mb-4">Sitio Web con Personalidad</h3>
+                <p className="text-6xl font-bold mb-4">Plan Profesional</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10">
-                  <li className="flex items-center">
+                <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño profesional y adaptable.</span>
+                    <span>Diseño personalizado y atractivo.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Entre 5 y 10 páginas.</span>
+                    <span>Hasta 10 páginas</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Formularios avanzados(registro,suscripción, etc.)</span>
+                    <span>Integración de redes sociales y blog.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimización de SEO basico</span>
+                    <span>Optimización avanzada para SEO.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Soporte técnico por correo y chat </span>
+                    <span>Galería de imágenes o portafolio.</span>
                   </li>
                 </ul>
                 <Link

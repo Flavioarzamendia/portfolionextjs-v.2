@@ -151,11 +151,12 @@ const Inicio = () => {
                
               />
               <div className="p-6 px-14">
-                <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
+                <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Ofrezco la creación de sitios web simples y efectivos mediante diversas herramientas de desarrollo web.
-                 Personalizo diseños básicos para adaptarlos a las necesidades iniciales del cliente, proporcionando soluciones
-                 prácticas y económicas.
+                Ofrezco servicios de diseño y desarrollo web de primera categoría, creando sitios web simples y
+                 efectivos mediante herramientas de desarrollo web avanzadas. Mi enfoque meticuloso garantiza la
+                  personalización de diseños básicos para adaptarlos a las necesidades iniciales del cliente,
+                   proporcionando soluciones prácticas, económicas y altamente profesionales.
                 </p>
                 
               </div>
@@ -178,9 +179,10 @@ const Inicio = () => {
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Mejora del posicionamiento en motores de búsqueda mediante la investigación de palabras clave,
-                 la optimización de contenido y la configuración de enlaces internos, garantizando una mayor visibilidad
-                  y tráfico orgánico para el sitio web del cliente.
+                Me especializo en la optimización SEO para mejorar el posicionamiento en motores de búsqueda.
+                 A través de una investigación exhaustiva de palabras clave, optimización de contenido y configuración
+                  de enlaces internos, garantizo una mayor visibilidad y tráfico orgánico para el sitio web del cliente,
+                   asegurando resultados destacados y un crecimiento continuo en línea.
                 </p>
                 
               </div>
@@ -203,9 +205,10 @@ const Inicio = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Realizo tareas esenciales de mantenimiento, como copias de seguridad, actualizaciones de 
-                software y soporte técnico continuo. Garantizo el correcto funcionamiento, seguridad y actualización
-                 del sitio web del cliente.
+                Ofrezco servicios completos de mantenimiento y actualización para garantizar el óptimo funcionamiento
+                 y seguridad del sitio web del cliente. Realizo tareas esenciales como copias de seguridad, actualizaciones
+                  de software y proporciono soporte técnico continuo para asegurar que el sitio permanezca actualizado y
+                   protegido en todo momento, brindando tranquilidad y confianza al cliente.
                 </p>
                
               </div>
@@ -336,31 +339,31 @@ const Inicio = () => {
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Funcionalidad Básica</h3>
-                <p className="text-6xl font-bold mb-4">Plan Esencial</p>
+                <h3 className="text-4xl font-bold mb-4">Sitio Web de Entrada</h3>
+                <p className="text-6xl font-bold mb-4">Plan Básico</p>
                 
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño básico y funcional.</span>
+                    <span>Diseño de sitio web simple y limpio.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Hasta 5 páginas.</span>
+                    <span>Hasta 5 páginas de contenido estático.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Formulario de contacto básico(nombre, correo,mensaje)</span>
+                    <span>Integración de formularios de contacto.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Integración básica con redes sociales.</span>
+                    <span>Optimización para dispositivos móviles.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Soporte técnico limitado.</span>
+                    <span>Soporte técnico inicial.</span>
                   </li>
                 </ul>
                 <Link
@@ -379,31 +382,31 @@ const Inicio = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
-                <h3 className="text-4xl font-bold mb-4">Personalización Exclusiva</h3>
-                <p className="text-6xl font-bold mb-4">Plan Premium</p>
+                <h3 className="text-4xl font-bold mb-4">E-commerce Completo</h3>
+                <p className="text-6xl font-bold mb-4">Plan Tienda Online</p>
                 
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño premium y altamente personalizado.</span>
+                    <span>Navegación intuitiva</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Funcionalidades avanzadas (e-commerce, membresías).</span>
+                    <span>Personalización de la experiencia de usuario</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>SEO avanzado</span>
+                    <span>Envíos y seguimiento detallado</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimizacion de Velocidad.</span>
+                    <span>Optimización SEO integrada</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Soporte técnico prioritario</span>
+                    <span>Integración redes sociales</span>
                   </li>
                 </ul>
                 <Link
@@ -421,32 +424,33 @@ const Inicio = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Profesional y Adaptable</h3>
-                <p className="text-6xl font-bold mb-4">Plan Empresarial</p>
+                <h3 className="text-4xl font-bold mb-4">Sitio Web con Personalidad</h3>
+                <p className="text-6xl font-bold mb-4">Plan Profesional</p>
                 
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño profesional y adaptable.</span>
+                    <span>Diseño personalizado y atractivo.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Entre 5 y 10 páginas.</span>
+                    <span>Hasta 10 páginas</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Formularios avanzados(registro,suscripción, etc.)</span>
+                    <span>Integración de redes sociales y blog.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimización de SEO basico</span>
+                    <span>Optimización avanzada para SEO.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Soporte técnico por correo y chat </span>
+                    <span>Galería de imágenes o portafolio.</span>
                   </li>
+                  
                 </ul>
                 <Link
                   className="block text-center font-bold items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
