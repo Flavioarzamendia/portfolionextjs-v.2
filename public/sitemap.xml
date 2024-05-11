@@ -6,29 +6,30 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
+
 <url>
   <loc>https://www.fadesarrolloweb.com.ar/</loc>
-  <lastmod>2024-05-10T21:21:41+00:00</lastmod>
+  <lastmod>2024-05-11T01:32:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.fadesarrolloweb.com.ar/sobremi</loc>
-  <lastmod>2024-05-10T21:21:41+00:00</lastmod>
+  <lastmod>2024-05-11T01:32:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.fadesarrolloweb.com.ar/servicios</loc>
-  <lastmod>2024-05-10T21:21:41+00:00</lastmod>
+  <lastmod>2024-05-11T01:32:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.fadesarrolloweb.com.ar/proyectos</loc>
-  <lastmod>2024-05-10T21:21:41+00:00</lastmod>
+  <lastmod>2024-05-11T01:32:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.fadesarrolloweb.com.ar/contacto</loc>
-  <lastmod>2024-05-10T21:21:41+00:00</lastmod>
+  <lastmod>2024-05-11T01:32:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
