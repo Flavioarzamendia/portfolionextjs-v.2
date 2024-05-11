@@ -147,9 +147,8 @@ const   Ofrece = () => {
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
-                <p className="text-6xl font-bold mb-4">$499</p>
-                <p className="mb-6">Desde USD</p>
+              <h3 className="text-4xl font-bold mb-4">Funcionalidad Básica</h3>
+                <p className="text-6xl font-bold mb-4">Plan Esencial</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10  ">
@@ -180,7 +179,7 @@ const   Ofrece = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>
@@ -188,9 +187,8 @@ const   Ofrece = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
-                <p className="text-6xl font-bold mb-4">$1199</p>
-                <p className="mb-6">Desde USD</p>
+              <h3 className="text-4xl font-bold mb-4">Personalización Exclusiva</h3>
+                <p className="text-6xl font-bold mb-4">Plan Premium</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
@@ -221,7 +219,7 @@ const   Ofrece = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>
@@ -229,9 +227,8 @@ const   Ofrece = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
-                <p className="text-6xl font-bold mb-4">$699</p>
-                <p className="mb-6">Desde USD</p>
+              <h3 className="text-4xl font-bold mb-4">Profesional y Adaptable</h3>
+                <p className="text-6xl font-bold mb-4">Plan Empresarial</p>
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10">
@@ -262,7 +259,7 @@ const   Ofrece = () => {
                     focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>

@@ -246,7 +246,7 @@ const Inicio = () => {
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
                    text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
                   href="https://preeminent-peony-3cdb45.netlify.app/"
                   target="_blank"
                   att="ver más"
@@ -327,18 +327,18 @@ const Inicio = () => {
 
       <section className="bg-white  py-20 md:pt-20 m">
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">PLANES Y TARIFAS</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">PLANES DE DISEÑO WEB</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
-          Explora nuestros planes y tarifas, y contáctanos para un presupuesto personalizado
+              Explora nuestros planes y contáctanos para recibir un presupuesto personalizado.
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Básico</h3>
-                <p className="text-6xl font-bold mb-4">$399</p>
-                <p className="mb-6">Desde USD</p>
+                <h3 className="text-4xl font-bold mb-4">Funcionalidad Básica</h3>
+                <p className="text-6xl font-bold mb-4">Plan Esencial</p>
+                
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
@@ -371,7 +371,7 @@ const Inicio = () => {
                   alt="Contratar plan basico"
                   
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>
@@ -379,9 +379,9 @@ const Inicio = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:col-span-2 lg:col-span-1 lg:order-2
               transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-[#32CD32] text-gray-900 text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Pro</h3>
-                <p className="text-6xl font-bold mb-4">$1199</p>
-                <p className="mb-6">Desde USD</p>
+                <h3 className="text-4xl font-bold mb-4">Personalización Exclusiva</h3>
+                <p className="text-6xl font-bold mb-4">Plan Premium</p>
+                
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10">
@@ -413,7 +413,7 @@ const Inicio = () => {
                   href="/contacto"
                   alt="Solicitar Información"
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>
@@ -421,9 +421,9 @@ const Inicio = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
-                <h3 className="text-4xl font-bold mb-4">Plan Estándar</h3>
-                <p className="text-6xl font-bold mb-4">$699</p>
-                <p className="mb-6">Desde USD</p>
+                <h3 className="text-4xl font-bold mb-4">Profesional y Adaptable</h3>
+                <p className="text-6xl font-bold mb-4">Plan Empresarial</p>
+                
               </div>
               <div className="p-6 px-10">
                 <ul className="space-y-8 mb-10 ">
@@ -455,7 +455,7 @@ const Inicio = () => {
                   href="/contacto"
                   alt="Solicitar Información"
                 >
-                  Contactar ahora
+                  Solicitar Presupuesto
                 </Link>
               </div>
             </div>
