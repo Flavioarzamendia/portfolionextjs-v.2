@@ -26,33 +26,27 @@ const Inicio = () => {
               exit={{ opacity: 0, x:-15}}
               transition={{delay: 0.2}}
              className="flex-1 mb-0 md:mb-0 px-auto">
-              <h1 className="text-6xl text-blue-600 text-center  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight 
+              <h1 className="text-6xl text-blue-600 text-center uppercase  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight 
               mb-14 font-sans mt-0"
-              >TU SITIO WEB PROFESIONAL</h1>
+              >Flavio Arzamendia <span className="block text-5xl normal-case text-black mt-4 font-semibold">
+                Desarrollador Web Freelance en Buenos Aires.</span>
+              </h1>
               <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold text-center px-10" >
-              Transforma tu presencia en línea con un sitio web profesional y atractivo. Como desarrollador web freelance en Buenos Aires,
-               Argentina, especializado en diseño web y funcionalidades avanzadas, estamos listos para llevar tu marca al siguiente nivel.
-               Contáctanos para empezar!.
+              Transforma tu presencia en línea con un sitio web profesional y atractivo. Soy Flavio Arzamendia, desarrollador web freelance
+               en Buenos Aires, especializado en diseño y desarrollo web. Contáctame para empezar hoy mismo.
               </p>
             
               <div className="flex md  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-800 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   alt="contacto"
                   
                 >
-                  Contacto
+                  Solicitar presupuesto
                 </Link>
-                <Link
-                  className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-slate-800 border border-white text-white font-bold rounded-lg hover:bg-gray-700 hover:text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
-                  href="/proyectos"
-                  alt="proyectos"
-                >
-                  ver Proyectos
-                </Link>
+                
               </div>
             </motion.div>
             <div
@@ -100,11 +94,13 @@ const Inicio = () => {
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14 leading-10">
-              ¡Hola! Soy Flavio Arzamendia, un apasionado Desarrollador Web Freelance con sede en Buenos Aires,
-               Argentina. Mi experiencia abarca el diseño y desarrollo de sitios web personalizados que se adaptan
-              a las necesidades específicas de mis clientes. Me especializo en tecnologías como HTML, CSS, JavaScript
-              y WordPress, lo que me permite ofrecer soluciones versátiles y efectivas para empresas y emprendedores
-               que buscan destacar en línea.
+              ¡Hola! Soy Flavio Arzamendia, un apasionado Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi 
+              experiencia abarca el diseño y desarrollo de sitios web personalizados que se adaptan a las necesidades específicas
+               de mis clientes.
+              </p>
+              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
+              Me especializo en tecnologías como HTML, CSS, JavaScript y WordPress, lo que me permite
+               ofrecer soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
               </p>
               <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
               Mi compromiso va más allá de crear sitios web visualmente atractivos. Me enfoco en desarrollar sitios responsivos,
@@ -117,7 +113,7 @@ const Inicio = () => {
                 href="/sobremi"
                 alt="sobremi"
               >
-                Mas Sobre Mí
+                Más Sobre Mí
               </Link>
             </div>
           </div>
