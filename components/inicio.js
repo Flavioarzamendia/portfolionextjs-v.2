@@ -324,9 +324,9 @@ const Inicio = () => {
 
       <section className="bg-white  py-20 md:pt-20 m">
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">PLANES DE DISEÑO WEB</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">Descubre Nuestros Planes de Diseño Web</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
-              Explora nuestros planes y contáctanos para recibir un presupuesto personalizado.
+            Explora nuestras opciones y contáctanos para obtener un presupuesto a tu medida.
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
