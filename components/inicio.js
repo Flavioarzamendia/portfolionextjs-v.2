@@ -59,7 +59,7 @@ const Inicio = () => {
                 className="w-full rounded-xl lg:rounded-2xl lg:ml-0 mx-auto"
                 height={480}
                 width={854}
-                quality={75}
+                quality={50}
                 
                 style={{
                   aspectRatio: "16 / 9",
