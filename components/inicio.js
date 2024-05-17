@@ -125,9 +125,9 @@ const Inicio = () => {
 
       <section className="bg-white  py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">SOLUCIONES WEB A MEDIDA</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">Impulsando tu Presencia Online</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
-          Nuestros servicios están diseñados para ayudarte a destacar en línea con soluciones personalizadas y efectivas.
+          Creamos soluciones web a medida para que tu marca se destaque y obtenga resultados excepcionales en Internet.
            
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
@@ -149,10 +149,9 @@ const Inicio = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Ofrezco servicios de diseño y desarrollo web de primera categoría, creando sitios web simples y
-                 efectivos mediante herramientas de desarrollo web avanzadas. Mi enfoque meticuloso garantiza la
-                  personalización de diseños básicos para adaptarlos a las necesidades iniciales del cliente,
-                   proporcionando soluciones prácticas, económicas y altamente profesionales.
+                Ofrezco servicios profesionales de diseño y desarrollo web. Con herramientas avanzadas, creo sitios
+                 web efectivos y personalizados para satisfacer las necesidades de cada cliente. Mi enfoque se centra
+                  en la calidad del desarrollo web, proporcionando soluciones que se destacan en el mercado.
                 </p>
                 
               </div>
@@ -175,10 +174,11 @@ const Inicio = () => {
               <div className="p-6 px-14 ">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Me especializo en la optimización SEO para mejorar el posicionamiento en motores de búsqueda.
-                 A través de una investigación exhaustiva de palabras clave, optimización de contenido y configuración
-                  de enlaces internos, garantizo una mayor visibilidad y tráfico orgánico para el sitio web del cliente,
-                   asegurando resultados destacados y un crecimiento continuo en línea.
+                Enfocado en optimizar tu presencia en buscadores, me especializo en SEO para impulsar
+                 tu posicionamiento en línea. Con investigación de palabras clave detallada, optimización
+                  de contenido y configuración de enlaces internos estratégicos, aseguro una mayor visibilidad
+                   y tráfico orgánico para tu sitio web, garantizando resultados sobresalientes y un crecimiento
+                    constante en línea.
                 </p>
                 
               </div>
@@ -201,10 +201,9 @@ const Inicio = () => {
               <div className="p-6 px-14">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Ofrezco servicios completos de mantenimiento y actualización para garantizar el óptimo funcionamiento
-                 y seguridad del sitio web del cliente. Realizo tareas esenciales como copias de seguridad, actualizaciones
-                  de software y proporciono soporte técnico continuo para asegurar que el sitio permanezca actualizado y
-                   protegido en todo momento, brindando tranquilidad y confianza al cliente.
+                Ofrezco servicios de mantenimiento y actualización para garantizar el funcionamiento óptimo
+                 de tu sitio web. Proporciono soporte técnico y actualizaciones periódicas para mantener tu sitio
+                  seguro y actualizado. Mi enfoque en el desarrollo web se traduce en tranquilidad y confianza para mis clientes.
                 </p>
                
               </div>
@@ -216,10 +215,9 @@ const Inicio = () => {
 
       <section className="bg-gray-900 text-white py-20 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">PROYECTOS DESTACADOS</h2>
+          <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">Proyectos Destacados de Diseño Web Profesional</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
-          Explora algunos de nuestros proyectos destacados que demuestran nuestra experiencia en el diseño y desarrollo
-           de sitios web profesionales y efectivos.
+          Explora nuestra experiencia en el diseño y desarrollo de sitios web efectivos y profesionales.
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
