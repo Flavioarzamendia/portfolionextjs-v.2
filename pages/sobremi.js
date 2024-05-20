@@ -5,7 +5,7 @@ const Sobremi = () => {
   return (
     <Layout
     title="Sobre Mí"
-    description="Flavio Arzamendia, Desarrollador Web Freelance en Buenos Aires. Experto en HTML, CSS, JavaScript, WordPress y más. Creando soluciones web efectivas y atractivas"
+    description="Flavio Arzamendia, desarrollador web freelance en Buenos Aires. Experto en diseño y desarrollo web, optimización SEO y mantenimiento. Conoce más sobre mi enfoque profesional"
     >
     <Mi/>
   </Layout>

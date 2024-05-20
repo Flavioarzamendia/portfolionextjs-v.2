@@ -5,7 +5,7 @@ const Servicios = () => {
   return (
     <Layout
     title="Servicios"
-    description="Soluciones de desarrollo web en Buenos Aires con diseño web, SEO y mantenimiento. Destaca con nuestros servicios personalizados y profesionales."
+    description="Servicios de desarrollo web a medida en Buenos Aires. Diseño responsivo, optimización SEO, y mantenimiento web. Flavio Arzamendia ofrece soluciones completas para tu negocio digital"
     >
       
     <Ofrece/>
