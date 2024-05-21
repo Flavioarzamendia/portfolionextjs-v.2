@@ -154,6 +154,8 @@ const Inicio = () => {
                   en la calidad del desarrollo web, proporcionando soluciones que se destacan en el mercado.
                 </p>
                 
+
+                
               </div>
             </div>
             <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
@@ -180,6 +182,8 @@ const Inicio = () => {
                    y tráfico orgánico para tu sitio web, garantizando resultados sobresalientes y un crecimiento
                     constante en línea.
                 </p>
+
+               
                 
               </div>
             </div>
@@ -205,7 +209,7 @@ const Inicio = () => {
                  de tu sitio web. Proporciono soporte técnico y actualizaciones periódicas para mantener tu sitio
                   seguro y actualizado. Mi enfoque en el desarrollo web se traduce en tranquilidad y confianza para mis clientes.
                 </p>
-               
+                
               </div>
             </div>
           </div>
