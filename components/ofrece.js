@@ -12,9 +12,9 @@ const   Ofrece = () => {
               <div className="space-y-5 mb-10 ">
                 <div className="mb-14">
                 <h1 className="text-6xl text-white font-bold sm:text-5xl lg:text-7xl mb-6">
-                Soluciones Personalizadas
+                Soluciones Personalizadas a Medida
                 </h1>
-                <h2 className="text-2xl md:text-4xl font-bold text-white uppercase ">Desarrollo Web para Tu Negocio en Buenos Aires</h2>
+                <h2 className="text-2xl md:text-4xl font-bold text-white uppercase ">Desarrollo Web para Tu Negocio.</h2>
                 </div>
                 
                 
