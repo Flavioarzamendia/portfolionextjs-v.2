@@ -40,6 +40,7 @@ const Header = () => {
           href={"/"}
           className="text-5xl  md:text-7xl text-white font-extrabold "
           alt=" fa Desarrollo web"
+          title="Logo fa desarrollo web"
         >
           FA
         </Link>

@@ -42,6 +42,7 @@ const Inicio = () => {
                   font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-800 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   alt="contacto"
+                  title="Solicitar presupuesto"
                   
                 >
                   Solicitar presupuesto
@@ -112,6 +113,7 @@ const Inicio = () => {
                 transition ease-in-out delay-150 bg-blue-600 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300"
                 href="/sobremi"
                 alt="sobremi"
+                title="Sobre mi"
               >
                 Más Sobre Mí
               </Link>
@@ -246,11 +248,11 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                   text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300"
+                   text-white font-bold rounded-md hover:bg-blue-700 transition ease-in-out  duration-300"
                   href="https://preeminent-peony-3cdb45.netlify.app/"
                   target="_blank"
-                  att="ver más"
+                  alt="ver más"
+                  title="Ver mas proyectos"
                 >
                   Ver proyectos
                 </Link>
@@ -278,11 +280,11 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600 
-                  text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                   focus:ring-[#8B5CF6] transition ease-in-out    duration-300"
+                  text-white font-bold rounded-md hover:bg-blue-700  transition ease-in-out    duration-300"
                   href="https://fluffy-chebakia-04223c.netlify.app/"
                   target="_blank"
                   alt="ver más"
+                  title="ver mas proyectos"
                 >
                   Ver proyectos
                 </Link>
@@ -311,11 +313,11 @@ const Inicio = () => {
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600
-                   text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out duration-300 "
+                   text-white font-bold rounded-md hover:bg-blue-700  transition ease-in-out duration-300 "
                   href="https://whimsical-starship-02dd94.netlify.app/"
                   target="_blank"
                   alt="ver más"
+                  title="ver mas proyectos"
                 >
                   Ver proyectos
                 </Link>
@@ -366,10 +368,10 @@ const Inicio = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
-                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-blue-700 transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="Contratar plan basico"
+                  title="solicitar presupuesto basico"
                   
                 >
                   Solicitar Presupuesto
@@ -409,10 +411,10 @@ const Inicio = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center text-gray-900  px-4 py-2  bg-[#32CD32] 
-                   font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white  transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
                   alt="Solicitar Información"
+                  title="Solicitar presupuesto pro"
                 >
                   Solicitar Presupuesto
                 </Link>
@@ -452,10 +454,10 @@ const Inicio = () => {
                 </ul>
                 <Link
                   className="block text-center font-bold items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
-                    rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
+                    rounded-xl hover:bg-blue-700  transition ease-in-out  duration-300 uppercase"
                   href="/contacto"
                   alt="Solicitar Información"
+                  title="Solicitar presupuesto estandar"
                 >
                   Solicitar Presupuesto
                 </Link>
