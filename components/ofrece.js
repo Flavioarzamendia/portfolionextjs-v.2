@@ -9,14 +9,27 @@ const   Ofrece = () => {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4 px-10 ">
-              <div className="space-y-14 mb-10 ">
-                <h1 className="text-6xl text-white font-bold sm:text-5xl xl:text-6xl/none">
-                Soluciones Personalizadas de Desarrollo Web para Tu Negocio
+              <div className="space-y-5 mb-10 ">
+                <div className="mb-14">
+                <h1 className="text-6xl text-white font-bold sm:text-5xl lg:text-7xl mb-6">
+                Soluciones Personalizadas
                 </h1>
+                <h2 className="text-2xl md:text-4xl font-bold text-white uppercase ">Desarrollo Web para Tu Negocio en Buenos Aires</h2>
+                </div>
+                
+                
+                <div className=" space-y-5">
                 <p className="max-w-[600px] text-gray-500 md:text-3xl -gray-400 leading-10">
-                Nuestros servicios de desarrollo web están diseñados para destacar tu web o negocio en línea. Con soluciones personalizadas y estratégicas,
-                 te ayudamos a sobresalir entre la competencia, captar la atención de tu audiencia y alcanzar tus objetivos en el mundo digital.
+                Ofrezco servicios de desarrollo web diseñados para resaltar tu negocio en línea, utilizando tecnologías
+                 modernas para un rendimiento óptimo y seguridad. Como desarrollador web freelance, mi enfoque es comprender
+                  tus objetivos y crear un sitio web adaptado a tus necesidades, incluyendo diseño web responsivo y optimización SEO.
                 </p>
+                <p className="max-w-[600px] text-gray-500 md:text-3xl -gray-400 leading-10">
+                Trabajo contigo para crear una presencia en línea efectiva y funcional, utilizando estrategias personalizadas que te ayuden a 
+                sobresalir en tu mercado y lograr un crecimiento sostenible en línea.
+                </p>
+                </div>
+                
               </div>
               <Link
                 className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-[#ff7f00]
