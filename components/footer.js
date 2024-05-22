@@ -39,7 +39,7 @@ const Footer = () => {
        
       </div>
       <div className=" text-center mt-2 mx-auto">
-        <p className="text-gray-400 px-4 md:text-2xl text-2xl font-sans py-4  ">©Flavio Arzamendia | Todos los derechos reservados {new Date().getFullYear()}</p>
+        <p className="text-gray-200 px-4 md:text-2xl text-2xl font-sans py-4  ">©Flavio Arzamendia | Todos los derechos reservados {new Date().getFullYear()}</p>
        </div>
     </footer>
   );
