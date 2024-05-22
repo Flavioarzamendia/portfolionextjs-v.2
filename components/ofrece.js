@@ -11,7 +11,7 @@ const   Ofrece = () => {
             <div className="flex flex-col justify-center space-y-4 px-10 ">
               <div className="space-y-5 mb-10 ">
                 <div className="mb-14">
-                <h1 className="text-6xl text-white font-bold sm:text-5xl lg:text-7xl mb-6">
+                <h1 className="text-4xl text-white font-bold md:text-5xl lg:text-7xl mb-6">
                 Soluciones Personalizadas a Medida
                 </h1>
                 <h2 className="text-2xl md:text-4xl font-bold text-white uppercase ">Desarrollo Web para Tu Negocio.</h2>
@@ -19,12 +19,12 @@ const   Ofrece = () => {
                 
                 
                 <div className=" space-y-5">
-                <p className="max-w-[600px] text-gray-500 md:text-3xl -gray-400 leading-10">
+                <p className="max-w-[600px] text-gray-500 text-2xl md:text-3xl -gray-400 leading-10">
                 Ofrezco servicios de desarrollo web diseñados para resaltar tu negocio en línea, utilizando tecnologías
                  modernas para un rendimiento óptimo y seguridad. Como desarrollador web freelance, mi enfoque es comprender
                   tus objetivos y crear un sitio web adaptado a tus necesidades, incluyendo diseño web responsivo y optimización SEO.
                 </p>
-                <p className="max-w-[600px] text-gray-500 md:text-3xl -gray-400 leading-10">
+                <p className="max-w-[600px] text-gray-500 text-2xl md:text-3xl -gray-400 leading-10">
                 Trabajo contigo para crear una presencia en línea efectiva y funcional, utilizando estrategias personalizadas que te ayuden a 
                 sobresalir en tu mercado y lograr un crecimiento sostenible en línea.
                 </p>
@@ -32,8 +32,8 @@ const   Ofrece = () => {
                 
               </div>
               <Link
-                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-[#ff7f00]
-                text-white font-bold rounded-md hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
+                className="uppercase inline-flex lg:w-96 my-10 items-center justify-center w-full px-4 py-2 bg-[#3d9d3d]
+                text-white font-bold rounded-md hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-[#8B5CF6] transition ease-in-out duration-300"
                 href="#servicios" alt="Explorar Planes"
               >
@@ -60,7 +60,7 @@ const   Ofrece = () => {
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-20 text-gray-900 uppercase">Servicios</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
                 
@@ -88,7 +88,7 @@ const   Ofrece = () => {
                 
               </div>
             </div>
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 
@@ -118,7 +118,7 @@ const   Ofrece = () => {
                 
               </div>
             </div>
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 

@@ -31,7 +31,7 @@ export default function Document() {
         
       </Head>
       <body >
-        <Main />
+        <Main classname=" bg-[#ECF0F1]" />
         <NextScript />
       </body>
     </Html>

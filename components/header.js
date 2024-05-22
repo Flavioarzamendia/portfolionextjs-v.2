@@ -34,7 +34,7 @@ const Header = () => {
   
 
   return (
-    <nav className="mx-auto  top-0 left-0 right-0 z-20 bg-[#141414]">
+    <nav className="mx-auto  top-0 left-0 right-0 z-20 bg-[#2C3E50]">
       <div className="flex container lg:py-8 flex-wrap items-center justify-between mx-auto px-4 py-4">
         <Link
           href={"/"}
@@ -48,7 +48,7 @@ const Header = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2  text-slate-200 hover:text-white "
+              className="flex items-center px-3 py-2  text-white "
               title="Open menu"
             >
               <Bars3Icon className="h-12 w-12 " title="Open menu" />

@@ -5,7 +5,7 @@ const Mi = () => {
   return (
     
     <main className="w-full m-0 mx-auto">
-      <section className="w-full py-20 md:py-32 bg-gray-900 px-10 lg:px-48">
+      <section className="w-full py-20 md:py-32  px-10 lg:px-48 bg-gray-900">
         <div className="container px-4 md:px-6 mx-auto">
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className=" font-sans ">
@@ -50,7 +50,7 @@ const Mi = () => {
         <div className="px-4 md:px-6">
           <div className="">
             <div className="text-center">
-              <h2 className=" font-bold tracking-tight text-gray-900 text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Habilidades</h2>
+              <h2 className=" font-bold  text-gray-900 text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Habilidades</h2>
               
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-white font-sans lg:px-40 ">
@@ -90,16 +90,16 @@ const Mi = () => {
           </div>
         </div>
       </section>
-      <section className="w-full py-20 md:py-32 bg-gray-900">
+      <section className="w-full py-20 md:py-32 bg-[#2C3E50]">
         <div className=" px-4 md:px-6">
           <div className="space-y-8">
             <div className="text-center">
-              <h2 className="font-bold tracking-tight text-white text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Experiencia</h2>
+              <h2 className="font-bold text-white text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Experiencia</h2>
               
             </div>
             <div className="grid gap-8">
               <div className="grid md:grid-cols-1 gap-6 container max-w-[800px] mx-auto">
-                <div className="bg-slate-700 rounded-lg p-14 shadow-md ">
+                <div className="bg-[#2B7CB3] rounded-lg p-14 shadow-md ">
                   <h3 className="text-2xl font-semibold font-sans text-white ">Front-end Developer</h3>
                   <p className="text-white font-sans">Desarrollador Web Freelance | 2023 - {new Date().getFullYear()}</p>
                   <p className="text-white text-3xl leading-10 font-sans mt-10">
@@ -118,11 +118,11 @@ const Mi = () => {
         <div className=" px-4 md:px-6">
           <div className="space-y-8">
             <div className="text-center">
-              <h2 className="font-bold tracking-tight text-gray-900 text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Educación</h2>
+              <h2 className="font-bold  text-gray-900 text-5xl md:text-4xl lg:text-6xl mb-20 uppercase">Educación</h2>
              
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-sky-900 rounded-lg p-14 shadow-md container max-w-[800px] mx-auto">
+              <div className="bg-[#2B7CB3] rounded-lg p-14 shadow-md container max-w-[800px] mx-auto">
                 <h3 className="text-2xl font-semibold font-sans text-white">Curso en Desarrollo Web Completo con HTML, CSS, JavaScript, Wordpress.</h3>
                 <p className="text-white font-sans ">Udemy | 2022- 2023</p>
                 <p className="text-white text-3xl leading-10 font-sans mt-10">
@@ -132,7 +132,7 @@ const Mi = () => {
                   y responsivos, lo que me permitió consolidar mi comprensión y mejorar mis habilidades en el desarrollo web.
                 </p>
               </div>
-              <div className="bg-sky-900 rounded-lg p-14 shadow-md container max-w-[800px] mx-auto">
+              <div className="bg-[#2B7CB3] rounded-lg p-14 shadow-md container max-w-[800px] mx-auto">
                 <h3 className="text-2xl font-semibold font-sans text-white">Ingenieria Informatica</h3>
                 <p className="text-white font-sans ">Unlam | Actualmente</p>
                 <p className="text-white text-3xl leading-10 font-sans mt-10">

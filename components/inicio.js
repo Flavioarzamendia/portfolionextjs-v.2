@@ -26,9 +26,9 @@ const Inicio = () => {
               exit={{ opacity: 0, x:-15}}
               transition={{delay: 0.2}}
              className="flex-1 mb-0 md:mb-0 px-auto">
-              <h1 className="text-6xl text-blue-600 text-center uppercase  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight 
+              <h1 className="text-6xl text-[#2B7CB3] text-center uppercase  md:text-left md:text-5xl lg:text-7xl font-bold leading-tight 
               mb-14 font-sans mt-0"
-              >Flavio Arzamendia <span className="block text-5xl normal-case text-black mt-4 font-semibold">
+              >Flavio Arzamendia <span className="block text-5xl normal-case text-gray-900 mt-4 font-semibold">
                 Desarrollador Web Freelance en Buenos Aires.</span>
               </h1>
               <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold text-center px-10" >
@@ -39,7 +39,7 @@ const Inicio = () => {
               <div className="flex md  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
                 <Link
                   className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
-                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-800 text-white font-bold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
+                  font-sans md:text-3xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-[#3d9d3d] text-white font-bold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
                   href="/contacto"
                   alt="contacto"
                   title="Solicitar presupuesto"
@@ -74,7 +74,7 @@ const Inicio = () => {
       </header>
 
 
-      <section className="bg-gray-900 text-white py-12 md:py-40 mb-0" >
+      <section className="bg-[#2C3E50] text-white py-12 md:py-40 mb-0" >
         <div className="container mx-auto px-4 md:px-8 ">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="flex-1 mb-8 md:mb-0 lg:mr-8 ">
@@ -94,23 +94,23 @@ const Inicio = () => {
             </div>
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
-              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-14 leading-10">
+              <p className="text-2xl md:text-3xl text-left text-gray-200 mb-14 leading-10">
               ¡Hola! Soy Flavio Arzamendia, un apasionado Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi 
               experiencia abarca el diseño y desarrollo de sitios web personalizados que se adaptan a las necesidades específicas
                de mis clientes.
               </p>
-              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
+              <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
               Me especializo en tecnologías como HTML, CSS, JavaScript y WordPress, lo que me permite
                ofrecer soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
               </p>
-              <p className="text-2xl md:text-3xl md:text-left text-gray-400 mb-20 leading-10">
+              <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
               Mi compromiso va más allá de crear sitios web visualmente atractivos. Me enfoco en desarrollar sitios responsivos,
                optimizados para SEO y centrados en la experiencia del usuario. Esto incluye la creación de páginas web personalizadas,
                 integración de funcionalidades avanzadas como formularios de contacto, registro, suscripción, e-commerce, entre otros.
               </p>
               <Link
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
-                transition ease-in-out delay-150 bg-blue-600 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300"
+                transition ease-in-out delay-150 bg-[#2B7CB3] hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300"
                 href="/sobremi"
                 alt="sobremi"
                 title="Sobre mi"
@@ -133,7 +133,7 @@ const Inicio = () => {
            
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
                 loading='lazy'
                 
@@ -160,7 +160,7 @@ const Inicio = () => {
                 
               </div>
             </div>
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 
@@ -189,7 +189,7 @@ const Inicio = () => {
                 
               </div>
             </div>
-            <div className="bg-gray-900 rounded-md shadow-lg overflow-hidden text-white">
+            <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white">
               <Image
                 loading='lazy'
                 
@@ -219,7 +219,7 @@ const Inicio = () => {
       </section>
 
 
-      <section className="bg-gray-900 text-white py-20 md:py-20 " >
+      <section className="bg-[#2C3E50] text-white py-20 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">Proyectos Destacados de Diseño Web Profesional</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
