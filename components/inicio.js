@@ -31,7 +31,7 @@ const Inicio = () => {
               >Flavio Arzamendia <span className="block text-5xl normal-case text-gray-900 mt-4 font-semibold">
                 Desarrollador Web Freelance en Buenos Aires.</span>
               </h1>
-              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold text-center px-10" >
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold  px-10" >
               Transforma tu presencia en línea con un sitio web profesional y atractivo. Soy Flavio Arzamendia, desarrollador web freelance
                en Buenos Aires, especializado en diseño y desarrollo web. Contáctame para empezar hoy mismo.
               </p>
@@ -148,7 +148,7 @@ const Inicio = () => {
                 }}
                
               />
-              <div className="p-6 px-14">
+              <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Ofrezco servicios profesionales de diseño y desarrollo web. Con herramientas avanzadas, creo sitios
@@ -175,7 +175,7 @@ const Inicio = () => {
                 }}
                 
               />
-              <div className="p-6 px-14 ">
+              <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Enfocado en optimizar tu presencia en buscadores, me especializo en SEO para impulsar
@@ -204,7 +204,7 @@ const Inicio = () => {
                 }}
                 
               />
-              <div className="p-6 px-14">
+              <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Ofrezco servicios de mantenimiento y actualización para garantizar el funcionamiento óptimo
@@ -241,8 +241,8 @@ const Inicio = () => {
                 }}
                 
               />
-              <div className="p-6 px-10">
-                <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase ">Podcast fm</h3>
+              <div className="p-6 px-10 mt-8">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-gray-900 uppercase ">Podcast fm</h3>
                 <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">Presentación atractiva de la plataforma de podcasts, resaltando
                  su variedad de programas, y potencial de negocio facilidad de uso y opciones de suscripción.
                 </p>
@@ -273,8 +273,8 @@ const Inicio = () => {
                 }}
                 
               />
-              <div className="p-6 px-10">
-                <h3 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 uppercase">APP Delivery</h3>
+              <div className="p-6 px-10 mt-8">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-gray-900 uppercase">APP Delivery</h3>
                 <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">Mostrar de manera visual y atractiva la plataforma de entrega
                  de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
                 </p>
@@ -305,8 +305,8 @@ const Inicio = () => {
                 }}
                 
               />
-              <div className="p-6 px-10">
-                <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-10 uppercase">Web Estilo Airbnb</h3>
+              <div className="p-6 px-10 mt-8">
+                <h3 className="text-3xl lg:text-4xl text-gray-900 font-bold mb-6 uppercase">Web Estilo Airbnb</h3>
                 <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">
                 Presentación visual de la plataforma de alquiler de propiedades, destacando sus características únicas,
                  como búsqueda intuitiva.
@@ -343,8 +343,8 @@ const Inicio = () => {
                 <p className="text-6xl font-bold mb-4">Plan Básico</p>
                 
               </div>
-              <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 ">
+              <div className="p-6 px-10 py-20">
+                <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño de sitio web simple y limpio.</span>
@@ -386,8 +386,8 @@ const Inicio = () => {
                 <p className="text-6xl font-bold mb-4">Plan Tienda Online</p>
                 
               </div>
-              <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10">
+              <div className="p-6 px-10 py-20">
+                <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Navegación intuitiva</span>
@@ -422,14 +422,14 @@ const Inicio = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300  ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Sitio Web con Personalidad</h3>
                 <p className="text-6xl font-bold mb-4">Plan Profesional</p>
                 
               </div>
-              <div className="p-6 px-10">
-                <ul className="space-y-8 mb-10 ">
+              <div className="p-6 px-10 py-20">
+                <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Diseño personalizado y atractivo.</span>
