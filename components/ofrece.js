@@ -40,7 +40,7 @@ const   Ofrece = () => {
               </Link>
             </div>
             <Image
-              alt="Hero fa desarrollo web argentina"
+              alt="Servicios fadesarolloweb"
               className="mx-auto aspect-video  overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square mt-20 lg:mt-0"
               height={480}
               width={854}
@@ -63,7 +63,7 @@ const   Ofrece = () => {
               <Image
                 loading='lazy'
                 
-                alt="Web Design"
+                alt="Diseño y desarolloweb fadesarolloweb"
                 className="w-full  object-cover"
                 height={338}
                 width={600}
@@ -91,7 +91,7 @@ const   Ofrece = () => {
               <Image
                 loading='lazy'
                 
-                alt="SEO Optimizacion"
+                alt="SEO Optimizacion fadesarrolloweb"
                 className="w-full object-cover"
                 height={338}
                 width={600}
@@ -121,7 +121,7 @@ const   Ofrece = () => {
               <Image
                 loading='lazy'
                 
-                alt="Actualizacion y mantenimiento"
+                alt="Actualizacion y mantenimiento fadesarrolloweb"
                 className="w-full object-cover"
                 height={338}
                 width={600}
@@ -187,8 +187,7 @@ const   Ofrece = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
-                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-blue-700  transition ease-in-out duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Presupuesto
@@ -227,8 +226,7 @@ const   Ofrece = () => {
                 </ul>
                 <Link
                   className="block text-center mb-8  items-center justify-center  px-4 py-2  bg-[#32CD32] text-gray-900
-                   font-bold rounded-xl hover:bg-[#3d9d3d]  focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out    duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-[#3d9d3d]  transition ease-in-out    duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Presupuesto
@@ -267,8 +265,7 @@ const   Ofrece = () => {
                 </ul>
                 <Link
                   className="block text-center items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
-                   font-bold rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-[#8B5CF6] transition ease-in-out  duration-300 uppercase"
+                   font-bold rounded-xl hover:bg-blue-700  transition ease-in-out  duration-300 uppercase"
                   href="/contacto" alt="Solicitar Información"
                 >
                   Solicitar Presupuesto

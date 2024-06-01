@@ -56,7 +56,7 @@ const Inicio = () => {
               
               loading='eager'
               src="/img/hero.jpg"
-                alt="Hero Image web developer"
+                alt="fadesarrolloweb diseño y desarrollo web"
                 className="w-full rounded-xl lg:rounded-2xl lg:ml-0 mx-auto"
                 height={480}
                 width={854}
@@ -80,7 +80,7 @@ const Inicio = () => {
             <div className="flex-1 mb-8 md:mb-0 lg:mr-8 ">
               <Image
                 loading='lazy'
-                alt="About Me fadesarrolloweb"
+                alt="Sobre mi fadesarrolloweb"
                 className="w-full  mx-auto rounded-xl md:mb-14 lg:mb-0 lg:w-full "
                 height={450}
                 width={800}
@@ -137,7 +137,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="Web Design"
+                alt="Diseño y desarollo web freelance en Buenos Aires Argentina"
                 className="w-full  object-cover"
                 height={338}
                 width={600}
@@ -164,7 +164,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="SEO Optimizacion"
+                alt="SEO Optimizacion web frellance en Buenos Aires Argentina"
                 className="w-full object-cover"
                 height={338}
                 width={600}
@@ -193,7 +193,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="Actualizacion y mantenimiento"
+                alt="Actualizacion y mantenimiento web en Buenos Aires Argentina"
                 className="w-full object-cover"
                 height={338}
                 width={600}
@@ -230,7 +230,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="Podcas fm proyecto"
+                alt="Podcas fm proyecto de fadesarrolloweb"
                 className="w-full  object-cover"
                 height={480}
                 width={854}
@@ -262,7 +262,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="App delivey proyecto"
+                alt="App delivey proyecto de fadesarrolloweb"
                 className="w-full  object-cover"
                 height={480}
                 width={854}
@@ -294,7 +294,7 @@ const Inicio = () => {
               <Image
                 loading='lazy'
                 
-                alt="Airbnb web estilo proyecto"
+                alt="Airbnb web estilo proyecto de fadesarrolloweb"
                 className="w-full object-cover"
                 height={480}
                 width={854}
@@ -370,7 +370,7 @@ const Inicio = () => {
                   className="block text-center mb-8  items-center justify-center px-4 py-2  bg-blue-600 text-white
                    font-bold rounded-xl hover:bg-blue-700 transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
-                  alt="Contratar plan basico"
+                  alt="Contratar plan basico de fadesarrolloweb"
                   title="solicitar presupuesto basico"
                   
                 >
@@ -413,7 +413,7 @@ const Inicio = () => {
                   className="block text-center mb-8  items-center justify-center text-gray-900  px-4 py-2  bg-[#32CD32] 
                    font-bold rounded-xl hover:bg-[#3d9d3d] hover:text-white  transition ease-in-out    duration-300 uppercase"
                   href="/contacto"
-                  alt="Solicitar Información"
+                  alt="Solicitar Información a fadesarrolloweb"
                   title="Solicitar presupuesto pro"
                 >
                   Solicitar Presupuesto
@@ -456,7 +456,7 @@ const Inicio = () => {
                   className="block text-center font-bold items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
                     rounded-xl hover:bg-blue-700  transition ease-in-out  duration-300 uppercase"
                   href="/contacto"
-                  alt="Solicitar Información"
+                  alt="Solicitar Información sobre servicio fadesarrolloweb"
                   title="Solicitar presupuesto estandar"
                 >
                   Solicitar Presupuesto

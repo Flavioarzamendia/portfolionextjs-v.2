@@ -17,7 +17,7 @@ const Misproyectos = () => {
             <span className="sr-only ">Ver Proyecto</span>
           </Link>
           <Image
-            alt="Proyectos de desarrollo web "
+            alt="Proyectos de desarrollo web freelance"
             className="object-cover w-full "
             height={480}
             width={854}
@@ -38,7 +38,7 @@ const Misproyectos = () => {
             <span className="sr-only">View Project</span>
           </Link>
           <Image
-            alt="Project 2"
+            alt="Project 2 fadesarrolloweb"
             className="object-cover w-full "
             height={480}
             width={854}
@@ -62,7 +62,7 @@ const Misproyectos = () => {
             <span className="sr-only">View Project</span>
           </Link>
           <Image
-            alt="Project 3"
+            alt="Project 3 de fadesarrolloweb"
             className="object-cover w-full "
             height={480}
             width={854}
@@ -83,7 +83,7 @@ const Misproyectos = () => {
             <span className="sr-only">View Project</span>
           </Link>
           <Image
-            alt="Project 4"
+            alt="Project 4 de desarrollo web"
             className="object-cover w-full"
             height={480}
             width={854}
@@ -107,7 +107,7 @@ const Misproyectos = () => {
             <span className="sr-only">View Project</span>
           </Link>
           <Image
-            alt="Project 5"
+            alt="Project 5 de desarrollo web"
             className="object-cover w-full"
             
             height={480}
@@ -131,7 +131,7 @@ const Misproyectos = () => {
             <span className="sr-only">View Project</span>
           </Link>
           <Image
-            alt="Project 6"
+            alt="Project 6 de desarrollo web"
             className="object-cover w-full"
             height={480}
             width={854}

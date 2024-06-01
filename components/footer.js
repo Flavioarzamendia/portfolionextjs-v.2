@@ -7,22 +7,22 @@ const Footer = () => {
       <Link
           href={"/"}
           className="text-6xl  md:text-7xl  font-extrabold text-white lg:ml-20 "
-          alt="Desarrollo web"
+          alt="Desarrollo web logo"
         >
           FA
         </Link>
         <div className="text-white font-sans  text-4xl md:text-3xl  md:text-center md:flex md:gap-8  mt-10 md:mt-0 lg:ml-36 ">
-          <Link href='/' alt="Inicio" className="block p-4 md:p-1 ">Inicio</Link>
-          <Link href='/sobremi' alt="Sobre mí" className="block py-4 md:p-1 ">Sobre Mí</Link>
-          <Link href='/servicios' alt="Servicios" className="block py-4 md:p-1 ">Servicios</Link>
-          <Link href='/proyectos' alt="Proyectos" className="block py-4 md:p-1 ">Proyectos</Link>
-          <Link href='/contacto ' alt="Contacto" className="block py-4 md:p-1 ">Contacto</Link>
+          <Link href='/' alt="Inicio fadesarrolloweb" className="block p-4 md:p-1 ">Inicio</Link>
+          <Link href='/sobremi' alt="Sobre mí fadesarrolloweb" className="block py-4 md:p-1 ">Sobre Mí</Link>
+          <Link href='/servicios' alt="Servicios de fadesarrolloweb" className="block py-4 md:p-1 ">Servicios</Link>
+          <Link href='/proyectos' alt="Proyectos de fadesarrolloweb" className="block py-4 md:p-1 ">Proyectos</Link>
+          <Link href='/contacto ' alt="Contacto conmigo fadesarrolloweb" className="block py-4 md:p-1 ">Contacto</Link>
         </div>
         <div className="text-white font-sans  mb-10 md:mb-0 md:text-3xl py-5 md:text-start lg:pr-20 text-4xl md:flex gap-8 md:justify-end  md:ml-2 lg:ml-0 ">
           <Link 
           href='https://www.linkedin.com/in/flavio-arzamendia/'
           target="_blank"
-          alt="Linkedin"
+          alt="Linkedin flavio arzamendia"
            className="block py-1 text-white mt-14 mb-8 md:mt-0 md:mb-0"
            >
             Linkedin
@@ -30,7 +30,7 @@ const Footer = () => {
           <Link 
           href='https://github.com/Flavioarzamendia'
           target="_blank"
-          alt="Github"
+          alt="Github flavio arzamendia"
            className="block py-1 text-white"
            >
             GitHub
