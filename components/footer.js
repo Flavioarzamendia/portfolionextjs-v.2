@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="container md:justify-between md:px-20  block py-10 md:py-2 md:flex  md:items-center ">
       <Link
           href={"/"}
-          className="text-6xl  md:text-7xl  font-extrabold text-white lg:ml-20 "
+          className="text-7xl  md:text-7xl   text-white lg:ml-20 "
           alt="Desarrollo web logo"
         >
-          FA
+          <p> {"{"}<span className="text-6xl font-extrabold">FA</span>{"}"} </p>
         </Link>
         <div className="text-white font-sans  text-4xl md:text-3xl  md:text-center md:flex md:gap-8  mt-10 md:mt-0 lg:ml-36 ">
           <Link href='/' alt="Inicio fadesarrolloweb" className="block p-4 md:p-1 ">Inicio</Link>

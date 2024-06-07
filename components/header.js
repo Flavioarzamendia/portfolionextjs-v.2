@@ -38,13 +38,13 @@ const Header = () => {
       <div className="flex container lg:py-8 flex-wrap items-center justify-between mx-auto px-4 py-4">
         <Link
           href={"/"}
-          className="text-5xl  md:text-7xl text-white font-extrabold "
+          className="text-5xl m-0  md:text-7xl text-white ml-10  "
           alt=" fa Desarrollo web"
           title="Logo fa desarrollo web"
         >
-          FA
+          <p className="m-0 p-0"> {"{"}<span className="text-4xl md:text-6xl font-extrabold m-0 p-0">FA</span>{"}"} </p>
         </Link>
-        <div className="mobile-menu block md:hidden ]">
+        <div className="mobile-menu block md:hidden ">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
