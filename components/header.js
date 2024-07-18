@@ -5,6 +5,7 @@ import NavLink from "./navlinks";
 import {Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 import MenuOverlay from "./menuoverlay";
 
+
 const navLinks = [
   {
     title: "Inicio",
@@ -51,7 +52,7 @@ const Header = () => {
               className="flex items-center px-3 py-2  text-white "
               title="Open menu"
             >
-              <Bars3Icon className="h-12 w-12 " title="Open menu" />
+              <Bars3Icon className="h-12 w-12 "/>
             </button>
           ) : (
             <button

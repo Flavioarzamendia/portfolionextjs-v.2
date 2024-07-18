@@ -5,6 +5,81 @@ import {motion , AnimatePresence} from "framer-motion";
 import {GoogleAnalytics} from "@next/third-parties/google"
 
 const Layout = ({children, title='', description='' }) => {
+
+
+  const organizationSchema = {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "FA Desarrollo Web",
+    "url": "https://www.fadesarrolloweb.com.ar",
+    "logo": "https://www.fadesarrolloweb.com.ar/path-to-logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+54-11-XXXX-XXXX",
+      "contactType": "Customer Service",
+      "areaServed": "AR",
+      "availableLanguage": ["Spanish", "English"]
+    },
+    "sameAs": [
+      "https://www.instagram.com/tu-cuenta",
+      "https://www.tiktok.com/@tu-cuenta"
+    ]
+  };
+
+  const localBusinessSchema = {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "FA Desarrollo Web",
+    "image": "https://www.fadesarrolloweb.com.ar/path-to-image.jpg",
+    "@id": "",
+    "url": "https://www.fadesarrolloweb.com.ar",
+    "telephone": "+54-11-XXXX-XXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Tu Dirección",
+      "addressLocality": "González Catán",
+      "addressRegion": "Buenos Aires",
+      "postalCode": "1759",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "-34.7975",
+      "longitude": "-58.6461"
+    },
+    "sameAs": [
+      "https://www.instagram.com/tu-cuenta",
+      "https://www.tiktok.com/@tu-cuenta"
+    ]
+  };
+
+  const serviceSchema = {
+    "@context": "http://schema.org",
+    "@type": "Service",
+    "serviceType": "Desarrollo Web",
+    "provider": {
+      "@type": "Organization",
+      "name": "FA Desarrollo Web",
+      "url": "https://www.fadesarrolloweb.com.ar"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Argentina"
+    }
+  };
+
+  const websiteSchema = {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.fadesarrolloweb.com.ar",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.fadesarrolloweb.com.ar/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+
   return (
     <>
     
@@ -30,6 +105,11 @@ const Layout = ({children, title='', description='' }) => {
           <meta name="twitter:description" content={description}/>
 
           <meta name="twitter:image" content="https://ogcdn.net/c078a98b-9a33-4eaf-a5cf-e5ebf3ea450c/v1/fadesarrolloweb.com.ar/Flavio%20Arzamendia%20Desarrollador%20Web/Conoce%20a%20Flavio%20Arzamendia%2C%20desarrollador%20web%20freelance%20en%20Buenos%20Aires.%20Descubre%20servicios%20de%20dise%C3%B1o%20web%2C%20apps%20y%20SEO./https%3A%2F%2Fcdn.theopengraph.com%2Fproduction%2Fdocuments%2Fd564a463-1c51-4259-991d-0d17bf3e0391.jpg%3Ftoken%3D-hKrjcO4EFDmPh0lgxSanJdH2MZ9gYnfw4V87WUckbA%26height%3D800%26width%3D1200%26expires%3D33239188519/og.png"/>
+
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
 
 
 
