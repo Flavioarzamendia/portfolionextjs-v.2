@@ -36,7 +36,7 @@ const Layout = ({children, title='', description='' }) => {
     "telephone": "+54-11-XXXX-XXXX",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Tu Dirección",
+      "streetAddress": "Buenos aires",
       "addressLocality": "González Catán",
       "addressRegion": "Buenos Aires",
       "postalCode": "1759",
@@ -48,8 +48,8 @@ const Layout = ({children, title='', description='' }) => {
       "longitude": "-58.6461"
     },
     "sameAs": [
-      "https://www.instagram.com/tu-cuenta",
-      "https://www.tiktok.com/@tu-cuenta"
+      "https://www.instagram.com/fadesarrolloweb/",
+      "https://www.tiktok.com/@fadesarrolloweb4"
     ]
   };
 
