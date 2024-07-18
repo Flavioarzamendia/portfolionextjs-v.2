@@ -15,7 +15,6 @@ const Layout = ({children, title='', description='' }) => {
     "logo": "https://www.fadesarrolloweb.com.ar/path-to-logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+54-11-XXXX-XXXX",
       "contactType": "Customer Service",
       "areaServed": "AR",
       "availableLanguage": ["Spanish", "English"]
@@ -33,10 +32,8 @@ const Layout = ({children, title='', description='' }) => {
     "image": "https://www.fadesarrolloweb.com.ar/path-to-image.jpg",
     "@id": "",
     "url": "https://www.fadesarrolloweb.com.ar",
-    "telephone": "+54-11-XXXX-XXXX",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Buenos aires",
       "addressLocality": "González Catán",
       "addressRegion": "Buenos Aires",
       "postalCode": "1759",
