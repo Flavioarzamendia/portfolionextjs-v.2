@@ -77,12 +77,7 @@ const   Ofrece = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Diseño y Desarrollo de Sitios Web</h3>
                 <p className="text-gray-700 mb-6 text-2xl leading-10">
-                Mi servicio de Diseño y Desarrollo de Sitios Web se enfoca en crear sitios web simples y efectivos 
-                utilizando diversas herramientas de desarrollo web. Realizo la Creación de Páginas Web Personalizadas,
-                 asegurando un Diseño y Desarrollo de Sitios Web Responsivos y Optimizados SEO. Desde el diseño inicial
-                  hasta la implementación, me aseguro de personalizar cada aspecto para satisfacer las necesidades específicas
-                   de mis clientes. Con un enfoque en el Diseño y Desarrollo de Sitios Web para Empresas, ofrezco soluciones
-                    profesionales y personalizadas que impulsen la presencia digital de mis clientes en Buenos Aires, Argentina.
+                Desarrollo de Sitios Web Modernos y Funcionales: Utilizo HTML, CSS, JavaScript y frameworks como Next.js para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales. Atendemos a abogados, médicos, terapeutas, educadores online empresas de turismo y PyMES. Contacta a FA Desarrollo Web para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
                 </p>
                 
               </div>
@@ -105,14 +100,7 @@ const   Ofrece = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-700 mb-6 text-2xl leading-10">
-                  Mi servicio de Optimización de SEO está diseñado para mejorar el posicionamiento
-                  en motores de búsqueda mediante la investigación de palabras clave, la optimización
-                  de contenido y la configuración de enlaces internos. Realizo un análisis completo de
-                  las palabras clave relevantes para tu nicho, optimizo el contenido de tu sitio web
-                  y configuro enlaces internos estratégicos para aumentar la visibilidad y el tráfico
-                  orgánico de tu sitio web en Buenos Aires, Argentina. Con un enfoque en la Optimización
-                  de SEO para Sitios Web en WordPress y el Desarrollo de Sitios Web Optimizados SEO,
-                  garantizo resultados duraderos y significativos en línea.
+                Optimización SEO Local e Internacional: Mejora la visibilidad de tu sitio web con nuestras estrategias avanzadas de SEO. Realizamos análisis de palabras clave, optimización de contenido y técnicas de link building para atraer más tráfico a tu web. Nuestras estrategias SEO están diseñadas para profesionales como abogados, médicos, terapeutas, educadores online, empresas de turismo y PyMES, maximizando tu presencia en Google y otros motores de búsqueda.
                 </p>
                 
               </div>
@@ -135,13 +123,7 @@ const   Ofrece = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-700 mb-6 text-2xl leading-10">
-                Ofrezco servicios completos de Mantenimiento Web que incluyen tareas esenciales como 
-                copias de seguridad, actualizaciones de software y soporte técnico continuo.
-                Mi enfoque en el Desarrollo de Sitios Web para Empresas y la Creación de Sitios Web
-                Profesionales garantiza el correcto funcionamiento, seguridad y actualización de tu 
-                sitio web en Buenos Aires, Argentina. Con un enfoque proactivo, identifico y resuelvo
-                cualquier problema potencial para mantener tu sitio web siempre en óptimas condiciones
-                y funcionando de manera eficiente.
+                Mantenimiento de Sitios Web: Garantizamos el óptimo funcionamiento de tu sitio web con nuestros servicios de actualización, soporte técnico y monitoreo continuo.En WordPress, Shopify, Tienda Nube y soluciones a medida, ofrecemos mantenimiento proactivo para PYMES y profesionales en Argentina y Latinoamérica.
                 </p>
                
               </div>

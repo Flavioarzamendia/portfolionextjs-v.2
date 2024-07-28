@@ -9,7 +9,7 @@ const Footer = () => {
           className="text-7xl  md:text-7xl   text-white lg:ml-20 "
           alt="Desarrollo web logo"
         >
-          <p> {"{"}<span className="text-6xl font-extrabold">FA</span>{"}"} </p>
+          <p className="font-bold font-sans"> {"{"}<span className="text-6xl font-semibold font-serif">FA</span>{"}"} </p>
         </Link>
         <div className="text-white font-sans  text-4xl md:text-3xl  md:text-center md:flex md:gap-8  mt-10 md:mt-0 lg:ml-36 ">
           <Link href='/' alt="Inicio fadesarrolloweb" className="block p-4 md:p-1 ">Inicio</Link>

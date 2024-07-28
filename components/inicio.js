@@ -32,8 +32,7 @@ const Inicio = () => {
                 Desarrollador Web Freelance en Buenos Aires.</span>
               </h1>
               <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold  px-10" >
-              Transforma tu presencia en línea con un sitio web profesional y atractivo. Soy Flavio Arzamendia, desarrollador web freelance
-               en Buenos Aires, especializado en diseño y desarrollo web. Contáctame para empezar hoy mismo.
+              Especialista en diseño y desarrollo web para Argentina y Latinoamérica. Ofrezco soluciones personalizadas y optimizadas para SEO con tecnologías como Next.js, WordPress, Shopify ,Tienda Nube, Etc. Trabajamos con PYMES y profesionales en salud, educación, turismo entre otros.
               </p>
             
               <div className="flex md  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
@@ -95,18 +94,13 @@ const Inicio = () => {
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-14 leading-10">
-              ¡Hola! Soy Flavio Arzamendia, un apasionado Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi 
-              experiencia abarca el diseño y desarrollo de sitios web personalizados que se adaptan a las necesidades específicas
-               de mis clientes.
+              ¡Hola! Soy Flavio Arzamendia, Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi experiencia abarca el diseño y desarrollo de sitios web personalizados para satisfacer las necesidades específicas de mis clientes.
               </p>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
-              Me especializo en tecnologías como HTML, CSS, JavaScript y WordPress, lo que me permite
-               ofrecer soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
+              Me especializo en tecnologías como HTML, CSS, JavaScript, Next.js, WordPress, Shopify y Tienda Nube, ofreciendo soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
               </p>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
-              Mi compromiso va más allá de crear sitios web visualmente atractivos. Me enfoco en desarrollar sitios responsivos,
-               optimizados para SEO y centrados en la experiencia del usuario. Esto incluye la creación de páginas web personalizadas,
-                integración de funcionalidades avanzadas como formularios de contacto, registro, suscripción, e-commerce, entre otros.
+              Mi enfoque va más allá de crear sitios web atractivos: desarrollo sitios responsivos, optimizados para SEO y centrados en la experiencia del usuario. Ofrezco funcionalidades avanzadas como formularios de contacto, registro, suscripción y e-commerce.
               </p>
               <Link
                 className="font-sans lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3  text-white font-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]
@@ -151,9 +145,7 @@ const Inicio = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Ofrezco servicios profesionales de diseño y desarrollo web. Con herramientas avanzadas, creo sitios
-                 web efectivos y personalizados para satisfacer las necesidades de cada cliente. Mi enfoque se centra
-                  en la calidad del desarrollo web, proporcionando soluciones que se destacan en el mercado.
+                Desarrollo de Sitios Web Modernos y Funcionales: Utilizo HTML, CSS, JavaScript y frameworks como Next.js para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales. Atendemos a abogados, médicos, terapeutas, educadores online empresas de turismo y PyMES. Contacta a FA Desarrollo Web para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
                 </p>
                 
 
@@ -178,11 +170,7 @@ const Inicio = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Enfocado en optimizar tu presencia en buscadores, me especializo en SEO para impulsar
-                 tu posicionamiento en línea. Con investigación de palabras clave detallada, optimización
-                  de contenido y configuración de enlaces internos estratégicos, aseguro una mayor visibilidad
-                   y tráfico orgánico para tu sitio web, garantizando resultados sobresalientes y un crecimiento
-                    constante en línea.
+                Optimización SEO Local e Internacional: Mejora la visibilidad de tu sitio web con nuestras estrategias avanzadas de SEO. Realizamos análisis de palabras clave, optimización de contenido y técnicas de link building para atraer más tráfico a tu web. Nuestras estrategias SEO están diseñadas para profesionales como abogados, médicos, terapeutas, educadores online, empresas de turismo y PyMES, maximizando tu presencia en Google y otros motores de búsqueda.
                 </p>
 
                
@@ -207,9 +195,7 @@ const Inicio = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Ofrezco servicios de mantenimiento y actualización para garantizar el funcionamiento óptimo
-                 de tu sitio web. Proporciono soporte técnico y actualizaciones periódicas para mantener tu sitio
-                  seguro y actualizado. Mi enfoque en el desarrollo web se traduce en tranquilidad y confianza para mis clientes.
+                Mantenimiento de Sitios Web: Garantizamos el óptimo funcionamiento de tu sitio web con nuestros servicios de actualización, soporte técnico y monitoreo continuo.En WordPress, Shopify, Tienda Nube y soluciones a medida, ofrecemos mantenimiento proactivo para PYMES y profesionales en Argentina y Latinoamérica.
                 </p>
                 
               </div>

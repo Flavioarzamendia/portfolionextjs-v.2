@@ -43,7 +43,7 @@ const Header = () => {
           alt=" fa Desarrollo web"
           title="Logo fa desarrollo web"
         >
-          <p className="m-0 p-0"> {"{"}<span className="text-4xl md:text-6xl font-extrabold m-0 p-0">FA</span>{"}"} </p>
+          <p className="m-0 p-0 font-bold font-sans"> {"{"}<span className="text-4xl md:text-6xl font-semibold font-serif m-0 p-0">FA</span>{"}"} </p>
         </Link>
         <div className="mobile-menu block md:hidden ">
           {!navbarOpen ? (
