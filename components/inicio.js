@@ -260,14 +260,14 @@ const Inicio = () => {
                 
               />
               <div className="p-6 px-10 mt-8">
-                <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-gray-900 uppercase">APP Delivery</h3>
-                <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">Mostrar de manera visual y atractiva la plataforma de entrega
-                 de aplicaciones móviles, resaltando su facilidad de uso y seguridad en transacciones.
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-gray-900 uppercase">Gestor de gastos personales</h3>
+                <p className="text-gray-600 mb-6 leading-10 text-2xl font-semibold">
+                Una herramienta intuitiva para gestionar tus finanzas personales, categoriza gastos y visualiza tu presupuesto mensual con facilidad.
                 </p>
                 <Link
                   className=" uppercase inline-flex my-10 items-center justify-center w-full px-4 py-2 bg-blue-600 
                   text-white font-bold rounded-md hover:bg-blue-700  transition ease-in-out    duration-300"
-                  href="https://fluffy-chebakia-04223c.netlify.app/"
+                  href="https://fapresupuesto.netlify.app/"
                   target="_blank"
                   alt="ver más"
                   title="ver mas proyectos"

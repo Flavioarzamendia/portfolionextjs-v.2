@@ -34,7 +34,7 @@ const Misproyectos = () => {
           </div>
         </div>
         <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
-          <Link className="absolute inset-0 z-10" href="https://fluffy-chebakia-04223c.netlify.app/" target="_blank" alt="ver proyecto">
+          <Link className="absolute inset-0 z-10" href="https://fapresupuesto.netlify.app/" target="_blank" alt="ver proyecto">
             <span className="sr-only">View Project</span>
           </Link>
           <Image
@@ -50,10 +50,10 @@ const Misproyectos = () => {
             
           />
           <div className="bg-white p-4 ">
-            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Landing App Delivery</h3>
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Gestor de Gastos personales</h3>
             <p className="text-lg md:text-xl text-gray-500 ">
               
-              Landing page moderna eficiente.
+            Una herramienta intuitiva para gestionar tus finanzas personales
             </p>
           </div>
         </div>
