@@ -14,19 +14,16 @@ const   Ofrece = () => {
                 <h1 className="text-4xl text-[#2B7CB3] font-bold md:text-5xl lg:text-7xl mb-10">
                 Soluciones Personalizadas a Medida
                 </h1>
-                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 uppercase ">Desarrollo Web para Tu Negocio.</h2>
+                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 uppercase ">Desarrollo Web para tu Negocio</h2>
                 </div>
                 
                 
                 <div className=" space-y-4 md:space-y-10 ">
                 <p className="max-w-[600px] text-gray-800 text-2xl md:text-3xl -gray-400 leading-10">
-                Ofrezco servicios de desarrollo web diseñados para resaltar tu negocio en línea, utilizando tecnologías
-                 modernas para un rendimiento óptimo y seguridad. Como desarrollador web freelance, mi enfoque es comprender
-                  tus objetivos y crear un sitio web adaptado a tus necesidades, incluyendo diseño web responsivo y optimización SEO.
+                Ofrezco servicios de desarrollo web freelance en Buenos Aires, diseñados específicamente para resaltar tu negocio en línea. Utilizo tecnologías modernas como Next.js y WordPress para asegurar un rendimiento óptimo y máxima seguridad. Mi enfoque personalizado consiste en comprender tus objetivos y crear un sitio web a medida que incluye diseño web responsivo y optimización SEO avanzada.
                 </p>
                 <p className="max-w-[600px] text-gray-800 text-2xl md:text-3xl -gray-400 leading-10">
-                Trabajo contigo para crear una presencia en línea efectiva y funcional, utilizando estrategias personalizadas que te ayuden a 
-                sobresalir en tu mercado y lograr un crecimiento sostenible en línea.
+                Trabajo contigo para establecer una presencia en línea efectiva y funcional, aplicando estrategias de desarrollo web y SEO personalizadas. Estas estrategias están diseñadas para ayudarte a sobresalir en tu mercado específico y lograr un crecimiento sostenible en línea.
                 </p>
                 </div>
                 

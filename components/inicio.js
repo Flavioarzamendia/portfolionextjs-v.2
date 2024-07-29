@@ -322,7 +322,7 @@ const Inicio = () => {
             </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Sitio Web de Entrada</h3>
@@ -333,23 +333,29 @@ const Inicio = () => {
                 <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño de sitio web simple y limpio.</span>
+                    <span>Diseño simple y profesional.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Hasta 5 páginas de contenido estático.</span>
+                    <span>Hasta 5 páginas estáticas.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Integración de formularios de contacto.</span>
+                    <span>Formularios de contacto integrados.
+                    </span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Optimización para dispositivos móviles.</span>
+                    <span>Optimización móvil.
+                    </span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10  mr-2 text-green-500" />
-                    <span>Soporte técnico inicial.</span>
+                    <span>SEO local específico.</span>
+                  </li>
+                  <li className="flex items-center">
+                    
+                    <span className="mt-10 text-lg">Ideal para PYMES y profesionales que están empezando.</span>
                   </li>
                 </ul>
                 <Link
@@ -376,23 +382,28 @@ const Inicio = () => {
                 <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Navegación intuitiva</span>
+                    <span>Navegación intuitiva.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Personalización de la experiencia de usuario</span>
+                    <span>Experiencia de usuario personalizada.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Envíos y seguimiento detallado</span>
+                    <span>Envíos y seguimiento detallado.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimización SEO integrada</span>
+                    <span>SEO avanzado.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Integración redes sociales</span>
+                    <span>Integración de redes sociales.</span>
+                  </li>
+                  <li className="flex items-center ">
+                    
+                    <span className="mt-10 text-lg">Ideal para PYMES y emprendedores que desean expandir sus ventas online.
+                    </span>
                   </li>
                 </ul>
                 <Link
@@ -408,7 +419,7 @@ const Inicio = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300  ">
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300  ">
               <div className="p-6 bg-blue-600 text-white text-center">
                 <h3 className="text-4xl font-bold mb-4">Sitio Web con Personalidad</h3>
                 <p className="text-6xl font-bold mb-4">Plan Profesional</p>
@@ -418,11 +429,11 @@ const Inicio = () => {
                 <ul className="space-y-8 mb-20 lg:text-2xl font-semibold">
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Diseño personalizado y atractivo.</span>
+                    <span>Diseño atractivo y personalizado.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Hasta 10 páginas</span>
+                    <span>Hasta 10 páginas.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
@@ -430,13 +441,18 @@ const Inicio = () => {
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
-                    <span>Optimización avanzada para SEO.</span>
+                    <span>SEO avanzado.</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="h-10 w-10 mr-2 text-green-500" />
                     <span>Galería de imágenes o portafolio.</span>
                   </li>
                   
+                  <li className="flex items-center ">
+                    
+                    <span className="mt-10 text-lg">Ideal para PYMES y profesionales que desean destacarse. 
+                    </span>
+                  </li>
                 </ul>
                 <Link
                   className="block text-center font-bold items-center justify-center mb-8  px-4 py-2 bg-blue-600 text-white
