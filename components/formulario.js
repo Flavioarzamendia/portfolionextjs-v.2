@@ -59,7 +59,7 @@ return(
                     <li>
                         <Link className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                   font-sans md:text-3xl text-2xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                        href="https://www.instagram.com/fadesarrolloweb" target="_blank" alt="ver instagram"
+                        href="https://www.instagram.com/fa_desarrollo/" target="_blank" alt="ver instagram"
                         >
                             Instagram
                         </Link>
@@ -67,7 +67,7 @@ return(
                     <li>
                         <Link className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
                          font-sans md:text-3xl text-2xl lg:text-3xl uppercase inline-flex items-center justify-center w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8B5CF6]"
-                        href="https://www.facebook.com/people/FA-Desarrollo-Web-y-Marketing-Digital/61553982370679/" target="_blank" alt="Facebook"
+                        href="https://www.facebook.com/people/FA-Desarrollo-Web-y-SEO-Argentina-Latam/61563558782469/" target="_blank" alt="Facebook"
                         >
                             Facebook
                         </Link>
