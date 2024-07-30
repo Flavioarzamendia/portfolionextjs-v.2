@@ -135,7 +135,7 @@ const   Ofrece = () => {
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-20 uppercase text-gray-900">Desarrollo web</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300
             ">
               <div className="p-6 bg-blue-600 text-white text-center">
               <h3 className="text-4xl font-bold mb-4">Sitio Web de Entrada</h3>
@@ -214,7 +214,7 @@ const   Ofrece = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110 lg:duration-300 ">
+            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300 ">
               <div className="p-6 bg-blue-600 text-white text-center">
               <h3 className="text-4xl font-bold mb-4">Sitio Web con Personalidad</h3>
                 <p className="text-6xl font-bold mb-4">Plan Profesional</p>
