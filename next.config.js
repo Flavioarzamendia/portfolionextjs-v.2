@@ -6,3 +6,15 @@
   })
   module.exports = withBundleAnalyzer({})
 
+  const path = require('path');
+
+  module.exports = {
+    webpack: (config, { isServer }) => {
+      config.module.rules.push({
+        test: /\.xml$/,
+        use: 'xml-loader',
+      });
+  
+      return config;
+    },
+  };
