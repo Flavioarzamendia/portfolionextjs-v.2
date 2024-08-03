@@ -8,7 +8,7 @@ export default function Proyectos(){
   return (
     <Layout
     title="Proyectos"
-    description="Descubre los proyectos de Flavio Arzamendia, desarrollador web en Buenos Aires. Desde aplicaciones de delivery hasta sitios tipo Airbnb!."
+    description="Descubre los proyectos de FA Desarrollo Web en Buenos Aires. Diseño web, SEO y mantenimiento para PYMES, emprendedores y profesionales en Argentina."
     >
       <Misproyectos/>
 
