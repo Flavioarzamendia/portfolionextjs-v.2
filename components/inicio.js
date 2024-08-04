@@ -131,7 +131,7 @@ const Inicio = () => {
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">Impulsando tu Presencia Online</h2>
           <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-10 md:mb-4 px-10 ">
-          Creamos soluciones web a medida para que tu marca se destaque y obtenga resultados excepcionales en Internet.
+          Creamos soluciones web a medida para que tu marca se destaque y obtenga resultados excepcionales.
           </h3>
           <p className=" mb-20 text-center text-xl md:text-2xl leading-10">
             Nuestros servicios incluyen desarrollo web, diseño responsivo, SEO avanzado y marketing digital, todo diseñado para mejorar tu visibilidad en línea y atraer más clientes.
@@ -155,11 +155,11 @@ const Inicio = () => {
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
                 <p className="text-gray-200 mb-4 text-2xl leading-10">
-                <strong>Desarrollo de Sitios Web Modernos y Funcionales:</strong> Utilizo <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y frameworks como <strong>Next.js</strong> para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales.
+                <strong>Diseño y Desarrollo de Sitios Web Modernos y Funcionales:</strong> utilizando <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y frameworks como <strong>Next.js</strong> para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales.
                 </p>
                 
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Atendemos a <strong>abogados</strong>, <strong>médicos</strong>, <strong>terapeutas</strong>, <strong>educadores online</strong>, <strong>empresas de turismo</strong> y <strong>PyMES</strong>. Contacta a <strong>FADesarrolloWeb</strong> para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
+                Trabajamos con <strong>abogados</strong>, <strong>médicos</strong>, <strong>terapeutas</strong>, <strong>educadores online</strong>, <strong>empresas de turismo</strong> y <strong>PyMES</strong>. Contactanos para crear un sitio web a medida, diseñado para impulsar tu desarrollo y crecimiento digital.
                 </p>
                 
 
@@ -238,7 +238,7 @@ const Inicio = () => {
           Explora nuestra experiencia en el diseño y desarrollo de sitios web efectivos y profesionales.
             </h3>
             <p className=" mb-20 text-center text-xl md:text-2xl leading-10">
-            Con un enfoque en diseño web responsivo, optimización SEO, y estrategias de marketing digital, nuestros proyectos ayudan a tu negocio a destacar y alcanzar sus objetivos en Internet
+            Con un enfoque en el diseño y desarrollo web responsivo, optimización SEO, nuestros proyectos ayudan a los negocios y profesionales a destacar y alcanzar sus objetivos.
             </p>
             
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
@@ -351,7 +351,7 @@ const Inicio = () => {
             Explora nuestras opciones y contáctanos para obtener un presupuesto a tu medida.
             </h3>
             <p className=" mb-20 text-center text-xl md:text-2xl leading-10  md:max-w-[70%] mx-auto">
-            Ofrecemos paquetes personalizados que incluyen diseño web responsivo, optimización SEO, mantenimiento de sitios web y estrategias de marketing digital. Mejora tu presencia online con nuestras soluciones adaptadas a tus necesidades.
+            Ofrecemos paquetes personalizados que incluyen diseño y desarrollo web responsivo, optimización SEO, mantenimiento de sitios web y estrategias de marketing digital.
             </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
