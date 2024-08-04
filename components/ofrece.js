@@ -9,21 +9,27 @@ const   Ofrece = () => {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4 px-10 ">
-              <div className="space-y-5 mb-10 md:mb-20 ">
-                <div className=" mb-10 md:mb-20">
-                <h1 className="text-4xl text-[#2B7CB3] font-bold md:text-5xl lg:text-7xl mb-10">
-                Soluciones Personalizadas a Medida
+              <div className="space-y-5 mb-10 md:mb-10 ">
+                <div className=" mb-10 md:mb-10">
+                <h1 className="text-4xl text-[#2B7CB3] font-bold md:text-5xl lg:text-7xl mb-20">
+                Desarrollo Web para tu Negocio
                 </h1>
-                <h2 className="text-2xl md:text-4xl font-bold text-gray-900 uppercase ">Desarrollo Web para tu Negocio</h2>
+               
                 </div>
                 
                 
-                <div className=" space-y-4 md:space-y-10 ">
+                <div className=" space-y-4 md:space-y-6 font-normal">
                 <p className="max-w-[600px] text-gray-800 text-2xl md:text-3xl -gray-400 leading-10">
-                Ofrezco servicios de desarrollo web freelance en Buenos Aires, diseñados específicamente para resaltar tu negocio en línea. Utilizo tecnologías modernas como Next.js y WordPress para asegurar un rendimiento óptimo y máxima seguridad. Mi enfoque personalizado consiste en comprender tus objetivos y crear un sitio web a medida que incluye diseño web responsivo y optimización SEO avanzada.
+                Ofrezco <strong>servicios de desarrollo web freelance en Buenos Aires</strong>, diseñados específicamente para resaltar tu negocio en línea. Utilizo tecnologías modernas como <strong>Next.js</strong> y <strong>WordPress</strong> para asegurar un rendimiento óptimo y máxima seguridad.
                 </p>
+
                 <p className="max-w-[600px] text-gray-800 text-2xl md:text-3xl -gray-400 leading-10">
-                Trabajo contigo para establecer una presencia en línea efectiva y funcional, aplicando estrategias de desarrollo web y SEO personalizadas. Estas estrategias están diseñadas para ayudarte a sobresalir en tu mercado específico y lograr un crecimiento sostenible en línea.
+                Mi enfoque personalizado consiste en <strong>comprender tus objetivos</strong> y crear un sitio web a medida que incluye <strong>diseño web responsivo</strong> y <strong>optimización SEO avanzada</strong>.
+                
+                </p>
+
+                <p className="max-w-[600px] text-gray-800 text-2xl md:text-3xl -gray-400 leading-10">
+                Trabajo contigo para establecer una <strong>presencia en línea efectiva y funcional</strong>, aplicando estrategias de desarrollo web y SEO personalizadas. Estas estrategias están diseñadas para ayudarte a <strong>sobresalir en tu mercado específico</strong> y lograr un <strong>crecimiento sostenible en línea</strong>.
                 </p>
                 </div>
                 

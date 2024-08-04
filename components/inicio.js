@@ -31,8 +31,15 @@ const Inicio = () => {
               >Flavio Arzamendia <span className="block text-5xl normal-case text-gray-900 mt-4 font-semibold">
                 Desarrollador Web Freelance en Buenos Aires.</span>
               </h1>
-              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-semibold  px-10" >
-              Especialista en diseño y desarrollo web para Argentina y Latinoamérica. Ofrezco soluciones personalizadas y optimizadas para SEO con tecnologías como Next.js, WordPress, Shopify ,Tienda Nube, Etc. Trabajamos con PYMES y profesionales en salud, educación, turismo entre otros.
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-5   font-sans font-normal  px-10" >
+              Soy especialista en diseño y desarrollo web para Argentina y Latinoamérica. 
+                Ofrezco soluciones personalizadas y optimizadas para SEO utilizando tecnologías como 
+                <strong> Next.js</strong>, <strong> WordPress</strong>, <strong> Shopify</strong>, 
+                <strong> Tienda Nube</strong>, entre otras.
+              </p>
+
+              <p className="text-2xl leading-10 md:text-3xl md:text-left md:p-0 mb-20   font-sans font-normal  px-10">
+              Colaboro con <strong>PYMES</strong> y profesionales de distintos sectores, educación, turismo, y más.
               </p>
             
               <div className="flex md  flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-4 w-full px-auto">
@@ -94,10 +101,11 @@ const Inicio = () => {
             <div className="flex-1 p-4 mx-10 text-center md:text-left">
               <h2 className="text-3xl md:text-5xl  text-center md:text-left  lg:text-5xl font-bold mb-14 uppercase">Sobre mí</h2>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-14 leading-10">
-              ¡Hola! Soy Flavio Arzamendia, Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi experiencia abarca el diseño y desarrollo de sitios web personalizados para satisfacer las necesidades específicas de mis clientes.
+              ¡Hola! Soy <strong>Flavio Arzamendia</strong>, Desarrollador Web Freelance con sede en Buenos Aires, Argentina. Mi experiencia abarca el diseño y desarrollo de sitios web personalizados para satisfacer las necesidades específicas de mis clientes.
               </p>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
-              Me especializo en tecnologías como HTML, CSS, JavaScript, Next.js, WordPress, Shopify y Tienda Nube, ofreciendo soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
+              Me especializo en tecnologías como <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>WordPress</strong>, <strong>Shopify</strong> y <strong>Tienda Nube</strong>, ofreciendo soluciones versátiles y efectivas para empresas y emprendedores que buscan destacar en línea.
+              
               </p>
               <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
               Mi enfoque va más allá de crear sitios web atractivos: desarrollo sitios responsivos, optimizados para SEO y centrados en la experiencia del usuario. Ofrezco funcionalidades avanzadas como formularios de contacto, registro, suscripción y e-commerce.
@@ -144,8 +152,11 @@ const Inicio = () => {
               />
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 ">Servicios de Diseño y Desarrollo Web</h3>
+                <p className="text-gray-200 mb-4 text-2xl leading-10">
+                <strong>Desarrollo de Sitios Web Modernos y Funcionales:</strong> Utilizo <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y frameworks como <strong>Next.js</strong> para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales.
+                </p>
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Desarrollo de Sitios Web Modernos y Funcionales: Utilizo HTML, CSS, JavaScript y frameworks como Next.js para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales. Atendemos a abogados, médicos, terapeutas, educadores online empresas de turismo y PyMES. Contacta a FA Desarrollo Web para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
+                Atendemos a <strong>abogados</strong>, <strong>médicos</strong>, <strong>terapeutas</strong>, <strong>educadores online</strong>, <strong>empresas de turismo</strong> y <strong>PyMES</strong>. Contacta a <strong>FADesarrolloWeb</strong> para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
                 </p>
                 
 
@@ -169,10 +180,13 @@ const Inicio = () => {
               />
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10 ">Optimización de SEO</h3>
-                <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Optimización SEO Local e Internacional: Mejora la visibilidad de tu sitio web con nuestras estrategias avanzadas de SEO. Realizamos análisis de palabras clave, optimización de contenido y técnicas de link building para atraer más tráfico a tu web. Nuestras estrategias SEO están diseñadas para profesionales como abogados, médicos, terapeutas, educadores online, empresas de turismo y PyMES, maximizando tu presencia en Google y otros motores de búsqueda.
+                <p className="text-gray-200 mb-4 text-2xl leading-10">
+                <strong>Optimización SEO Local e Internacional:</strong> Mejora la visibilidad de tu sitio web con nuestras estrategias avanzadas de SEO. 
                 </p>
 
+                <p className="text-gray-200 mb-4 text-2xl leading-10">
+                Realizamos <strong>análisis de palabras clave</strong>, <strong>optimización de contenido</strong> y <strong>técnicas de link building</strong> para atraer más tráfico a tu web. 
+                </p>
                
                 
               </div>
@@ -194,8 +208,13 @@ const Inicio = () => {
               />
               <div className="p-6 px-14 mt-10">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-10">Mantenimiento y Actualización</h3>
+                <p className="text-gray-200 mb-4 text-2xl leading-10">
+                <strong>Mantenimiento de Sitios Web:</strong> Garantizamos el óptimo funcionamiento de tu sitio web con nuestros servicios de <strong>actualización</strong>, <strong>soporte técnico</strong> y <strong>monitoreo continuo</strong>.
+                </p>
+
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
-                Mantenimiento de Sitios Web: Garantizamos el óptimo funcionamiento de tu sitio web con nuestros servicios de actualización, soporte técnico y monitoreo continuo.En WordPress, Shopify, Tienda Nube y soluciones a medida, ofrecemos mantenimiento proactivo para PYMES y profesionales en Argentina y Latinoamérica.
+                En <strong>WordPress</strong>, <strong>Shopify</strong>, <strong>Tienda Nube</strong> y soluciones a medida, ofrecemos <strong>mantenimiento proactivo</strong> para <strong>PYMES</strong> y profesionales en <strong>Argentina</strong> y <strong>Latinoamérica</strong>.
+
                 </p>
                 
               </div>
