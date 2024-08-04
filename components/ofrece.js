@@ -11,7 +11,7 @@ const   Ofrece = () => {
             <div className="flex flex-col justify-center space-y-4 px-10 ">
               <div className="space-y-5 mb-10 md:mb-10 ">
                 <div className=" mb-10 md:mb-10">
-                <h1 className="text-4xl text-[#2B7CB3] font-bold md:text-5xl lg:text-7xl mb-20">
+                <h1 className="text-4xl text-[#2B7CB3] font-bold md:text-5xl lg:text-7xl mb-20 uppercase">
                 Desarrollo Web para tu Negocio
                 </h1>
                
