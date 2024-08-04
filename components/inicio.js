@@ -130,10 +130,12 @@ const Inicio = () => {
       <section className="bg-white  py-12 md:py-20" >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  text-gray-900 uppercase">Impulsando tu Presencia Online</h2>
-          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-10 md:mb-4 px-10 ">
           Creamos soluciones web a medida para que tu marca se destaque y obtenga resultados excepcionales en Internet.
-           
           </h3>
+          <p className=" mb-20 text-center text-xl md:text-2xl leading-10">
+            Nuestros servicios incluyen desarrollo web, diseño responsivo, SEO avanzado y marketing digital, todo diseñado para mejorar tu visibilidad en línea y atraer más clientes.
+            </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-[#2C3E50] rounded-md shadow-lg overflow-hidden text-white md:col-span-2 lg:col-span-1">
               <Image
@@ -232,9 +234,13 @@ const Inicio = () => {
       <section className="bg-[#2C3E50] text-white py-20 md:py-20 " >
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8 uppercase">Proyectos Destacados de Diseño Web Profesional</h2>
-          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-10 md:mb-4 px-10 ">
           Explora nuestra experiencia en el diseño y desarrollo de sitios web efectivos y profesionales.
             </h3>
+            <p className=" mb-20 text-center text-xl md:text-2xl leading-10">
+            Con un enfoque en diseño web responsivo, optimización SEO, y estrategias de marketing digital, nuestros proyectos ayudan a tu negocio a destacar y alcanzar sus objetivos en Internet
+            </p>
+            
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-md shadow-lg overflow-hidden md:col-span-2 lg:col-span-1">
               <Image
@@ -341,9 +347,12 @@ const Inicio = () => {
       <section className="bg-white  py-20 md:pt-20 m">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl md:text-5xl  font-bold text-center mb-8  uppercase text-gray-900">Descubre Nuestros Planes de Diseño Web</h2>
-          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-20 md:mb-32 px-10 ">
+          <h3 className="text-xl md:text-2xl  font-semibold  text-center mb-10 md:mb-4 px-10 ">
             Explora nuestras opciones y contáctanos para obtener un presupuesto a tu medida.
             </h3>
+            <p className=" mb-20 text-center text-xl md:text-2xl leading-10  md:max-w-[70%] mx-auto">
+            Ofrecemos paquetes personalizados que incluyen diseño web responsivo, optimización SEO, mantenimiento de sitios web y estrategias de marketing digital. Mejora tu presencia online con nuestras soluciones adaptadas a tus necesidades.
+            </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden order-2
             transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300
