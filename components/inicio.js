@@ -155,6 +155,7 @@ const Inicio = () => {
                 <p className="text-gray-200 mb-4 text-2xl leading-10">
                 <strong>Desarrollo de Sitios Web Modernos y Funcionales:</strong> Utilizo <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y frameworks como <strong>Next.js</strong> para diseñar soluciones web adaptadas a las necesidades de negocios locales e internacionales.
                 </p>
+                
                 <p className="text-gray-200 mb-6 text-2xl leading-10">
                 Atendemos a <strong>abogados</strong>, <strong>médicos</strong>, <strong>terapeutas</strong>, <strong>educadores online</strong>, <strong>empresas de turismo</strong> y <strong>PyMES</strong>. Contacta a <strong>FADesarrolloWeb</strong> para crear un sitio web a medida, diseñado para impulsar tu crecimiento digital.
                 </p>
@@ -186,6 +187,10 @@ const Inicio = () => {
 
                 <p className="text-gray-200 mb-4 text-2xl leading-10">
                 Realizamos <strong>análisis de palabras clave</strong>, <strong>optimización de contenido</strong> y <strong>técnicas de link building</strong> para atraer más tráfico a tu web. 
+                </p>
+
+                <p className="text-gray-200 mb-4 text-2xl leading-10">
+                Nuestras estrategias SEO están diseñadas para <strong>profesionales como abogados</strong>, <strong>médicos</strong>, <strong>terapeutas</strong>, <strong>educadores online</strong>, <strong>empresas de turismo</strong> y <strong>PyMES</strong>, maximizando tu presencia en Google y otros motores de búsqueda.
                 </p>
                
                 
