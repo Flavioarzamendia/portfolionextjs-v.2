@@ -10,23 +10,15 @@ const Mi = () => {
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className=" font-sans ">
               <h1 className="text-5xl text-white font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-center lg:text-left">Flavio Arzamendia</h1>
-              <h2 className="text-3xl mt-10 md:text-4xl lg:text-5xl font-semibold text-gray-100 text-center lg:text-left">Web Developer</h2>
+              <h2 className="text-3xl mt-10 md:text-4xl lg:text-5xl font-semibold text-gray-100 text-center lg:text-left">Desarrollador Web</h2>
               <p className="text-2xl text-gray-100  my-5 mt-20 leading-10">
-              ¡Hola! Soy Flavio, un desarrollador web.
-               Mi viaje en el desarrollo web comenzó con el dominio de las tecnologías fundamentales como HTML, CSS y JavaScript,
-                permitiéndome construir interfaces intuitivas y atractivas. Con el tiempo, he ampliado mis habilidades para incluir
-                 el desarrollo en WordPress, lo que me ha permitido ofrecer soluciones versátiles y personalizadas a mis clientes.
+              ¡Hola! Soy Flavio, un apasionado desarrollador web en Argentina con experiencia en HTML, CSS y JavaScript. Mi viaje en el desarrollo web comenzó con estas tecnologías fundamentales, permitiéndome construir interfaces intuitivas y atractivas. Con el tiempo, he ampliado mis habilidades para incluir el desarrollo en WordPress, lo que me permite ofrecer soluciones versátiles y personalizadas a mis clientes.
               </p>
               <p className="text-2xl text-gray-100  my-5 mt-10 leading-10 ">
-              Mi búsqueda constante de aprendizaje me lleva a explorar nuevas tecnologías y metodologías en el desarrollo web.
-               Participar en cursos y capacitaciones me mantiene al tanto de las últimas tendencias y herramientas en la industria,
-                permitiéndome ofrecer soluciones innovadoras y actualizadas a mis clientes
+              Estoy constantemente aprendiendo y explorando nuevas tecnologías y metodologías en el desarrollo web. Participar en cursos y capacitaciones me mantiene al tanto de las últimas tendencias y herramientas en la industria, permitiéndome ofrecer soluciones innovadoras y actualizadas a mis clientes.
               </p>
               <p className="text-2xl text-gray-100  my-5 mt-10 leading-10">
-              Actualmente, trabajo como desarrollador web freelance, colaborando estrechamente con clientes para comprender sus necesidades
-               y objetivos. Esta experiencia me ha brindado una comprensión profunda de cómo traducir las ideas y visiones de mis clientes 
-               en soluciones web efectivas y atractivas. Estoy emocionado de seguir creciendo en este campo dinámico y de aportar mi pasión 
-               por la tecnología a cada proyecto en el que participo.
+              Actualmente, trabajo como desarrollador web freelance en Argentina, colaborando estrechamente con clientes para comprender sus necesidades y objetivos. Esta experiencia me ha brindado una comprensión profunda de cómo traducir las ideas y visiones de mis clientes en soluciones web efectivas y atractivas.
               </p>
              
             </div>
