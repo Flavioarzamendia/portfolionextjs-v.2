@@ -104,13 +104,13 @@ const Inicio = () => {
                   <strong>Argentina y Latinoamérica</strong>.
                 </p>
                 <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
-                Me especializo en tecnologías como <strong>HTML, CSS, JavaScript, Next.js, WordPress, Shopify</strong> 
-                y <strong>Tienda Nube</strong>, ofreciendo <strong>soluciones versátiles</strong> y efectivas para <strong>PYMES</strong> 
+                Me especializo en tecnologías como <strong>HTML, CSS, JavaScript, Next.js, WordPress, Shopify </strong> 
+                y <strong>Tienda Nube</strong>, ofreciendo <strong>soluciones versátiles</strong> y efectivas para <strong>PYMES </strong> 
                 que buscan <strong>destacar en línea</strong>.
                 </p>
                 <p className="text-2xl md:text-3xl text-left text-gray-200 mb-20 leading-10">
                 Mi enfoque va más allá de crear <strong>sitios web atractivos</strong>: desarrollo <strong> sitios web responsivos</strong>, 
-                <strong>optimizados para SEO</strong> y centrados en la <strong>experiencia del usuario</strong>. 
+                <strong> optimizados para SEO </strong> y centrados en la <strong>experiencia del usuario</strong>. 
                 Ofrezco funcionalidades avanzadas como <strong>formularios de contacto, registro, suscripción</strong> y <strong>e-commerce</strong>.
                 </p>
                 <Link
