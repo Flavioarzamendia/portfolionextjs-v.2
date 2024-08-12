@@ -81,7 +81,7 @@ const Layout = ({children, title='', description='' }) => {
     <>
     
     <Head>
-        <title>{`${title} | Flavio Arzamendia - Desarrollo Web Profesional`}</title>
+        <title>{`${title} | Flavio Arzamendia Desarrollador Web Profesional en Argentina`}</title>
         <meta
           name="description"
           content={description}
