@@ -36,7 +36,7 @@ return(
                     <h2 className="text-center text-white font-bold uppercase mb-4 md:mb-0">Mis redes</h2>
                     <p className="text-2xl text-white  mx-10 leading-10 md:text-3xl mt-8 md:mt-10 md:text-left md:p-0 mb-20   font-sans font-semibold text-center px-10 lg:px-14" >
                      Presupuestos, preguntas, información? No dude en ponerse en contacto conmigo.
-                     Completa el formulario o conectate conmigo a través de whatsapp o redes sociales.
+                     Complete el formulario o conectate conmigo a través de mis redes sociales.
                     </p>
 
                     <ul className=" md:flex justify-evenly text-white text-4xl mt-10 uppercase space-y-10  md:space-y-0 mx-10">
