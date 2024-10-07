@@ -501,8 +501,8 @@ const Inicio = () => {
 
               <div
                 className="bg-white rounded-lg shadow-lg overflow-hidden order-3 
-            transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300  "
-              >
+                   transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-300  "
+                >
                 <div className="p-6 bg-blue-600 text-white text-center">
                   <h3 className="text-4xl font-bold mb-4">
                     Sitio Web con Personalidad

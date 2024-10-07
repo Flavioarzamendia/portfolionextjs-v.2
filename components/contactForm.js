@@ -144,7 +144,7 @@ const ContactForm = () => {
         placeholder='Escriba su mensaje'
       />
       </div>
-      <button type="submit" disabled={status.submitting} className="bg-blue-600 border hover:bg-blue-700 border-[#33353F]  text-gray-100 text-3xl rounded-lg block w-full p-2.5 mt-6 uppercase font-bold">
+      <button type="submit" disabled={status.submitting} className="bg-blue-600 border hover:bg-blue-700 border-[#33353F]  text-gray-100 text-4xl rounded-lg block w-full p-3 mt-6 uppercase font-bold">
         {!status.submitting
           ? !status.submitted
             ? 'Enviar'
